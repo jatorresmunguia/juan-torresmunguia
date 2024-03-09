@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://main--juan-torresmunguia.netlify.app/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Juan Torres Munguía"
