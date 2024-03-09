@@ -1,8 +1,8 @@
-baseURL = "https://juan-torresmunguia.netlify.app/"
+baseURL = "https://juan-torresmunguia.netlify.app"
 theme = "hugo-apero"
 languageCode = "en"
-title = "Juan Torres Munguía"
-author = "Juan Torres Munguía"
+title = "Hugo Apéro"
+author = "Juan Torres Munguía, PhD"
 copyright = "" # set to override the auto generated copyright using org info and now year
 googleAnalytics = ""
 disqusShortname = "" # see params.utterances to use utterances instead of Disqus
@@ -48,14 +48,14 @@ enableEmoji = true
   # use a built-in color theme
   # one of: earth / forest / grayscale / magma / paper / peach / plum /
   #         poppy / primer / sky / violet / water 
-  theme = "paper"
+  theme = "earth"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
   # the custom scss file must be in the assets/ folder
   # add the filename name here, without extension
   # to use hex colors instead of named tachyons colors, include "hex" in filename
-  custom_theme = "" 
+  custom_theme = "hex-colors" 
   
   # use an embedded font-family
   # serif options: Fraunces / EB Garamond / Bitter
@@ -65,8 +65,8 @@ enableEmoji = true
   customheadingFontFamily = "Fraunces"
   # alternatively, leave empty and select basic font options: sans-serif or serif
   # for more http://tachyons.io/docs/typography/font-family/
-  textFontFamily = "Commissioner"
-  headingFontFamily = "Fraunces"
+  textFontFamily = "courier"
+  headingFontFamily = "baskerville"
 
   # Configuration of https://utteranc.es/ for comments
   [params.utterances]
@@ -88,15 +88,31 @@ enableEmoji = true
   [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://github.com/jatorresmunguia"
+      url       = "https://github.com/apreshill/apero"
+  [[params.social]]
+      icon      = "facebook-square" # icon name without the 'fa-'
+      icon_pack = "fab"
+      url       = "https://www.facebook.com/hashtag/ap%C3%A9ro"
+  [[params.social]]
+      icon      = "instagram" # icon name without the 'fa-'
+      icon_pack = "fab"
+      url       = "https://www.instagram.com/explore/tags/apero/"
   [[params.social]]
       icon      = "twitter" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://twitter.com/jtorresmunguia"
+      url       = "https://twitter.com/hashtag/apéro"
+  [[params.social]]
+      icon      = "impactstory" # icon name without the 'fa-'
+      icon_pack = "ai"
+      url       = "https://impactstory.org/u/0000-0002-8082-1890"
   [[params.social]]
       icon      = "orcid" # icon name without the 'fa-'
       icon_pack = "ai"
-      url       = "https://orcid.org/0000-0003-3432-6941"
+      url       = "http://orcid.org/0000-0002-8082-1890"
+  [[params.social]]
+      icon      = "rss" # icon name without the 'fa-'
+      icon_pack = "fas"
+      url       = "/blog/index.xml"
 
 [taxonomies]
   category = "categories"
@@ -107,7 +123,7 @@ enableEmoji = true
   # Configure header 
   [[menu.header]]
     name = "About"
-    title = "About"
+    title = "About Blogophonic"
     url = "/about/"
     weight = 1
   [[menu.header]]
@@ -116,9 +132,9 @@ enableEmoji = true
     url = "/blog/"
     weight = 2
   [[menu.header]]
-    name = "Publications"
-    title = "Publications"
-    url = "/publications/"
+    name = "Projects"
+    title = "Project Portfolio"
+    url = "/project/"
     weight = 3
   [[menu.header]]
     name = "Talks"
@@ -126,14 +142,14 @@ enableEmoji = true
     url = "/talk/"
     weight = 4
   [[menu.header]]
-    name = "DataViz"
-    title = "A collection data visualizations"
+    name = "A collection"
+    title = "A collection"
     url = "/collection/"
     weight = 5
   [[menu.header]]
-    name = "Contact"
-    title = "Contact"
-    url = "/contact/"
+    name = "Elements"
+    title = "Element Page"
+    url = "/elements/"
     weight = 6
     
   # Configure footer  
