@@ -15,3 +15,11 @@ blogdown::serve_site()
 usethis::browse_github()
 
 blogdown::config_netlify()
+
+blogdown::config_Rprofile()
+
+
+
+blogdown::stop_server()
+
+blogdown::serve_site()
