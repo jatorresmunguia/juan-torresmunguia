@@ -1,9 +1,7 @@
 ---
 ## Configure header of page
 text_align_right: false
-show_title_as_headline: false
+show_title_as_headline: true
 headline: |
-  Thanks for visiting my website.
+    Hi again! Thanks for visiting my website.
 ---
-
-<!-- this is a subheadline -->

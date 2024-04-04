@@ -11,11 +11,11 @@ description: "I am a research assistant at the [Ibero-Amerika Institut für Wirt
 
 images:
   - img/revoir.jpg
-image_left: true
+image_left: false
 text_align_left: false
 show_social_links: true # specify social accounts in site config
 show_action_link: true
-action_link: /about/
+action_link: /about_2/
 action_label: "If you would like to read more about what I do, click here &rarr;"
 action_type: text # text, button
 type: home

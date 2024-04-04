@@ -1,53 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Juan Torres Munguía, PhD</title>
-    <link>https://juan-torresmunguia.netlify.app/categories/</link>
-    <description>Recent content in Categories on Juan Torres Munguía, PhD</description>
+    <title>Categories on Juan TORRES MUNGUÍA, PhD</title>
+    <link>http://localhost:4321/categories/</link>
+    <description>Recent content in Categories on Juan TORRES MUNGUÍA, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 Jan 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://juan-torresmunguia.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Journal-Articles</title>
+      <link>http://localhost:4321/categories/journal-articles/</link>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/categories/journal-articles/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Theme Features</title>
-      <link>https://juan-torresmunguia.netlify.app/categories/theme-features/</link>
+      <link>http://localhost:4321/categories/theme-features/</link>
       <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://juan-torresmunguia.netlify.app/categories/theme-features/</guid>
+      <guid>http://localhost:4321/categories/theme-features/</guid>
       <description></description>
     </item>
     <item>
       <title>Evergreen</title>
-      <link>https://juan-torresmunguia.netlify.app/categories/evergreen/</link>
+      <link>http://localhost:4321/categories/evergreen/</link>
       <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://juan-torresmunguia.netlify.app/categories/evergreen/</guid>
+      <guid>http://localhost:4321/categories/evergreen/</guid>
       <description></description>
     </item>
     <item>
       <title>Workshop</title>
-      <link>https://juan-torresmunguia.netlify.app/categories/workshop/</link>
+      <link>http://localhost:4321/categories/workshop/</link>
       <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://juan-torresmunguia.netlify.app/categories/workshop/</guid>
+      <guid>http://localhost:4321/categories/workshop/</guid>
       <description></description>
     </item>
     <item>
       <title>R</title>
-      <link>https://juan-torresmunguia.netlify.app/categories/r/</link>
+      <link>http://localhost:4321/categories/r/</link>
       <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>https://juan-torresmunguia.netlify.app/categories/r/</guid>
+      <guid>http://localhost:4321/categories/r/</guid>
       <description></description>
     </item>
     <item>
       <title>Meetup</title>
-      <link>https://juan-torresmunguia.netlify.app/categories/meetup/</link>
+      <link>http://localhost:4321/categories/meetup/</link>
       <pubDate>Fri, 01 Jan 2021 14:15:59 -0600</pubDate>
-      <guid>https://juan-torresmunguia.netlify.app/categories/meetup/</guid>
+      <guid>http://localhost:4321/categories/meetup/</guid>
       <description></description>
     </item>
     <item>
       <title>Package</title>
-      <link>https://juan-torresmunguia.netlify.app/categories/package/</link>
+      <link>http://localhost:4321/categories/package/</link>
       <pubDate>Wed, 03 Jul 2019 00:00:00 +0000</pubDate>
-      <guid>https://juan-torresmunguia.netlify.app/categories/package/</guid>
+      <guid>http://localhost:4321/categories/package/</guid>
       <description></description>
     </item>
   </channel>
