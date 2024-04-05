@@ -1,8 +1,8 @@
 ---
 title: Publications
 description: |
-  This is a list for your publications with a time, date, and place.
-author: "Juan TORRES MUNGUÍA, PhD"
+  Here you can find my research publications, including both peer-reviewed and working papers with links to PDF files, data, and code.
+author: ""
 show_post_thumbnail: true
 show_author_byline: true
 show_post_date: true
@@ -16,7 +16,7 @@ sidebar:
   title: 
   description: |
 
-    Check out the _index.md file in the /talk folder 
+    Check out the _index.md file in the /publications folder 
     to edit this content. 
   author: "Juan TORRES MUNGUÍA, PhD"
   text_link_label: Subscribe via RSS
@@ -25,7 +25,7 @@ sidebar:
 
 # set up common front matter for all pages inside blog/
 cascade:
-  author: "The R Markdown Team @RStudio"
+  author: "Juan TORRES MUNGUÍA, PhD"
   show_author_byline: true
   show_post_date: true
   show_post_time: false

@@ -20,4 +20,4 @@ blogdown::stop_server()
 
 blogdown::serve_site()
 
-blogdown::build_site()
+#blogdown::build_site()

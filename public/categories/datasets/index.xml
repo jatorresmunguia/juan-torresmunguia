@@ -6,13 +6,20 @@
     <description>Recent content in Datasets on Juan TORRES MUNGUÍA, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Nov 2022 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 03 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/categories/datasets/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Mapping energy poverty measures during the COVID-19 pandemic: A new global panel dataset</title>
+      <link>http://localhost:4321/publications/energy_poverty_2024/</link>
+      <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/energy_poverty_2024/</guid>
+      <description>Abstract This paper compiles and presents a global panel dataset of energy poverty policy actions spanning the period March 2020 and March 2021. It builds on the COVID-19 Energy Map that collects policies to ensure the affordability of energy supplies for households during the COVID-19 pandemic. The monthly-frequency dataset is organized in a user-friendly way, allowing not only experts and researchers, but also the broader non-expert public, to examine and analyse the month-by-month policy changes across countries.</description>
+    </item>
+    <item>
       <title>A global dataset of pandemic- and epidemic-prone disease outbreaks</title>
-      <link>http://localhost:4321/publications/campfire/</link>
+      <link>http://localhost:4321/publications/outbreaks_scidata_2022/</link>
       <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/publications/campfire/</guid>
+      <guid>http://localhost:4321/publications/outbreaks_scidata_2022/</guid>
       <description>Abstract This paper presents a new dataset of infectious disease outbreaks collected from the Disease Outbreak News and the Coronavirus Dashboard produced by the World Health Organization. The dataset contains information on 70 infectious diseases and 2227 public health events that occurred over the period from January 1996 to March 2022 in 233 countries and territories around the world. We illustrate the potential use of this dataset to the research community by analysing the spatial distribution of disease outbreaks.</description>
     </item>
   </channel>

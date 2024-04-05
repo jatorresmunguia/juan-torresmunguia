@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Poverty on Juan TORRES MUNGUÍA, PhD</title>
+    <link>http://localhost:4321/categories/poverty/</link>
+    <description>Recent content in Poverty on Juan TORRES MUNGUÍA, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 03 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/categories/poverty/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mapping energy poverty measures during the COVID-19 pandemic: A new global panel dataset</title>
+      <link>http://localhost:4321/publications/energy_poverty_2024/</link>
+      <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/energy_poverty_2024/</guid>
+      <description>Abstract This paper compiles and presents a global panel dataset of energy poverty policy actions spanning the period March 2020 and March 2021. It builds on the COVID-19 Energy Map that collects policies to ensure the affordability of energy supplies for households during the COVID-19 pandemic. The monthly-frequency dataset is organized in a user-friendly way, allowing not only experts and researchers, but also the broader non-expert public, to examine and analyse the month-by-month policy changes across countries.</description>
+    </item>
+    <item>
+      <title>Identifying Gender-Specific Risk Factors for Income Poverty across Poverty Levels in Urban Mexico: A Model-Based Boosting Approach</title>
+      <link>http://localhost:4321/publications/poverty_urban_mexico_mdpi_2024/</link>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/poverty_urban_mexico_mdpi_2024/</guid>
+      <description>Abstract This paper aims to identify income-poverty risk factors in urban Mexican households. Special emphasis is paid to examine differences between female- and male-headed families. To this, a dataset with 45 theoretical factors at the individual/household, community, and regional levels, integrating information from nine sources, is created. To these data, additive quantile models are estimated via the boosting algorithm. From a gender standpoint, the following main contributions come from this paper.</description>
+    </item>
+    <item>
+      <title>Examining gender inequalities in factors associated with income poverty in Mexican rural households</title>
+      <link>http://localhost:4321/publications/poverty_rural_mexico_plosone_2021/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/poverty_rural_mexico_plosone_2021/</guid>
+      <description>Abstract According to 2016 official estimates, almost 60% of the rural population in Mexico (16.9 million people) had income levels below the poverty line, and approximately 29.2% (8.3 million) could not even afford the basic food basket. Whereas most poverty research disregards gender and exclusively analyzes average income or the expected probability of being poor, we depart from these approaches by examining the effect of potential risk factors on two of the lowest quantiles of income-to-poverty ratio distribution, namely the corresponding to poor and extremely poor families.</description>
+    </item>
+    <item>
+      <title>What Determines Poverty in Mexico?: A Quantile Regression Approach</title>
+      <link>http://localhost:4321/publications/poverty_mexico_2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/poverty_mexico_2020/</guid>
+      <description>Abstract According to official poverty estimates in Mexico, more than 50 percent of the population was poor in 2016, half of which could not even afford the basic food basket. Whereas most of the existing research analyses poverty focusing exclusively on average income or on the expected probability of being poor, this paper departs from this approach by analyzing income differences between households in rural and urban settlements using boosting additive quantile models.</description>
+    </item>
+  </channel>
+</rss>

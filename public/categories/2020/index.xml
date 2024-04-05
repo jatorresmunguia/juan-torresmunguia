@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2020 on Juan TORRES MUNGUÍA, PhD</title>
+    <link>http://localhost:4321/categories/2020/</link>
+    <description>Recent content in 2020 on Juan TORRES MUNGUÍA, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/categories/2020/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What Determines Poverty in Mexico?: A Quantile Regression Approach</title>
+      <link>http://localhost:4321/publications/poverty_mexico_2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/poverty_mexico_2020/</guid>
+      <description>Abstract According to official poverty estimates in Mexico, more than 50 percent of the population was poor in 2016, half of which could not even afford the basic food basket. Whereas most of the existing research analyses poverty focusing exclusively on average income or on the expected probability of being poor, this paper departs from this approach by analyzing income differences between households in rural and urban settlements using boosting additive quantile models.</description>
+    </item>
+  </channel>
+</rss>
