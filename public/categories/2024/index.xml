@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2024 on Juan TORRES MUNGUÍA, PhD</title>
-    <link>http://localhost:4321/categories/2024/</link>
+    <link>https://juan-torresmunguia.netlify.app/categories/2024/</link>
     <description>Recent content in 2024 on Juan TORRES MUNGUÍA, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/categories/2024/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://juan-torresmunguia.netlify.app/categories/2024/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Mapping energy poverty measures during the COVID-19 pandemic: A new global panel dataset</title>
-      <link>http://localhost:4321/publications/energy_poverty_2024/</link>
-      <pubDate>Wed, 03 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/publications/energy_poverty_2024/</guid>
+      <title>Mapping Energy Poverty Measures During the COVID-19 Pandemic: A New Global Panel Dataset</title>
+      <link>https://juan-torresmunguia.netlify.app/publications/energy_poverty_2024/</link>
+      <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://juan-torresmunguia.netlify.app/publications/energy_poverty_2024/</guid>
       <description>Abstract This paper compiles and presents a global panel dataset of energy poverty policy actions spanning the period March 2020 and March 2021. It builds on the COVID-19 Energy Map that collects policies to ensure the affordability of energy supplies for households during the COVID-19 pandemic. The monthly-frequency dataset is organized in a user-friendly way, allowing not only experts and researchers, but also the broader non-expert public, to examine and analyse the month-by-month policy changes across countries.</description>
     </item>
     <item>
       <title>Identifying Gender-Specific Risk Factors for Income Poverty across Poverty Levels in Urban Mexico: A Model-Based Boosting Approach</title>
-      <link>http://localhost:4321/publications/poverty_urban_mexico_mdpi_2024/</link>
+      <link>https://juan-torresmunguia.netlify.app/publications/poverty_urban_mexico_mdpi_2024/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/publications/poverty_urban_mexico_mdpi_2024/</guid>
+      <guid>https://juan-torresmunguia.netlify.app/publications/poverty_urban_mexico_mdpi_2024/</guid>
       <description>Abstract This paper aims to identify income-poverty risk factors in urban Mexican households. Special emphasis is paid to examine differences between female- and male-headed families. To this, a dataset with 45 theoretical factors at the individual/household, community, and regional levels, integrating information from nine sources, is created. To these data, additive quantile models are estimated via the boosting algorithm. From a gender standpoint, the following main contributions come from this paper.</description>
     </item>
   </channel>

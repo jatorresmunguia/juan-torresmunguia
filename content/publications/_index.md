@@ -9,18 +9,18 @@ show_post_date: true
 show_post_time: true
 show_button_links: true
 # for listing page layout
-layout: list # list, list-sidebar
+layout: list # list, list-sidebar, list-grid
 
 # for list-sidebar layout
 sidebar: 
   title: 
-  description: |
-
+  description: 
+  
     Check out the _index.md file in the /publications folder 
     to edit this content. 
   author: "Juan TORRES MUNGUÍA, PhD"
   text_link_label: Subscribe via RSS
-  text_link_url: /publications/index.xml
+  text_link_url: /index.xml
   show_sidebar_adunit: false # show ad container
 
 # set up common front matter for all pages inside blog/

@@ -2,209 +2,225 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:4321/collection/day02/01-netlify/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/collection/day02/01-netlify/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/blog/spoonful-series/01-spoonful/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/blog/spoonful-series/01-spoonful/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/collection/day01/01-github/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/collection/day01/01-github/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/collection/prework/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/collection/prework/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/collection/day01/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/collection/day01/</loc>
     <lastmod>2021-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/collection/day01/02-postcards/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/collection/day01/02-postcards/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/blog/spoonful-series/02-spoonful/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/blog/spoonful-series/02-spoonful/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/collection/day02/02-blogdown/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/collection/day02/02-blogdown/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/collection/day02/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/collection/day02/</loc>
     <lastmod>2021-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/blog/spoonful-series/03-spoonful/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/blog/spoonful-series/03-spoonful/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/collection/day01/03-distill/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/collection/day01/03-distill/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/collection/day02/03-blogdown/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/collection/day02/03-blogdown/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/categories/2024/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+    <loc>https://juan-torresmunguia.netlify.app/categories/2024/</loc>
+    <lastmod>2024-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/categories/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+    <loc>https://juan-torresmunguia.netlify.app/categories/</loc>
+    <lastmod>2024-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/categories/datasets/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+    <loc>https://juan-torresmunguia.netlify.app/categories/datasets/</loc>
+    <lastmod>2024-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+    <loc>https://juan-torresmunguia.netlify.app/</loc>
+    <lastmod>2024-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/publications/energy_poverty_2024/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+    <loc>https://juan-torresmunguia.netlify.app/publications/energy_poverty_2024/</loc>
+    <lastmod>2024-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/categories/poverty/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+    <loc>https://juan-torresmunguia.netlify.app/categories/poverty/</loc>
+    <lastmod>2024-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/publications/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+    <loc>https://juan-torresmunguia.netlify.app/publications/</loc>
+    <lastmod>2024-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/categories/working-papers/</loc>
-    <lastmod>2024-04-03T00:00:00+00:00</lastmod>
+    <loc>https://juan-torresmunguia.netlify.app/categories/working-papers/</loc>
+    <lastmod>2024-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/publications/poverty_urban_mexico_mdpi_2024/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/publications/poverty_urban_mexico_mdpi_2024/</loc>
     <lastmod>2024-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/categories/journal-articles/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/categories/journal-articles/</loc>
     <lastmod>2024-03-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/categories/2022/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/categories/2023/</loc>
+    <lastmod>2023-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://juan-torresmunguia.netlify.app/categories/armed-conflict/</loc>
+    <lastmod>2023-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://juan-torresmunguia.netlify.app/publications/weapon_holding_nigeria_2023/</loc>
+    <lastmod>2023-12-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://juan-torresmunguia.netlify.app/publications/prospects_remote_assessment_nigeria_unidir_2023/</loc>
+    <lastmod>2023-05-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://juan-torresmunguia.netlify.app/publications/isil_affiliation_unidir_2023/</loc>
+    <lastmod>2023-04-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://juan-torresmunguia.netlify.app/categories/2022/</loc>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://juan-torresmunguia.netlify.app/publications/road_from_alhol_camp_iraq_unu_2022/</loc>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://juan-torresmunguia.netlify.app/publications/child_recruitment_lake_chad_unu_2022/</loc>
+    <lastmod>2022-12-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://juan-torresmunguia.netlify.app/publications/outbreaks_scidata_2022/</loc>
     <lastmod>2022-11-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/publications/outbreaks_scidata_2022/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/categories/outbreaks/</loc>
     <lastmod>2022-11-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/categories/outbreaks/</loc>
-    <lastmod>2022-11-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/categories/2021/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/categories/2021/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/publications/poverty_rural_mexico_plosone_2021/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/publications/poverty_rural_mexico_plosone_2021/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/blog/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/blog/</loc>
     <lastmod>2021-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/blog/social/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/blog/social/</loc>
     <lastmod>2021-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/categories/theme-features/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/categories/theme-features/</loc>
     <lastmod>2021-01-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/style/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/tags/style/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/blog/color-themes/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/blog/color-themes/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/blog/fonts/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/blog/fonts/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/tags/</loc>
     <lastmod>2021-01-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/collection/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/collection/</loc>
     <lastmod>2021-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/blog/evergreen/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/blog/evergreen/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/categories/evergreen/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/categories/evergreen/</loc>
     <lastmod>2021-01-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/talk/campfire/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/talk/campfire/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/talk/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/talk/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/categories/workshop/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/categories/workshop/</loc>
     <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/series/a-spoonful-of-hugo/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/series/a-spoonful-of-hugo/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/blog/spoonful-series/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/blog/spoonful-series/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/tags/hugo-site/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/tags/hugo-site/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/categories/r/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/categories/r/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/series/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/series/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/blog/seedling/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/blog/seedling/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/talk/second-seedling/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/talk/second-seedling/</loc>
     <lastmod>2021-01-01T14:15:59-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/categories/meetup/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/categories/meetup/</loc>
     <lastmod>2021-01-01T14:15:59-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/blog/rmarkdown/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/blog/rmarkdown/</loc>
     <lastmod>2020-12-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/talk/seedling/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/publications/poverty_mexico_2020/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://juan-torresmunguia.netlify.app/talk/seedling/</loc>
     <lastmod>2020-01-13T14:15:59-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/categories/2020/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/publications/poverty_mexico_2020/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/project/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/project/</loc>
     <lastmod>2019-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/categories/package/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/categories/package/</loc>
     <lastmod>2019-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/project/giraffes/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/project/giraffes/</loc>
     <lastmod>2019-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/blog/css-grid-scaffold/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/blog/css-grid-scaffold/</loc>
     <lastmod>2019-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/project/penguins/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/project/penguins/</loc>
     <lastmod>2019-07-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/project/bakeoff/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/project/bakeoff/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/blog/built-in-contact-form/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/blog/built-in-contact-form/</loc>
     <lastmod>2019-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/contact/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/contact/</loc>
     <lastmod>2019-02-25T13:38:41-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/form/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/form/</loc>
     <lastmod>2019-02-25T13:38:41-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/elements/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/elements/</loc>
     <lastmod>2019-02-18T12:27:33-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/categories/2018/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <loc>https://juan-torresmunguia.netlify.app/categories/2018/</loc>
+    <lastmod>2018-05-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/categories/violence/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+    <loc>https://juan-torresmunguia.netlify.app/publications/behind_homicides_gender_gaps_mexico_2018/</loc>
+    <lastmod>2018-05-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/publications/behind_homicides_gender_gaps_mexico_2018/</loc>
-    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:4321/categories/2016/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/categories/2016/</loc>
     <lastmod>2016-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/publications/violent_crime_latam_iadb_2016/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/categories/violence/</loc>
     <lastmod>2016-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/contributors/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/publications/violent_crime_latam_iadb_2016/</loc>
+    <lastmod>2016-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/license/</loc>
+    <loc>https://juan-torresmunguia.netlify.app/license/</loc>
   </url>
 </urlset>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Customizing Hugo Academic&#39;s Dark Mode with Help from Atom on Juan TORRES MUNGUÍA, PhD</title>
+    <link>http://localhost:4321/blog/2020-05-26-dark-mode-custom-with-atom/</link>
+    <description>Recent content in Customizing Hugo Academic&#39;s Dark Mode with Help from Atom on Juan TORRES MUNGUÍA, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:4321/blog/2020-05-26-dark-mode-custom-with-atom/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

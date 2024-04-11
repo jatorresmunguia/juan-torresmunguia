@@ -1,11 +1,10 @@
 ---
-title: "Mapping energy poverty measures during the COVID-19 pandemic: A new global panel dataset"
-subtitle: "published in International Network for Economic Research working papers" 
-date: "2024-04-03"
-date_end: "2024-04-03"
+title: "Mapping Energy Poverty Measures During the COVID-19 Pandemic: A New Global Panel Dataset"
+subtitle: "published in International Network for Economic Research" 
+date: "2024-04-01"
 featured: true
 show_post_time: false
-author: "Juan TORRES MUNGUÍA, Marlies Hesselman, Inmaculada Martínez-Zarzoso & Ilse Ruyssen"
+author: "Juan Armando Torres Munguía; Marlies Hesselman; Inmaculada Martínez-Zarzoso; Ilse Ruyssen"
 location: ""
 draft: false
 # layout options: single, single-sidebar
@@ -37,92 +36,15 @@ links:
   name: ShinyApp
   url: https://jatorresmunguia.shinyapps.io/DashboardEnergyPov/?_ga=2.12193140.1599365608.1647015703-2050109591.1646912998
 ---
- 
+
+
+
 <h4> Abstract </h4>
-This paper compiles and presents a global panel dataset of energy poverty policy actions spanning the period March 2020 and March 2021. It builds on the COVID-19 Energy Map that collects policies to ensure the affordability of energy supplies for households during the COVID-19 pandemic. The monthly-frequency dataset is organized in a user-friendly way, allowing not only experts and researchers, but also the broader non-expert public, to examine and analyse the month-by-month policy changes across countries. The panel dataset is widely applicable for future research, especially as other global or regional datasets pertaining to the early years of the pandemic become available.
+<p> This paper compiles and presents a global panel dataset of energy poverty policy actions spanning the period March 2020 and March 2021. It builds on the COVID-19 Energy Map that collects policies to ensure the affordability of energy supplies for households during the COVID-19 pandemic. The monthly-frequency dataset is organized in a user-friendly way, allowing not only experts and researchers, but also the broader non-expert public, to examine and analyse the month-by-month policy changes across countries. The panel dataset is widely applicable for future research, especially as other global or regional datasets pertaining to the early years of the pandemic become available. </p>
 
-<h4 id="citation">Citation</h4>
-<div id="citation-content"></div>
+<h4> <a href="https://infer-research.eu/publication/mapping-energy-poverty-measures-during-the-covid-19-pandemic-a-new-global-panel-dataset/" target="_blank"> Click here to read full paper </a></h4>
 
-<script>
-function generateCitationHTML(entry) {
-  const authors = `<strong>${entry.author.replace(/[{}]/g, '').replace(/,(\s*)$/, '')}</strong>`;
-  const year = entry.year.replace(/[{}]/g, '').replace(/,(\s*)$/, '');
-  const title = entry.title.replace(/[{}]/g, '').replace(/,(\s*)$/, '');
-  const volume = entry.volume.replace(/[{}]/g, '').replace(/,(\s*)$/, '');
-  const number = entry.number.replace(/[{}]/g, '').replace(/,(\s*)$/, '');
-  const journal = entry.journal.replace(/[{}]/g, '').replace(/,(\s*)$/, '');
-  const url = entry.url.replace(/[{}]/g, '').replace(/,(\s*)$/, '');
-  const doi = entry.doi.replace(/[{}]/g, '').replace(/,(\s*)$/, '');
+<h4>Suggested citation: </h4>
+<p><b>Torres Munguía, Juan Armando<a href="https://orcid.org/0000-0003-3432-6941"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a>; Hesselman, Marlies; Martínez-Zarzoso, Inmaculada; Ruyssen, Ilse</b> (2024). Mapping Energy Poverty Measures During the COVID-19 Pandemic: A New Global Panel Dataset. <i>International Network for Economic Research</i>, 2024.04. Retrieved from: <a href="https://infer-research.eu/publication/mapping-energy-poverty-measures-during-the-covid-19-pandemic-a-new-global-panel-dataset/" target="_blank">https://infer-research.eu/publication/mapping-energy-poverty-measures-during-the-covid-19-pandemic-a-new-global-panel-dataset/</a></p>
 
-  const citationHTML = `
-    <p>${authors} (${year}) <em>${title}</em>. ${journal}, ${volume}(${number}). <a href="${url}" target="_blank">${doi}</a>.</p>
-    <p>Download the article citation in BibTex format (compatible with BibDesk, LaTeX) <a href="cite.bib"><i class="fas fa-file-download"></i></a>.</p>
-  `;
-  
-  return citationHTML;
-
-}
-
-  // Main function to fetch .bib file and generate HTML
-  function main() {
-    // AJAX request to fetch .bib file
-    var xhr = new XMLHttpRequest();
-    xhr.open("GET", "cite.bib", true);
-    xhr.onreadystatechange = function() {
-      if (xhr.readyState == 4 && xhr.status == 200) {
-        // Parse BibTeX into JSON
-        var bibData = parseBibtex(xhr.responseText);
-
-        // Generate HTML for each entry
-        var citationDiv = document.getElementById('citation-content');
-        bibData.entries.forEach(entry => {
-          const citationHTML = generateCitationHTML(entry);
-          citationDiv.innerHTML += citationHTML;
-        });
-      }
-    };
-    xhr.send();
-  }
-
-  // Parse BibTeX into JSON
-  function parseBibtex(bibtex) {
-    // Split BibTeX into individual entries
-    var entries = bibtex.split('\n\n');
-
-    // Initialize an array to store parsed entries
-    var parsedEntries = [];
-
-    // Parse each entry
-    entries.forEach(entry => {
-      // Split entry into lines
-      var lines = entry.split('\n');
-
-      // Initialize an object to store parsed entry fields
-      var parsedEntry = {};
-
-      // Parse each field
-      lines.forEach(line => {
-        // Ignore empty lines and comments
-        if (line.trim() !== '' && !line.startsWith('%')) {
-          // Split line into key and value
-          var parts = line.split('=');
-          var key = parts[0].trim();
-          var value = parts.slice(1).join('=').trim();
-
-          // Store key-value pair in parsed entry
-          parsedEntry[key] = value;
-        }
-      });
-
-      // Add parsed entry to array
-      parsedEntries.push(parsedEntry);
-    });
-
-    // Return parsed entries
-    return { entries: parsedEntries };
-  }
-
-  // Run main function
-  main();
-</script>
+<a href="cite.bib" download="cite.bib" class="button"> Download .bib file (compatible with LaTeX) </a>
