@@ -14,8 +14,10 @@
       {{ if .Site.Params.socialInHeader }}
       <div class="dib v-mid">
         {{ partial "shared/social-links.html" . }}
-      </div>
       {{ end }}
     </div>
   </nav>
+
+  {{ partial "toggle.html" . }}
+
 </header>
