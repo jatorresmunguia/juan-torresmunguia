@@ -46,7 +46,7 @@ format_author <- function(authors) {
       full_name <- paste(paste(author$family, collapse = ", "), full_names, sep = ", ")
     }
     if (grepl('Torres Mungu[ií]a', full_name, ignore.case = TRUE)) {
-      full_name <- paste0(full_name, '<a href="https://orcid.org/0000-0003-3432-6941"><img src="orcid.svg" height="16" width="16" ></a>')
+      full_name <- paste0(full_name, '<a href="https://orcid.org/0000-0003-3432-6941"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a>')
     }
     return(full_name)
   })

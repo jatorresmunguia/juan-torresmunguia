@@ -48,6 +48,6 @@ links:
 <h4> <a href="https://www.nature.com/articles/s41597-022-01797-2" target="_blank"> Click here to read full paper </a></h4>
 
 <h4>Suggested citation: </h4>
-<p><b>Torres Munguía, Juan Armando<a href="https://orcid.org/0000-0003-3432-6941"><img src="orcid.svg" height="16" width="16" ></a>; Badarau, Florina Cristina; Díaz Pavez, Luis Rodrigo; Martínez-Zarzoso, Inmaculada; Wacker, Konstantin M.</b> (2022). A global dataset of pandemic- and epidemic-prone disease outbreaks. <i>Scientific data</i>, 9 (1). DOI: <a href="https://www.nature.com/articles/s41597-022-01797-2" target="_blank">10.1038/s41597-022-01797-2</a>. Retrieved from: <a href="https://www.nature.com/articles/s41597-022-01797-2" target="_blank">https://www.nature.com/articles/s41597-022-01797-2</a></p>
+<p><b>Torres Munguía, Juan Armando<a href="https://orcid.org/0000-0003-3432-6941"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a>; Badarau, Florina Cristina; Díaz Pavez, Luis Rodrigo; Martínez-Zarzoso, Inmaculada; Wacker, Konstantin M.</b> (2022). A global dataset of pandemic- and epidemic-prone disease outbreaks. <i>Scientific data</i>, 9 (1). DOI: <a href="https://www.nature.com/articles/s41597-022-01797-2" target="_blank">10.1038/s41597-022-01797-2</a>. Retrieved from: <a href="https://www.nature.com/articles/s41597-022-01797-2" target="_blank">https://www.nature.com/articles/s41597-022-01797-2</a></p>
 
 <a href="cite.bib" download="cite.bib" class="button"> Download .bib file (compatible with LaTeX) </a>
