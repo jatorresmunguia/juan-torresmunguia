@@ -144,9 +144,9 @@ My content section is: blog My layout is: single-series Images in this page bund
     user-select: none;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     -webkit-tap-highlight-color: transparent;
-  }
-  
-  .js-toggle-screenreader-only {
+}
+
+.js-toggle-screenreader-only {
     border: 0;
     clip: rect(0 0 0 0);
     height: 1px;
@@ -155,18 +155,18 @@ My content section is: blog My layout is: single-series Images in this page bund
     padding: 0;
     position: absolute;
     width: 1px;
-  }
-  
-  .js-toggle-track {
+}
+
+.js-toggle-track {
     width: 50px;
     height: 24px;
     padding: 0;
     border-radius: 30px;
     background-color: hsl(222, 14%, 7%);
     transition: all 0.2s ease;
-  }
-  
-  .js-toggle-track-check {
+}
+
+.js-toggle-track-check {
     position: absolute;
     width: 17px;
     height: 17px;
@@ -178,14 +178,14 @@ My content section is: blog My layout is: single-series Images in this page bund
     line-height: 0;
     opacity: 0;
     transition: opacity 0.25s ease;
-  }
-  
-  .js-toggle--checked .js-toggle-track-check {
+}
+
+.js-toggle--checked .js-toggle-track-check {
     opacity: 1;
     transition: opacity 0.25s ease;
-  }
-  
-  .js-toggle-track-x {
+}
+
+.js-toggle-track-x {
     position: absolute;
     width: 17px;
     height: 17px;
@@ -197,13 +197,13 @@ My content section is: blog My layout is: single-series Images in this page bund
     line-height: 0;
     opacity: 1;
     transition: opacity 0.25s ease;
-  }
-  
-  .js-toggle--checked .js-toggle-track-x {
+}
+
+.js-toggle--checked .js-toggle-track-x {
     opacity: 0;
-  }
-  
-  .js-toggle-thumb {
+}
+
+.js-toggle-thumb {
     position: absolute;
     top: 1px;
     left: 1px;
@@ -214,21 +214,133 @@ My content section is: blog My layout is: single-series Images in this page bund
     box-sizing: border-box;
     transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
     transform: translateX(0);
-  }
-  
-  .js-toggle--checked .js-toggle-thumb {
+}
+
+.js-toggle--checked .js-toggle-thumb {
     transform: translateX(26px);
     border-color: #19ab27;
-  }
-  
-  .js-toggle--focus .js-toggle-thumb {
+}
+
+.js-toggle--focus .js-toggle-thumb {
     box-shadow: 0px 0px 2px 3px rgb(255, 167, 196);
-  }
-  
-  .js-toggle:active .js-toggle-thumb {
+}
+
+.js-toggle:active .js-toggle-thumb {
     box-shadow: 0px 0px 5px 5px rgb(255, 167, 196);
-  }
-  
+}
+
+ 
+body.dark-mode {
+    --color-bg-canvas: #333333;
+    --color-bg-tertiary: #333333;
+    --color-text-primary: #F4F4F4;
+    --color-text-link: #b315c4;
+    --color-text-link-hover: #79c0ff;
+    --color-border-primary: #30363d;
+    --color-btn-primary-text: #F4F4F4;
+    --color-btn-primary-bg: #238636;
+    --color-btn-primary-bg-hover: #3fb950;
+}
+
+body.dark-mode main {
+    background-color: var(--color-bg-tertiary);
+}
+
+body.dark-mode main *,
+body.dark-mode main *:not(a) {
+    color: var(--color-text-primary);
+}
+
+body.dark-mode main h1,
+body.dark-mode main h2,
+body.dark-mode main h3,
+body.dark-mode main h4,
+body.dark-mode main h5,
+body.dark-mode main h6 {
+    color: var(--color-text-primary);
+}
+
+body.dark-mode main a {
+    color: var(--color-text-link);
+}
+
+body.dark-mode main a:hover {
+    color: var(--color-text-link-hover);
+}
+
+body.dark-mode footer {
+    color: #F4F4F4;
+    background-color: #333333;
+}
+
+body.dark-mode button {
+    color: var(--color-btn-primary-text);
+    background-color: var(--color-btn-primary-bg);
+    border-color: var(--color-border-primary);
+}
+
+body.dark-mode button:hover {
+    color: var(--color-btn-primary-text);
+    background-color: var(--color-btn-primary-bg-hover);
+}
+
+ 
+body.dark-mode .custom-body-link-color,
+body.dark-mode .page-main a:not(.link),
+body.dark-mode .page-main .social-icon-links a,
+body.dark-mode .site-brand,
+body.dark-mode .site-links a,
+body.dark-mode .site-header .social-icon-links a,
+body.dark-mode .site-footer .site-copyright a,
+body.dark-mode .site-footer .social-icon-links a,
+body.dark-mode .page-main a.link,
+body.dark-mode .page-main .post-header a.btn-links,
+body.dark-mode .post-header .page-main a.btn-links,
+body.dark-mode .page-main article footer a.btn-links,
+body.dark-mode article footer .page-main a.btn-links,
+body.dark-mode .page-main .home a.action.text,
+body.dark-mode .home .page-main a.action.text,
+body.dark-mode .page-main .home a.action.button,
+body.dark-mode .home .page-main a.action.button,
+body.dark-mode .page-main form a[type=button],
+body.dark-mode form .page-main a[type=button],
+body.dark-mode .page-main form a[type=reset],
+body.dark-mode form .page-main a[type=reset],
+body.dark-mode .page-main form a[type=submit],
+body.dark-mode form .page-main a[type=submit],
+body.dark-mode .hover-custom-button-hover-text-color:hover,
+body.dark-mode .post-header a.btn-links:hover,
+body.dark-mode article footer a.btn-links:hover,
+body.dark-mode form [type=button]:hover,
+body.dark-mode form [type=reset]:hover,
+body.dark-mode form [type=submit]:hover {
+    color: #F4F4F4;
+}
+
+ 
+body.dark-mode .bg-custom-site-bg-color,
+body.dark-mode nav#SectionTableOfContents ul details li.active,
+body.dark-mode nav#SectionTableOfContents ul li.active,
+body.dark-mode nav#SeriesTableOfContents ul li.active,
+body.dark-mode details#PageTableOfContents nav#TableOfContents ul li:hover,
+body.dark-mode body,
+body.dark-mode .headroom {
+    background-color: #333333;
+}
+
+body.dark-mode .bg-custom-sidebar-bg-color,
+body.dark-mode .about-sidebar,
+body.dark-mode .home .action.button,
+body.dark-mode form select:focus,
+body.dark-mode form textarea:focus,
+body.dark-mode form [type=text]:focus,
+body.dark-mode form [type=email]:focus,
+body.dark-mode .page-sidebar .ad-unit,
+body.dark-mode .page-sidebar {
+    background-color: #F4F4F4;
+}
+
+
 
 </style>
 
