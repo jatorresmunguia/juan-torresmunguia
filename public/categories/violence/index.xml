@@ -6,8 +6,22 @@
     <description>Recent content in Violence on Juan TORRES MUNGUÍA, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/categories/violence/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An analysis of the risk factors for intimate partner sexual violence against women and girls in Mexico</title>
+      <link>http://localhost:4321/publications/risk_factor_sexual_violence_mexico_2024/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/risk_factor_sexual_violence_mexico_2024/</guid>
+      <description>Abstract The goal of this study is to identify the extent to which a set of risk factors from the ecological model are associated with intimate partner sexual violence victimisation in Mexico.&#xD;To achieve this goal, a structured additive probit model is applied to a dataset of 35,004 observations and 42 correlates.&#xD;Findings indicate that age at sexual initiation, women’s sexual and professional autonomy, and social connectedness are associated with their victimisation risks.</description>
+    </item>
+    <item>
+      <title>Determinants of Emotional Intimate Partner Violence against Women and Girls with Children in Mexican Households: An Ecological Framework</title>
+      <link>http://localhost:4321/publications/risk_factors_emotional_violence_mexico_2022/</link>
+      <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/risk_factors_emotional_violence_mexico_2022/</guid>
+      <description>Abstract The purpose of this paper is to identify the risk factors for emotional intimate partner violence (IPV) against women and girls with children in Mexico from an ecological perspective. To that end, we generate a dataset with 35,004 observations and 42 covariates, to which we apply an additive probit model estimated with a boosting algorithm to overcome high-dimensionality and simultaneously perform variable selection and model choice. The dataset integrates 10 information sources, allowing us to properly characterize the four levels of the ecological approach, which is the first contribution of this paper.</description>
+    </item>
     <item>
       <title>Violent Crime in Latin American Cities</title>
       <link>http://localhost:4321/publications/violent_crime_latam_iadb_2016/</link>

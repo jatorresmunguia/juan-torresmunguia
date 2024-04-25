@@ -3,7 +3,7 @@ title: Publications
 description: |
   Here you can find my research publications, including both peer-reviewed and working papers with links to PDF files, data, and code.
 author: ""
-show_post_thumbnail: true
+show_post_thumbnail: false
 show_author_byline: true
 show_post_date: true
 show_post_time: true

@@ -226,6 +226,20 @@
     box-shadow: 0px 0px 5px 5px rgb(255, 167, 196);
 }
 
+
+
+body.dark-mode .bg-custom-site-bg-color,
+body.dark-mode nav#SectionTableOfContents ul details li.active,
+body.dark-mode nav#SectionTableOfContents ul li.active,
+body.dark-mode nav#SeriesTableOfContents ul li.active,
+body.dark-mode details#PageTableOfContents nav#TableOfContents ul li:hover,
+body.dark-mode body,
+body.dark-mode  {
+    background-color: #333333;
+}
+
+
+
  
 body.dark-mode {
     --color-bg-canvas: #333333;
@@ -313,6 +327,8 @@ body.dark-mode form [type=button]:hover,
 body.dark-mode form [type=reset]:hover,
 body.dark-mode form [type=submit]:hover {
     color: #F4F4F4;
+    background-color: #333333;
+  
 }
 
  
@@ -324,6 +340,7 @@ body.dark-mode details#PageTableOfContents nav#TableOfContents ul li:hover,
 body.dark-mode body,
 body.dark-mode .headroom {
     background-color: #333333;
+    color: #333333;
 }
 
 body.dark-mode .bg-custom-sidebar-bg-color,
@@ -338,6 +355,17 @@ body.dark-mode .page-sidebar {
     background-color: #F4F4F4;
 }
 
+ 
+body.dark-mode .hover-bg-custom-button-hover-bg-color:hover,
+body.dark-mode .post-header a.btn-links:hover,
+body.dark-mode article footer a.btn-links:hover,
+body.dark-mode .home .action.button:hover,
+body.dark-mode form [type=button]:hover,
+body.dark-mode form [type=reset]:hover,
+body.dark-mode form [type=submit]:hover {
+    background-color: #F4F4F4;
+    color: #333333;
+}
 
 
 </style>
