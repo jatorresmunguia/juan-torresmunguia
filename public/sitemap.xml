@@ -8,9 +8,6 @@
     <loc>http://localhost:4321/collection/day01/01-github/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/collection/prework/</loc>
-    <lastmod>2021-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:4321/collection/day01/</loc>
     <lastmod>2021-01-25T00:00:00+00:00</lastmod>
   </url><url>
@@ -175,6 +172,14 @@
   </url><url>
     <loc>http://localhost:4321/publications/violent_crime_latam_iadb_2016/</loc>
     <lastmod>2016-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/about/header/</loc>
+  </url><url>
+    <loc>http://localhost:4321/about/sidebar/</loc>
+  </url><url>
+    <loc>http://localhost:4321/about/</loc>
+  </url><url>
+    <loc>http://localhost:4321/about/main/</loc>
   </url><url>
     <loc>http://localhost:4321/license/</loc>
   </url><url>

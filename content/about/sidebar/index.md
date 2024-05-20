@@ -1,7 +1,7 @@
 ---
 ## Configure sidebar content in narrow column
 author: "Juan TORRES MUNGUÍA, PhD"
-role: "A Hugo theme"
+role: ""
 avatar_shape:  # circle, square, rounded, leave blank to exclude
 show_social_links: true # specify social accounts in site config
 audio_link_label: "How to say my name" # leave blank to exclude

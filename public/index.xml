@@ -23,13 +23,6 @@
       <description>Profile https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/personalizing-your-profile&#xA;Pin projects to profile https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/pinning-items-to-your-profile&#xA;Profile README This is new! Let&amp;rsquo;s do it:&#xA;https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme</description>
     </item>
     <item>
-      <title>Prework</title>
-      <link>http://localhost:4321/collection/prework/</link>
-      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/collection/prework/</guid>
-      <description>Welcome to the Introducing Yourself Online workshop! We look forward to meeting you. Before attending the workshop, please complete the following prework.&#xA;Set up RStudio Cloud Sign up for a free RStudio Cloud account at https://rstudio.cloud/ before the workshop. I recommend logging in with an existing Google or GitHub account, if you have one (rather than creating a new account with another password you have to remember). I want you to be able to work from your own laptop in this workshop, but Cloud is an important back-up plan should you run into troubles.</description>
-    </item>
-    <item>
       <title>A postcard</title>
       <link>http://localhost:4321/collection/day01/02-postcards/</link>
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
@@ -203,6 +196,27 @@
       <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/publications/violent_crime_latam_iadb_2016/</guid>
       <description>Abstract In the last two decades, Latin America has been describes as an unsafe and violent region. Nonetheless, such picture is mostly based on homicide rates. Even though homicide is considered the best recorded crime, it does not provide full account of other forms of violent crime. Moreover, a great deal of research on crime throughout the region tends to be descriptive and anecdotal. Misunderstanding the causes of crime and disregarding evidence might induce policy makers to implement ineffective strategies, particularly at the local level.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:4321/about/header/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/about/header/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:4321/about/sidebar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/about/sidebar/</guid>
+      <description>** index doesn&amp;rsquo;t contain a body, just front matter above. See about/list.html in the layouts folder **</description>
+    </item>
+    <item>
+      <title>About me</title>
+      <link>http://localhost:4321/about/main/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/about/main/</guid>
+      <description></description>
     </item>
     <item>
       <title>License</title>
