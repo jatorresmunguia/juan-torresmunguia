@@ -1,8 +1,7 @@
 ---
-title: "Random comments & tips"
-author: "Torres "
-description: "This is a fully featured blog that supports categories, \ntags, series,
-  and pagination.\n"
+title: "Blog"
+author: ""
+description: ""
 show_post_thumbnail: yes
 thumbnail_left: yes
 show_author_byline: yes
@@ -10,21 +9,19 @@ show_post_date: yes
 show_button_links: no
 layout: "list-sidebar"
 sidebar:
-  title: A Sidebar for Your Thoughts
-  description: "This is a fully featured blog that supports categories,\ntags, series,
-    and pagination. Even this sidebar offers \na ton of customizations.\n\nCheck out
-    the _index.md file in the /publications folder \nto edit this content. \n"
-  author: The R Markdown Team @RStudio
-  text_link_label: Subscribe via RSS
+  title: Hi again! 
+  description: "In this blog you can find R-related content with my own ideas, opinions, tips, and technical details that might be useful and interesting for R-enthusiasts, particularly for those in the field of development economics.  "
+  author: 
+  text_link_label: 
   text_link_url: /index.xml
-  categories_link: yes
-  series_link: yes
-  tags_link: yes
-  show_sidebar_adunit: yes
+  categories_link: no
+  series_link: no
+  tags_link: no
+  show_sidebar_adunit: no
 cascade:
-  author: The R Markdown Team @RStudio
-  show_author_byline: yes
-  show_post_date: yes
+  author: 
+  show_author_byline: no
+  show_post_date: no
   show_comments: yes
   sidebar:
     text_link_label: View recent posts

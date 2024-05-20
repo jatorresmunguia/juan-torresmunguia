@@ -1,3 +1,4 @@
+DefaultContentLanguage = "en"
 baseURL = "https://juan-torresmunguia.netlify.app"
 theme = "hugo-apero"
 languageCode = "en"
@@ -30,7 +31,7 @@ enableEmoji = true
 [params]
   orgName = "Juan TORRES MUNGUÍA"
   orgLocal = "Saltillo, MEXICO"
-  description = "A modern, beautiful, and easily configurable blog theme for Hugo."
+  description = ""
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
   mainSections = ["Publications", "Talks", "dataviz"]
@@ -112,7 +113,7 @@ enableEmoji = true
   [[menu.header]]
     name = "About"
     title = "About"
-    url = "/about/"
+    url = "/about_me/"
     weight = 1
   [[menu.header]]
     name = "Blog"
