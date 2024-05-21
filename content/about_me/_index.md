@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: "Blog"
 author: ""
 description: ""
 show_post_thumbnail: yes
@@ -8,7 +8,6 @@ show_author_byline: yes
 show_post_date: yes
 show_button_links: no
 layout: "list-sidebar"
-
 sidebar:
   title: Hi again! 
   description: "In this blog you can find R-related content with my own ideas, opinions, tips, and technical details that might be useful and interesting for R-enthusiasts, particularly for those in the field of development economics.  "

@@ -113,7 +113,13 @@
     <loc>http://localhost:4321/publications/poverty_rural_mexico_plosone_2021/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:4321/about_me/</loc>
+    <lastmod>2021-01-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:4321/blog/</loc>
+    <lastmod>2021-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/about_me/social/</loc>
     <lastmod>2021-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/blog/social/</loc>
@@ -173,11 +179,11 @@
     <loc>http://localhost:4321/publications/violent_crime_latam_iadb_2016/</loc>
     <lastmod>2016-08-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:4321/about/</loc>
+  </url><url>
     <loc>http://localhost:4321/about/header/</loc>
   </url><url>
     <loc>http://localhost:4321/about/sidebar/</loc>
-  </url><url>
-    <loc>http://localhost:4321/about/</loc>
   </url><url>
     <loc>http://localhost:4321/about/main/</loc>
   </url><url>

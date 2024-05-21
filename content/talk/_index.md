@@ -1,7 +1,6 @@
 ---
 title: Talks
-description: |
-  Here you can find a list of my last presentations.
+description: "Here you can find a list of my last presentations."
 author: ""
 show_post_thumbnail: false
 show_author_byline: false
