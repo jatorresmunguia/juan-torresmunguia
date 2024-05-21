@@ -7,7 +7,7 @@ show_author_byline: false
 show_post_date: true
 show_post_time: true
 show_button_links: true
-layout: list-sidebar # 
+layout: list-sidebar 
 
 sidebar:
   title: "Hi again!" 
@@ -34,4 +34,5 @@ cascade:
     text_link_label: View recent posts
     text_link_url: /publications/
     show_sidebar_adunit: no
+
 ---
