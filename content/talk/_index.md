@@ -7,20 +7,17 @@ show_author_byline: false
 show_post_date: true
 show_post_time: true
 show_button_links: true
-# for listing page layout
-layout: list # list, list-sidebar
+layout: list-sidebar # list, list-sidebar
 
-# for list-sidebar layout
 sidebar: 
-  title: Talks
+  title: Hello!
   description: |
       Here you can find a list of my last presentations.
   author: ""
-  text_link_label: Subscribe via RSS
+  text_link_label: ""
   text_link_url: /talk/index.xml
   show_sidebar_adunit: false # show ad container
 
-# set up common front matter for all pages inside blog/
 cascade:
   author: 
   show_author_byline: true

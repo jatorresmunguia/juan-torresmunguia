@@ -1,0 +1,93 @@
+---
+title: "`r bibtex::read.bib('cite.bib')$title`"
+subtitle: "`r paste0('published in ', bibtex::read.bib('cite.bib')$journal)`" 
+date: "2022-12-20"
+featured: true
+show_post_time: false
+author: "`r paste(sapply(bibtex::read.bib('cite.bib')$author, function(author) {
+  full_name <- paste(paste(author$given, collapse = ' '), paste(author$family, collapse = ' '), sep = ' ')
+  if (length(author$family) > 1) {
+    full_name <- paste(full_name, collapse = ', ')
+  }
+  return(full_name)
+}), collapse = '; ')`"
+location: ""
+draft: false
+# layout options: single, single-sidebar
+layout: single
+categories:
+- working-papers
+- armed-conflict
+- 2022
+links:
+- icon: file-pdf
+  icon_pack: fas
+  name: PDF
+  url: https://unidir.org/wp-content/uploads/2023/05/RoadFromAlHol_FINAL-1.pdf
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+library(bibtex)
+library(vitae)
+options(tinytex.verbose = TRUE)
+
+cite_readbib <- read.bib("cite.bib")
+
+abstract_paper <- paste0("<p> ", gsub("<.*?>", "", cite_readbib$abstract), " </p>")
+   
+format_author <- function(authors) {
+  formatted_authors <- sapply(authors, function(author) {
+    full_names <- paste(author$given, collapse = " ")
+    if (length(author$family) > 1) {
+      family_names <- paste(author$family[1], author$family[2], collapse = " ")
+      full_name <- paste(family_names, full_names, sep = ", ")
+    } else {
+      full_name <- paste(paste(author$family, collapse = ", "), full_names, sep = ", ")
+    }
+    if (grepl('Torres Mungu[ií]a', full_name, ignore.case = TRUE)) {
+      full_name <- paste0(full_name, '<a href="https://orcid.org/0000-0003-3432-6941"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a>')
+    }
+    return(full_name)
+  })
+  return(formatted_authors)
+}
+
+author_string <- paste(format_author(cite_readbib$author), collapse = "; ")
+
+apa_citation <- "<p>"
+apa_citation <- paste0(apa_citation, "<b>", author_string, "</b> ")
+apa_citation <- paste0(apa_citation, "(", cite_readbib$year, "). ")
+apa_citation <- paste0(apa_citation, cite_readbib$title, ". ")
+
+if (!is.null(cite_readbib$journal)) {
+  apa_citation <- paste0(apa_citation, "<i>", cite_readbib$journal, "</i>")
+}
+if (!is.null(cite_readbib$volume)) {
+  apa_citation <- paste0(apa_citation, ", ", cite_readbib$volume)
+  }
+if (!is.null(cite_readbib$number)) {
+  apa_citation <- paste0(apa_citation, " (", cite_readbib$number, ")")
+  }
+if (!is.null(cite_readbib$doi)) {
+  apa_citation <- paste0(apa_citation, ". DOI: <a href=\"", cite_readbib$url, "\" target=\"_blank\">", cite_readbib$doi, "</a>")
+}
+if (!is.null(cite_readbib$isbn)) {
+  apa_citation <- paste0(apa_citation, ". ISBN: <a href=\"", cite_readbib$url, "\" target=\"_blank\">", cite_readbib$isbn, "</a>")
+}
+if (!is.null(cite_readbib$url)) {
+  apa_citation <- paste0(apa_citation, ". Retrieved from: <a href=\"", cite_readbib$url, "\" target=\"_blank\">", cite_readbib$url, "</a>")
+}
+apa_citation <- paste0(apa_citation, "</p>")
+
+```
+
+<h4> Abstract </h4>
+`r abstract_paper`
+
+<h4> <a href="`r cite_readbib$url`" target="_blank"> Click here to read full paper </a></h4>
+
+<h4>Suggested citation: </h4>
+`r apa_citation`
+
+<a href="cite.bib" download="cite.bib" class="button"> Download .bib file (compatible with LaTeX) </a>
