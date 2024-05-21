@@ -8,7 +8,7 @@ intro: "I hold an undergraduate degree in Economics from the [Universidad Autón
 
 <br>After finishing my Ph.D., I served as a researcher to the United Nations Institute for Disarmament Research's project [Managing Exits from Armed Conflict](https://unidir.org/programme/managing-exits-from-armed-conflict/). Before this I was a data analyst at the [Regional Office for Central America, North America and the Caribbean of the International Organization for Migration (IOM)](https://rosanjose.iom.int/en), and a statistical consultant at the [UN Women's Global Centre of Excellence on Gender Statistics (CEGS)](https://data.unwomen.org/where-we-work/cegs) and the [United Nations Office on Drugs and Crime's Center of Excellence for Statistical Information on Government, Crime, Victimization and Justice (CdE-UNODC)](https://www.cdeunodc.inegi.org.mx/index.php/en/).<br>
 
-<br>You can view my full CV [here](.../static/CV/CVitaeR.pdf)."
+<br>You can view my full CV [here](CVitaeR.pdf)."
 show_outro: false
 outro: |
 ---

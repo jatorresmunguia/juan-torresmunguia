@@ -2,108 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Juan TORRES MUNGUÍA, PhD</title>
-    <link>https://juan-torresmunguia.netlify.app/publications/</link>
+    <link>http://localhost:4321/publications/</link>
     <description>Recent content in Publications on Juan TORRES MUNGUÍA, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 25 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://juan-torresmunguia.netlify.app/publications/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:4321/publications/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An analysis of the risk factors for intimate partner sexual violence against women and girls in Mexico</title>
-      <link>https://juan-torresmunguia.netlify.app/publications/risk_factor_sexual_violence_mexico_2024/</link>
+      <link>http://localhost:4321/publications/risk_factor_sexual_violence_mexico_2024/</link>
       <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://juan-torresmunguia.netlify.app/publications/risk_factor_sexual_violence_mexico_2024/</guid>
+      <guid>http://localhost:4321/publications/risk_factor_sexual_violence_mexico_2024/</guid>
       <description>Abstract The goal of this study is to identify the extent to which a set of risk factors from the ecological model are associated with intimate partner sexual violence victimisation in Mexico.&#xD;To achieve this goal, a structured additive probit model is applied to a dataset of 35,004 observations and 42 correlates.&#xD;Findings indicate that age at sexual initiation, women’s sexual and professional autonomy, and social connectedness are associated with their victimisation risks.</description>
     </item>
     <item>
       <title>Mapping Energy Poverty Measures During the COVID-19 Pandemic: A New Global Panel Dataset</title>
-      <link>https://juan-torresmunguia.netlify.app/publications/energy_poverty_2024/</link>
+      <link>http://localhost:4321/publications/energy_poverty_2024/</link>
       <pubDate>Mon, 01 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://juan-torresmunguia.netlify.app/publications/energy_poverty_2024/</guid>
+      <guid>http://localhost:4321/publications/energy_poverty_2024/</guid>
       <description>Abstract This paper compiles and presents a global panel dataset of energy poverty policy actions spanning the period March 2020 and March 2021. It builds on the COVID-19 Energy Map that collects policies to ensure the affordability of energy supplies for households during the COVID-19 pandemic. The monthly-frequency dataset is organized in a user-friendly way, allowing not only experts and researchers, but also the broader non-expert public, to examine and analyse the month-by-month policy changes across countries.</description>
     </item>
     <item>
       <title>Identifying Gender-Specific Risk Factors for Income Poverty across Poverty Levels in Urban Mexico: A Model-Based Boosting Approach</title>
-      <link>https://juan-torresmunguia.netlify.app/publications/poverty_urban_mexico_mdpi_2024/</link>
+      <link>http://localhost:4321/publications/poverty_urban_mexico_mdpi_2024/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://juan-torresmunguia.netlify.app/publications/poverty_urban_mexico_mdpi_2024/</guid>
+      <guid>http://localhost:4321/publications/poverty_urban_mexico_mdpi_2024/</guid>
       <description>Abstract This paper aims to identify income-poverty risk factors in urban Mexican households. Special emphasis is paid to examine differences between female- and male-headed families. To this, a dataset with 45 theoretical factors at the individual/household, community, and regional levels, integrating information from nine sources, is created. To these data, additive quantile models are estimated via the boosting algorithm. From a gender standpoint, the following main contributions come from this paper.</description>
     </item>
     <item>
       <title>Factors Driving Weapons Holding in the North East of Nigeria</title>
-      <link>https://juan-torresmunguia.netlify.app/publications/weapon_holding_nigeria_2023/</link>
+      <link>http://localhost:4321/publications/weapon_holding_nigeria_2023/</link>
       <pubDate>Fri, 22 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>https://juan-torresmunguia.netlify.app/publications/weapon_holding_nigeria_2023/</guid>
+      <guid>http://localhost:4321/publications/weapon_holding_nigeria_2023/</guid>
       <description>Abstract This MEAC findings report is based on data from three surveys conducted across the North East of Nigeria from February 2022 to November 2023. These surveys were conducted with unaffiliated community members, ex-associates from different armed groups, and current and ex-affiliates of community security organizations like the CJTF. The report examines the factors driving weapons holding in the North East of Nigeria and determines if former associates of Boko Haram and community security groups are retaining their weapons (or rearming later) in order to strengthen disarmament efforts and reduce armed violence in the region.</description>
     </item>
     <item>
       <title>The Prospects for Remote Assessment: A Comparison of Phone vs In-Person Interviews in Nigeria</title>
-      <link>https://juan-torresmunguia.netlify.app/publications/prospects_remote_assessment_nigeria_unidir_2023/</link>
+      <link>http://localhost:4321/publications/prospects_remote_assessment_nigeria_unidir_2023/</link>
       <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://juan-torresmunguia.netlify.app/publications/prospects_remote_assessment_nigeria_unidir_2023/</guid>
+      <guid>http://localhost:4321/publications/prospects_remote_assessment_nigeria_unidir_2023/</guid>
       <description>Abstract This report is based on a research study about the effects of the interview method on non-response rates and honest reporting on sensitive question topics.&#xD;Specifically, the study set out to compare the answers to a set of five questions on drug use, victimization experiences, and social connectedness with the Boko Haram armed group between interviews conducted by phone and those administered face-to-face with an enumerator. The data comes from a survey carried out between May 2021 and early June 2022 (amid the COVID-29 health crisis) in the Maiduguri Metropolitan area and the communities of Jere and Kodunga, in Borno State, Nigeria, a region hard hit by the Boko Haram insurgency.</description>
     </item>
     <item>
       <title>Coming Home: The Return and Reintegration of Families with Perceived ISIL Affiliation in Iraq</title>
-      <link>https://juan-torresmunguia.netlify.app/publications/isil_affiliation_unidir_2023/</link>
+      <link>http://localhost:4321/publications/isil_affiliation_unidir_2023/</link>
       <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://juan-torresmunguia.netlify.app/publications/isil_affiliation_unidir_2023/</guid>
+      <guid>http://localhost:4321/publications/isil_affiliation_unidir_2023/</guid>
       <description>Abstract This report is based on data collected from June to July 2022 from a total of 1,882 respondents collected in four key locations, each of which was occupied by ISIL: Al Qaim (Anbar governorate), Habaniyya (Anbar governorate), Tooz (Salah al-Din governorate), and Muhalabiya (Nineveh governorate). The sample was divided into two roughly equal halves: those who had benefited from UNDP support (810 persons or 43 per cent) and a randomized household sample from the same areas (1,072 persons or 57 per cent).</description>
     </item>
     <item>
       <title>The Road from Al Hol Camp: Reflections on the Iraqi Experience</title>
-      <link>https://juan-torresmunguia.netlify.app/publications/road_from_alhol_camp_iraq_unu_2022/</link>
+      <link>http://localhost:4321/publications/road_from_alhol_camp_iraq_unu_2022/</link>
       <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://juan-torresmunguia.netlify.app/publications/road_from_alhol_camp_iraq_unu_2022/</guid>
+      <guid>http://localhost:4321/publications/road_from_alhol_camp_iraq_unu_2022/</guid>
       <description>Abstract This report is based on a survey of 223 residents in Jeddah-1 camp conducted between June 2022 and September 2022; a survey of 60 former Jeddah-1 residents; and key informants in Jeddah-1 and areas of return.&#xD;The report presents data about the experience of return and reintegration for those coming from Al Hol, including an examination of how communities and returnees understand the concepts of rehabilitation and reintegration and how these concepts compare to international approaches.</description>
     </item>
     <item>
       <title>Child Recruitment in the Lake Chad Basin</title>
-      <link>https://juan-torresmunguia.netlify.app/publications/child_recruitment_lake_chad_unu_2022/</link>
+      <link>http://localhost:4321/publications/child_recruitment_lake_chad_unu_2022/</link>
       <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>https://juan-torresmunguia.netlify.app/publications/child_recruitment_lake_chad_unu_2022/</guid>
+      <guid>http://localhost:4321/publications/child_recruitment_lake_chad_unu_2022/</guid>
       <description>Abstract This MEAC findings report aims to contribute evidence to enable a better understanding of the current dynamics of child recruitment in the Lake Chad Basin, in order to strengthen, not only efforts to prevent children’s involvement with armed actors, but also interventions that support them after they leave armed groups and re-enter civilian life.&#xD;Findings highlight a range of social, civic, and family-based factors related to recruitment which may be of use when designing prevention and reintegration strategies for children in the Lake Chad Basin region.</description>
     </item>
     <item>
       <title>A global dataset of pandemic- and epidemic-prone disease outbreaks</title>
-      <link>https://juan-torresmunguia.netlify.app/publications/outbreaks_scidata_2022/</link>
+      <link>http://localhost:4321/publications/outbreaks_scidata_2022/</link>
       <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://juan-torresmunguia.netlify.app/publications/outbreaks_scidata_2022/</guid>
+      <guid>http://localhost:4321/publications/outbreaks_scidata_2022/</guid>
       <description>Abstract This paper presents a new dataset of infectious disease outbreaks collected from the Disease Outbreak News and the Coronavirus Dashboard produced by the World Health Organization. The dataset contains information on 70 infectious diseases and 2227 public health events that occurred over the period from January 1996 to March 2022 in 233 countries and territories around the world. We illustrate the potential use of this dataset to the research community by analysing the spatial distribution of disease outbreaks.</description>
     </item>
     <item>
       <title>Determinants of Emotional Intimate Partner Violence against Women and Girls with Children in Mexican Households: An Ecological Framework</title>
-      <link>https://juan-torresmunguia.netlify.app/publications/risk_factors_emotional_violence_mexico_2022/</link>
+      <link>http://localhost:4321/publications/risk_factors_emotional_violence_mexico_2022/</link>
       <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>https://juan-torresmunguia.netlify.app/publications/risk_factors_emotional_violence_mexico_2022/</guid>
+      <guid>http://localhost:4321/publications/risk_factors_emotional_violence_mexico_2022/</guid>
       <description>Abstract The purpose of this paper is to identify the risk factors for emotional intimate partner violence (IPV) against women and girls with children in Mexico from an ecological perspective. To that end, we generate a dataset with 35,004 observations and 42 covariates, to which we apply an additive probit model estimated with a boosting algorithm to overcome high-dimensionality and simultaneously perform variable selection and model choice. The dataset integrates 10 information sources, allowing us to properly characterize the four levels of the ecological approach, which is the first contribution of this paper.</description>
     </item>
     <item>
       <title>Examining gender inequalities in factors associated with income poverty in Mexican rural households</title>
-      <link>https://juan-torresmunguia.netlify.app/publications/poverty_rural_mexico_plosone_2021/</link>
+      <link>http://localhost:4321/publications/poverty_rural_mexico_plosone_2021/</link>
       <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
-      <guid>https://juan-torresmunguia.netlify.app/publications/poverty_rural_mexico_plosone_2021/</guid>
+      <guid>http://localhost:4321/publications/poverty_rural_mexico_plosone_2021/</guid>
       <description>Abstract According to 2016 official estimates, almost 60 percent of the rural population in Mexico (16.9 million people) had income levels below the poverty line, and approximately 29.2 percent (8.3 million) could not even afford the basic food basket. Whereas most poverty research disregards gender and exclusively analyzes average income or the expected probability of being poor, we depart from these approaches by examining the effect of potential risk factors on two of the lowest quantiles of income-to-poverty ratio distribution, namely the corresponding to poor and extremely poor families.</description>
     </item>
     <item>
       <title>What Determines Poverty in Mexico?: A Quantile Regression Approach</title>
-      <link>https://juan-torresmunguia.netlify.app/publications/poverty_mexico_2020/</link>
+      <link>http://localhost:4321/publications/poverty_mexico_2020/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://juan-torresmunguia.netlify.app/publications/poverty_mexico_2020/</guid>
+      <guid>http://localhost:4321/publications/poverty_mexico_2020/</guid>
       <description>Abstract According to official poverty estimates in Mexico, more than 50 percent of the population was poor in 2016, half of which could not even afford the basic food basket. Whereas most of the existing research analyses poverty focusing exclusively on average income or on the expected probability of being poor, this paper departs from this approach by analyzing income differences between households in rural and urban settlements using boosting additive quantile models.</description>
     </item>
     <item>
       <title>What is behind homicide gender gaps in Mexico? A spatial semiparametric approach</title>
-      <link>https://juan-torresmunguia.netlify.app/publications/behind_homicides_gender_gaps_mexico_2018/</link>
+      <link>http://localhost:4321/publications/behind_homicides_gender_gaps_mexico_2018/</link>
       <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://juan-torresmunguia.netlify.app/publications/behind_homicides_gender_gaps_mexico_2018/</guid>
+      <guid>http://localhost:4321/publications/behind_homicides_gender_gaps_mexico_2018/</guid>
       <description>Abstract From 1990 to 2016, more than 425,000 homicides have occurred in Mexico. In 2016, the country recorded the world’s second largest number of conflict fatalities with more than 24,000 killings. Despite the growing attention for inquiring into specific causes of homicide victimization, research on the matter suffer from three important shortcomings: disregard for introducing a gender perspective, lack of a multilevel approach -use of information both at the victim and community levels- and the exclusive use of traditional linear models -failing to capture nonlinear relationships, as can be expected, in the linkage between age of a person and their likelihood of being victim of crime-.</description>
     </item>
     <item>
       <title>Violent Crime in Latin American Cities</title>
-      <link>https://juan-torresmunguia.netlify.app/publications/violent_crime_latam_iadb_2016/</link>
+      <link>http://localhost:4321/publications/violent_crime_latam_iadb_2016/</link>
       <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
-      <guid>https://juan-torresmunguia.netlify.app/publications/violent_crime_latam_iadb_2016/</guid>
+      <guid>http://localhost:4321/publications/violent_crime_latam_iadb_2016/</guid>
       <description>Abstract In the last two decades, Latin America has been describes as an unsafe and violent region. Nonetheless, such picture is mostly based on homicide rates. Even though homicide is considered the best recorded crime, it does not provide full account of other forms of violent crime. Moreover, a great deal of research on crime throughout the region tends to be descriptive and anecdotal. Misunderstanding the causes of crime and disregarding evidence might induce policy makers to implement ineffective strategies, particularly at the local level.</description>
     </item>
   </channel>
