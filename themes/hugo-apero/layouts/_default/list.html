@@ -10,7 +10,7 @@
     {{ $paginator := .Paginate (where .RegularPagesRecursive "Type" .Section).ByDate.Reverse }}
       {{ range $paginator.Pages }}
         {{ .Scratch.Set "$root" $caller }}
-        {{ partial "shared/summary" . }}
+        {{ partial "shared/summary_pubs" . }}
       {{ end }}
     {{ partial "shared/list-pagination.html" . }}
   </section>

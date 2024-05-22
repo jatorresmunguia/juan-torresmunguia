@@ -206,16 +206,16 @@
     </item>
     <item>
       <title></title>
-      <link>http://localhost:4321/about/sidebar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/about/sidebar/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>About me</title>
       <link>http://localhost:4321/about/main/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/about/main/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:4321/about/sidebar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/about/sidebar/</guid>
       <description></description>
     </item>
     <item>

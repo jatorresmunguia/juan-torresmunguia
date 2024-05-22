@@ -2,7 +2,7 @@
 title: Blog
 author: ""
 description: ""
-show_post_thumbnail: yes
+show_post_thumbnail: no
 thumbnail_left: yes
 show_author_byline: yes
 show_post_date: yes
