@@ -1,6 +1,8 @@
 ---
 title: "The Prospects for Remote Assessment: A Comparison of Phone vs In-Person Interviews in Nigeria"
-subtitle: "published in Managing Exits from Armed Conflict (MEAC) - United Nations Institute for Disarmament Research Findings Report" 
+subtitle: "Managing Exits from Armed Conflict (MEAC) - United Nations Institute for Disarmament Research Findings Report" 
+journal: "Managing Exits from Armed Conflict (MEAC) - United Nations Institute for Disarmament Research Findings Report" 
+keywords: "armed conflict;Boko Haram;Nigeria;remote assessment;survey methodology" 
 date: "2023-05-04"
 featured: true
 show_post_time: false

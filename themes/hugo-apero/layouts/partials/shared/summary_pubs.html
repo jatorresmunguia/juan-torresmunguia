@@ -40,16 +40,25 @@
         {{ if gt (len $words) 50 }}
           {{ $shortSummary = print $shortSummary "..." }}
         {{ end }}
+        {{ $shortSummary := replace $shortSummary "Abstract" "" }}
         <p class="lh-copy mb4">{{ $shortSummary | markdownify | emojify }}</p>
       {{ end }}
       <footer class="w-100">
         <div class="flex">
           <div class="w-50">
-            {{ if $root.Params.show_post_date }}<p class="f7 db mv1">{{ .PublishDate.Format "January 2, 2006" }}</p>{{ end }}
+            {{ if $root.Params.show_post_date }}<p class="f6 db mv1">{{ .PublishDate.Format "January, 2006" }}</p>{{ end }}
           </div>
           <div class="w-50">
-            <p class="f7 db mv1"><strong>Author(s):</strong> {{ if .Params.author }}{{ .Params.author }}{{ end }}</p>
-            <p class="f7 db mv2"><strong>Journal:</strong> {{ if .Params.journal }}{{ .Params.journal }}{{ end }}</p>
+            <p class="f6 db mv1"><strong>Author(s):</strong> {{ if .Params.author }}{{ .Params.author }}{{ end }}</p>
+            <p class="f6 db mv2"><strong>Journal:</strong> {{ if .Params.journal }}{{ .Params.journal }}{{ end }}</p>
+            {{ if isset .Params "keywords" }}
+              <p class="f6 db mv2"><strong>Keywords:</strong>
+                {{ $keywords := delimit .Params.keywords " " }}
+                {{ $keywords := replace $keywords "[]" "" }}
+                {{ $keywords := replace $keywords ";" "; " }}
+                {{ $keywords }}
+              </p>
+            {{ end }}
           </div>
         </div>
         {{ if and $root.Params.show_button_links .Params.links }}
@@ -71,6 +80,7 @@
         <h2 class="f5"><i class="fas fa-stream fa-fw pr1"></i><small class="f5 ttu tracked">Series: </small><a class="link i dim" href="{{ $section.RelPermalink }}">{{ .LinkTitle }}</a></h2>
         {{ end }}
       </header>
+     <p class="f6 db mv2"> {{ if .Params.journal }}{{ .Params.journal }}{{ end }}</p>
       {{ $summary := cond (ne .Params.excerpt nil) .Params.excerpt .Summary }}
       {{ with $summary }}
         {{ $shortSummary := "" }}
@@ -83,20 +93,30 @@
         {{ if gt (len $words) 50 }}
           {{ $shortSummary = print $shortSummary "..." }}
         {{ end }}
+        {{ $shortSummary := replace $shortSummary "Abstract" "" }}
         <p class="lh-copy mb4">{{ $shortSummary | markdownify | emojify }}</p>
       {{ end }}
     </div>
     <div class="w-30 pl3">
       <footer>
-        {{ if $root.Params.show_post_date }}<p class="f7 db mv2">{{ .PublishDate.Format "January 2, 2006" }}</p>{{ end }}
-        <p class="f7 db mv2"><strong>Author(s):</strong> {{ if .Params.author }}{{ .Params.author }}{{ end }}</p>
-        <p class="f7 db mv2"><strong>Journal:</strong> {{ if .Params.journal }}{{ .Params.journal }}{{ end }}</p>
+        {{ if $root.Params.show_post_date }}<p class="f6 db mv2">{{ .PublishDate.Format "January, 2006" }}</p>{{ end }}
+        <p class="f6 db mv2"><strong>Author(s):</strong> {{ if .Params.author }}{{ .Params.author }}{{ end }}</p>
+        {{ if isset .Params "keywords" }}
+          <p class="f6 db mv2"><strong>Keywords:</strong>
+            {{ $keywords := delimit .Params.keywords " " }}
+            {{ $keywords := replace $keywords "[]" "" }}
+            {{ $keywords := replace $keywords ";" "; " }}
+            {{ $keywords }}
+          </p>
+        {{ end }}
         {{ if and $root.Params.show_button_links .Params.links }}
           <p class="db pt1">
             {{ partial "shared/btn-links.html" . }}
           </p>
         {{ end }}
       </footer>
+   
+
     </div>
   </div>
   {{ end }}

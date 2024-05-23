@@ -1,6 +1,8 @@
 ---
 title: "Child Recruitment in the Lake Chad Basin"
-subtitle: "published in Managing Exits from Armed Conflict (MEAC) - United Nations University Findings Report" 
+subtitle: "Managing Exits from Armed Conflict (MEAC) - United Nations University Findings Report" 
+journal: "Managing Exits from Armed Conflict (MEAC) - United Nations University Findings Report" 
+keywords: "armed conflict;Boko Haram;child recruitment;Lake Chad basin" 
 date: "2022-12-12"
 featured: true
 show_post_time: false

@@ -1,6 +1,8 @@
 ---
 title: "What is behind homicide gender gaps in Mexico? A spatial semiparametric approach"
-subtitle: "published in Diskussionsbeiträge des Ibero-America Institute for Economic Research (IAI) - Georg-August-Universität Göttingen" 
+subtitle: "Diskussionsbeiträge des Ibero-America Institute for Economic Research (IAI) - Georg-August-Universität Göttingen" 
+journal: "Diskussionsbeiträge des Ibero-America Institute for Economic Research (IAI) - Georg-August-Universität Göttingen" 
+keywords: "additive regression models;boosting algorithm;gender;homicide;Mexico" 
 date: "2018-05-25"
 featured: true
 show_post_time: false

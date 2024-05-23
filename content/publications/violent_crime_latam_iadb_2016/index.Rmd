@@ -1,6 +1,8 @@
 ---
 title: "`r bibtex::read.bib('cite.bib')$title`"
-subtitle: "`r paste0('published in ', bibtex::read.bib('cite.bib')$journal)`" 
+subtitle: "`r paste0(bibtex::read.bib('cite.bib')$journal)`" 
+journal: "`r paste0(bibtex::read.bib('cite.bib')$journal)`" 
+keywords: "`r paste0(bibtex::read.bib('cite.bib')$keywords)`" 
 date: "2016-08-01"
 featured: true
 show_post_time: false

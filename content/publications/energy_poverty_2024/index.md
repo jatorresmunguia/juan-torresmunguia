@@ -1,6 +1,8 @@
 ---
 title: "Mapping Energy Poverty Measures During the COVID-19 Pandemic: A New Global Panel Dataset"
-subtitle: "published in International Network for Economic Research" 
+subtitle: "International Network for Economic Research" 
+journal: "International Network for Economic Research" 
+keywords: "COVID-19;data;energy poverty" 
 date: "2024-04-01"
 featured: true
 show_post_time: false

@@ -1,6 +1,8 @@
 ---
 title: "Examining gender inequalities in factors associated with income poverty in Mexican rural households"
-subtitle: "published in PloS one" 
+subtitle: "PloS one" 
+journal: "PloS one" 
+keywords: "additive regression models;boosting algorithm;gender;income poverty;Mexico;rural communities" 
 date: "2021-11-04"
 featured: true
 show_post_time: false

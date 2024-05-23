@@ -1,6 +1,8 @@
 ---
 title: "Determinants of Emotional Intimate Partner Violence against Women and Girls with Children in Mexican Households: An Ecological Framework"
-subtitle: "published in Journal of interpersonal violence" 
+subtitle: "Journal of interpersonal violence" 
+journal: "Journal of interpersonal violence" 
+keywords: "additive regression models;boosting algorithm;intimate partner violence;Mexico;risk factors" 
 date: "2022-02-08"
 featured: true
 show_post_time: false

@@ -3,7 +3,7 @@ title: "`r bibtex::read.bib('cite.bib')$title`"
 subtitle: "`r paste0(bibtex::read.bib('cite.bib')$journal)`" 
 journal: "`r paste0(bibtex::read.bib('cite.bib')$journal)`" 
 keywords: "`r paste0(bibtex::read.bib('cite.bib')$keywords)`" 
-date: "2024-03-08"
+date: "2014-06-02"
 featured: true
 show_post_time: false
 author: "`r paste(sapply(bibtex::read.bib('cite.bib')$author, function(author) {
@@ -18,28 +18,20 @@ draft: false
 # layout options: single, single-sidebar
 layout: single
 categories:
-- journal-articles
-- poverty
-- 2024
+- working-papers
+- armed-conflict
+- 2023
 links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: https://www.mdpi.com/2076-0760/13/3/159/pdf?version=1710927898
+  url: https://www.upo.es/revistas/index.php/RevMetCuant/article/view/2196/1763
 - icon: link
   icon_pack: fas
   name: DOI
-  url: https://doi.org/10.3390/socsci13030159
-- icon: database
-  icon_pack: fas
-  name: Data
-  url: https://doi.org/10.6084/m9.figshare.22132139.v1
-- icon: code
-  icon_pack: fas
-  name: Code
-  url: https://doi.org/10.6084/m9.figshare.22132139.v1
+  url: https://doi.org/10.46661/revmetodoscuanteconempresa.2196
 ---
- 
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 library(bibtex)

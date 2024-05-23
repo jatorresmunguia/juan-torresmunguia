@@ -1,6 +1,8 @@
 ---
 title: "Violent Crime in Latin American Cities"
-subtitle: "published in Inter-American Development Bank Discussion Paper" 
+subtitle: "Inter-American Development Bank Discussion Paper" 
+journal: "Inter-American Development Bank Discussion Paper" 
+keywords: "crime;Latin America;violence" 
 date: "2016-08-01"
 featured: true
 show_post_time: false

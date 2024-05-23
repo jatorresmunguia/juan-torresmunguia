@@ -1,6 +1,8 @@
 ---
 title: "Factors Driving Weapons Holding in the North East of Nigeria"
-subtitle: "published in Managing Exits from Armed Conflict (MEAC) - United Nations Institute for Disarmament Research Findings Report" 
+subtitle: "Managing Exits from Armed Conflict (MEAC) - United Nations Institute for Disarmament Research Findings Report" 
+journal: "Managing Exits from Armed Conflict (MEAC) - United Nations Institute for Disarmament Research Findings Report" 
+keywords: "armed conflict;Nigeria;weapon holding" 
 date: "2023-12-22"
 featured: true
 show_post_time: false

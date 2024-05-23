@@ -29,5 +29,12 @@
       <guid>http://localhost:4321/publications/isil_affiliation_unidir_2023/</guid>
       <description>Abstract This report is based on data collected from June to July 2022 from a total of 1,882 respondents collected in four key locations, each of which was occupied by ISIL: Al Qaim (Anbar governorate), Habaniyya (Anbar governorate), Tooz (Salah al-Din governorate), and Muhalabiya (Nineveh governorate). The sample was divided into two roughly equal halves: those who had benefited from UNDP support (810 persons or 43 per cent) and a randomized household sample from the same areas (1,072 persons or 57 per cent).</description>
     </item>
+    <item>
+      <title>Comparison of Imputation Methods for Handling Missing Categorical Data with Univariate Pattern</title>
+      <link>http://localhost:4321/publications/imputation_missing_poverty_mexico_2014/</link>
+      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/imputation_missing_poverty_mexico_2014/</guid>
+      <description> Abstract Información del artículo Comparison of Imputation Methods for Handling Missing Categorical Data with Univariate Pattern Click here to read full paper Suggested citation: Torres Munguía, Juan Armando (2014). Comparison of Imputation Methods for Handling Missing Categorical Data with Univariate Pattern. Revista de métodos cuantitativos para la economía y la empresa (17). DOI: 10.46661/revmetodoscuanteconempresa.2196. Retrieved from: https://www.upo.es/revistas/index.php/RevMetCuant/article/view/2196&#xA;Download .bib file (compatible with LaTeX) </description>
+    </item>
   </channel>
 </rss>

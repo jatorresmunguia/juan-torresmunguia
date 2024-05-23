@@ -1,6 +1,8 @@
 ---
 title: "What Determines Poverty in Mexico?: A Quantile Regression Approach"
-subtitle: "published in Diskussionsbeiträge des Ibero-America Institute for Economic Research (IAI) - Georg-August-Universität Göttingen" 
+subtitle: "Diskussionsbeiträge des Ibero-America Institute for Economic Research (IAI) - Georg-August-Universität Göttingen" 
+journal: "Diskussionsbeiträge des Ibero-America Institute for Economic Research (IAI) - Georg-August-Universität Göttingen" 
+keywords: "boosting algorithm;Mexico;poverty;quantile models" 
 date: "2020-05-19"
 featured: true
 show_post_time: false

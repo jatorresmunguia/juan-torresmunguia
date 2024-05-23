@@ -1,6 +1,8 @@
 ---
 title: "Coming Home: The Return and Reintegration of Families with Perceived ISIL Affiliation in Iraq"
-subtitle: "published in Managing Exits from Armed Conflict (MEAC) - United Nations Institute for Disarmament Research Findings Report" 
+subtitle: "Managing Exits from Armed Conflict (MEAC) - United Nations Institute for Disarmament Research Findings Report" 
+journal: "Managing Exits from Armed Conflict (MEAC) - United Nations Institute for Disarmament Research Findings Report" 
+keywords: "armed conflict;Iraq;ISIL;return and reintegration" 
 date: "2023-04-20"
 featured: true
 show_post_time: false

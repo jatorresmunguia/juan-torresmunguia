@@ -1,6 +1,8 @@
 ---
 title: "Identifying Gender-Specific Risk Factors for Income Poverty across Poverty Levels in Urban Mexico: A Model-Based Boosting Approach"
-subtitle: "published in Social Sciences" 
+subtitle: "Social Sciences" 
+journal: "Social Sciences" 
+keywords: "additive regression models;boosting algorithm;gender;income poverty" 
 date: "2024-03-08"
 featured: true
 show_post_time: false
