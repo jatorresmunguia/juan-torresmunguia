@@ -30,13 +30,6 @@
       <description>Abstract This report is based on data collected from June to July 2022 from a total of 1,882 respondents collected in four key locations, each of which was occupied by ISIL: Al Qaim (Anbar governorate), Habaniyya (Anbar governorate), Tooz (Salah al-Din governorate), and Muhalabiya (Nineveh governorate). The sample was divided into two roughly equal halves: those who had benefited from UNDP support (810 persons or 43 per cent) and a randomized household sample from the same areas (1,072 persons or 57 per cent).</description>
     </item>
     <item>
-      <title>Comparison of Imputation Methods for Handling Missing Categorical Data with Univariate Pattern</title>
-      <link>http://localhost:4321/publications/imputation_missing_poverty_mexico_2014/</link>
-      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/publications/imputation_missing_poverty_mexico_2014/</guid>
-      <description> Abstract Información del artículo Comparison of Imputation Methods for Handling Missing Categorical Data with Univariate Pattern Click here to read full paper Suggested citation: Torres Munguía, Juan Armando (2014). Comparison of Imputation Methods for Handling Missing Categorical Data with Univariate Pattern. Revista de métodos cuantitativos para la economía y la empresa (17). DOI: 10.46661/revmetodoscuanteconempresa.2196. Retrieved from: https://www.upo.es/revistas/index.php/RevMetCuant/article/view/2196&#xA;Download .bib file (compatible with LaTeX) </description>
-    </item>
-    <item>
       <title>The Road from Al Hol Camp: Reflections on the Iraqi Experience</title>
       <link>http://localhost:4321/publications/road_from_alhol_camp_iraq_unu_2022/</link>
       <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
@@ -56,6 +49,13 @@
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/publications/poverty_mexico_2020/</guid>
       <description>Abstract According to official poverty estimates in Mexico, more than 50 percent of the population was poor in 2016, half of which could not even afford the basic food basket. Whereas most of the existing research analyses poverty focusing exclusively on average income or on the expected probability of being poor, this paper departs from this approach by analyzing income differences between households in rural and urban settlements using boosting additive quantile models.</description>
+    </item>
+    <item>
+      <title>Comparison of Imputation Methods for Handling Missing Categorical Data with Univariate Pattern</title>
+      <link>http://localhost:4321/publications/imputation_missing_poverty_mexico_2014/</link>
+      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/imputation_missing_poverty_mexico_2014/</guid>
+      <description>Abstract This paper examines the sample proportions estimates in the presence of univariate missing categorical data. A database about smoking habits (2011 National Addiction Survey of Mexico) was used to create simulated yet realistic datasets at rates 5% and 15% of missingness, each for MCAR, MAR and MNAR mechanisms. Then the performance of six methods for addressing missingness is evaluated: listwise, mode imputation, random imputation, hot-deck, imputation by polytomous regression and random forests.</description>
     </item>
   </channel>
 </rss>

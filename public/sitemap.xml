@@ -92,9 +92,6 @@
     <loc>http://localhost:4321/publications/isil_affiliation_unidir_2023/</loc>
     <lastmod>2023-04-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:4321/publications/imputation_missing_poverty_mexico_2014/</loc>
-    <lastmod>2023-04-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:4321/categories/2022/</loc>
     <lastmod>2022-12-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -175,6 +172,9 @@
   </url><url>
     <loc>http://localhost:4321/publications/violent_crime_latam_iadb_2016/</loc>
     <lastmod>2016-08-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/publications/imputation_missing_poverty_mexico_2014/</loc>
+    <lastmod>2014-06-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:4321/about/</loc>
   </url><url>

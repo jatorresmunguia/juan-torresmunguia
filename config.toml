@@ -33,7 +33,7 @@ enableEmoji = true
   description = ""
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
-  mainSections = ["Publications", "Talks", "dataviz"]
+  mainSections = ["About", "Publications", "Talks", "Blog", "Dataviz", "Contact"]
   navallcaps = true
   socialInHeader = false
   socialInFooter = true
@@ -41,10 +41,10 @@ enableEmoji = true
   twitter = "jtorresmunguia"
   theme = "paper"
   custom_theme = "hex-colors" 
-  customtextFontFamily = "Commissioner"
-  customheadingFontFamily = "Garamond"
-  textFontFamily = "Commissioner"
-  headingFontFamily = "Garamond"
+  customtextFontFamily = "Bitter"
+  customheadingFontFamily = "Bitter"
+  textFontFamily = "Bitter"
+  headingFontFamily = "Bitter"
 
   [params.utterances]
     use_utterances = true
