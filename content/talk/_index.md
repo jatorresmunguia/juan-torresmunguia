@@ -1,18 +1,17 @@
 ---
 title: Talks
-description: "Here you can find a list of my last presentations."
+description: ""
 author: ""
 show_post_thumbnail: false
 show_author_byline: false
 show_post_date: true
 show_post_time: true
 show_button_links: true
-layout: list-sidebar # list, list-sidebar
+layout: list # list, list-sidebar
 
 sidebar: 
   title: Hello!
-  description: |
-      Here you can find a list of my last presentations.
+  description: ""
   author: ""
   text_link_label: ""
   text_link_url: /talk/index.xml
