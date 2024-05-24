@@ -1,0 +1,54 @@
+{{ define "main" }}
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">{{ .Title }}</h1>
+        {{ if .Params.event }}
+          <h4 class="f4 mt0 mb4 lh-title measure">{{ .Params.event }}</h4>
+        {{ end }}
+        <!-- Date and Location in the same row -->
+        <div class="flex items-center mb2">
+          {{ if .Params.date }}
+            <p class="f6 db mv2 mr3"><strong>&#128197; </strong> {{ .Params.date | dateFormat "January 2, 2006" }}</p>
+          {{ end }}
+          {{ if .Params.location }}
+            <p class="f6 db mv2"><strong>&#x1F4CD; </strong> {{ .Params.location }}</p>
+          {{ end }}
+        </div>
+        <!-- Links in the following row -->
+        {{ if .Params.links }}
+          <div class="ph0 pt3">
+            {{ partial "shared/btn-links.html" . }}
+          </div>
+        {{ end }}
+        {{ if .Params.show_author_byline }}
+          <p class="f6 measure lh-copy mv1">{{ if .Params.author }}By {{ .Params.author }}{{ end }}{{ with .Params.categories }} in{{ range . }} <a href="{{ "categories/" | absURL }}{{ . | urlize }}">{{ . }}</a> {{ end }}{{ end }}</p>
+        {{ end }}
+      </header>
+
+      <section class="post-body pt5 pb4">
+        <!-- About the event -->
+        <div class="mb4">
+          <h4>About the event</h4>
+        </div>
+        <!-- Summary -->
+        {{ if .Params.summary }}
+          <div class="mb4">
+            <p class="f5 lh-copy">{{ .Params.summary }}</p>
+          </div>
+        {{ end }}
+        {{ .Content }}
+        {{ .Scratch.Set "details" "closed" }}
+        {{ partial "shared/post-details.html" . }}
+      </section>
+      <footer class="post-footer">
+        {{ partial "shared/post-pagination.html" . }}
+      </footer>
+    </article>
+    {{ if .Params.show_comments }}
+      {{ partial "shared/comments.html" . }}
+    {{ end }}
+  </section>
+</main>
+{{ end }}

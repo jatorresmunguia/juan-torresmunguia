@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2022 on Juan TORRES MUNGUÍA, PhD</title>
-    <link>http://localhost:4321/categories/2022/</link>
+    <link>https://juan-torresmunguia.netlify.app/categories/2022/</link>
     <description>Recent content in 2022 on Juan TORRES MUNGUÍA, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 20 Dec 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:4321/categories/2022/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://juan-torresmunguia.netlify.app/categories/2022/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Road from Al Hol Camp: Reflections on the Iraqi Experience</title>
-      <link>http://localhost:4321/publications/road_from_alhol_camp_iraq_unu_2022/</link>
+      <link>https://juan-torresmunguia.netlify.app/publications/road_from_alhol_camp_iraq_unu_2022/</link>
       <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/publications/road_from_alhol_camp_iraq_unu_2022/</guid>
+      <guid>https://juan-torresmunguia.netlify.app/publications/road_from_alhol_camp_iraq_unu_2022/</guid>
       <description>Abstract This report is based on a survey of 223 residents in Jeddah-1 camp conducted between June 2022 and September 2022; a survey of 60 former Jeddah-1 residents; and key informants in Jeddah-1 and areas of return.&#xD;The report presents data about the experience of return and reintegration for those coming from Al Hol, including an examination of how communities and returnees understand the concepts of rehabilitation and reintegration and how these concepts compare to international approaches.</description>
     </item>
     <item>
       <title>Child Recruitment in the Lake Chad Basin</title>
-      <link>http://localhost:4321/publications/child_recruitment_lake_chad_unu_2022/</link>
+      <link>https://juan-torresmunguia.netlify.app/publications/child_recruitment_lake_chad_unu_2022/</link>
       <pubDate>Mon, 12 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/publications/child_recruitment_lake_chad_unu_2022/</guid>
+      <guid>https://juan-torresmunguia.netlify.app/publications/child_recruitment_lake_chad_unu_2022/</guid>
       <description>Abstract This MEAC findings report aims to contribute evidence to enable a better understanding of the current dynamics of child recruitment in the Lake Chad Basin, in order to strengthen, not only efforts to prevent children’s involvement with armed actors, but also interventions that support them after they leave armed groups and re-enter civilian life.&#xD;Findings highlight a range of social, civic, and family-based factors related to recruitment which may be of use when designing prevention and reintegration strategies for children in the Lake Chad Basin region.</description>
     </item>
     <item>
       <title>A global dataset of pandemic- and epidemic-prone disease outbreaks</title>
-      <link>http://localhost:4321/publications/outbreaks_scidata_2022/</link>
+      <link>https://juan-torresmunguia.netlify.app/publications/outbreaks_scidata_2022/</link>
       <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/publications/outbreaks_scidata_2022/</guid>
+      <guid>https://juan-torresmunguia.netlify.app/publications/outbreaks_scidata_2022/</guid>
       <description>Abstract This paper presents a new dataset of infectious disease outbreaks collected from the Disease Outbreak News and the Coronavirus Dashboard produced by the World Health Organization. The dataset contains information on 70 infectious diseases and 2227 public health events that occurred over the period from January 1996 to March 2022 in 233 countries and territories around the world. We illustrate the potential use of this dataset to the research community by analysing the spatial distribution of disease outbreaks.</description>
     </item>
     <item>
       <title>Determinants of Emotional Intimate Partner Violence against Women and Girls with Children in Mexican Households: An Ecological Framework</title>
-      <link>http://localhost:4321/publications/risk_factors_emotional_violence_mexico_2022/</link>
+      <link>https://juan-torresmunguia.netlify.app/publications/risk_factors_emotional_violence_mexico_2022/</link>
       <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/publications/risk_factors_emotional_violence_mexico_2022/</guid>
+      <guid>https://juan-torresmunguia.netlify.app/publications/risk_factors_emotional_violence_mexico_2022/</guid>
       <description>Abstract The purpose of this paper is to identify the risk factors for emotional intimate partner violence (IPV) against women and girls with children in Mexico from an ecological perspective. To that end, we generate a dataset with 35,004 observations and 42 covariates, to which we apply an additive probit model estimated with a boosting algorithm to overcome high-dimensionality and simultaneously perform variable selection and model choice. The dataset integrates 10 information sources, allowing us to properly characterize the four levels of the ecological approach, which is the first contribution of this paper.</description>
     </item>
     <item>
       <title>What Determines Poverty in Mexico?: A Quantile Regression Approach</title>
-      <link>http://localhost:4321/publications/poverty_mexico_2020/</link>
+      <link>https://juan-torresmunguia.netlify.app/publications/poverty_mexico_2020/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/publications/poverty_mexico_2020/</guid>
+      <guid>https://juan-torresmunguia.netlify.app/publications/poverty_mexico_2020/</guid>
       <description>Abstract According to official poverty estimates in Mexico, more than 50 percent of the population was poor in 2016, half of which could not even afford the basic food basket. Whereas most of the existing research analyses poverty focusing exclusively on average income or on the expected probability of being poor, this paper departs from this approach by analyzing income differences between households in rural and urban settlements using boosting additive quantile models.</description>
     </item>
   </channel>
