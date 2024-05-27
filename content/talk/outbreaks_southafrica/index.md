@@ -19,4 +19,3 @@ links:
   url: "https://jatorresmunguia.github.io/slides_dataset_disease_outbreaks_stag_2024/#1"
 ---
 
-<h4> About the event </h4>

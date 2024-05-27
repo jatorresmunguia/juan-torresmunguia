@@ -33,7 +33,7 @@ enableEmoji = true
   description = ""
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
-  mainSections = ["About", "Publications", "Talks", "Blog", "Dataviz", "Contact"]
+  mainSections = ["About", "Publications", "Talks", "Contact"]
   navallcaps = true
   socialInHeader = false
   socialInFooter = true
@@ -95,16 +95,16 @@ enableEmoji = true
     title = "Talks"
     url = "/talk/"
     weight = 3
-  [[menu.header]]
-    name = "Blog"
-    title = "Blog"
-    url = "/blog/"
-    weight = 4
-  [[menu.header]]
-    name = "DataViz"
-    title = "A collection of data visualizations"
-    url = "/collection/"
-    weight = 5
+#  [[menu.header]]
+#    name = "Blog"
+#    title = "Blog"
+#    url = "/blog/"
+#    weight = 4
+#  [[menu.header]]
+#    name = "DataViz"
+#    title = "A collection of data visualizations"
+#    url = "/collection/"
+#    weight = 5
   [[menu.header]]
     name = "Contact"
     title = "Contact"
