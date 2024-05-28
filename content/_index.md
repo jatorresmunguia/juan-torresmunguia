@@ -1,9 +1,7 @@
 ---
-title: Juan TORRES MUNGUÍA, PhD 
-subtitle: ""
+title: "Juan TORRES MUNGUÍA, PhD"
+subtitle: "Statistician at the Ibero-Amerika Institut für Wirtschaftsforschung at the Georg-August-Universität Göttingen."
 description: "Hello. I am glad you are here! <br> 
-
-<br> I am a Statistician at the Ibero-Amerika Institut für Wirtschaftsforschung at the Georg-August-Universität Göttingen. <br>
 
 <br> In my research, I look at development economics through the lens of -computational- statistics and data science. "
 
