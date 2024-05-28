@@ -33,7 +33,7 @@ links:
 
 <h4> <a href="https://www.upo.es/revistas/index.php/RevMetCuant/article/view/2196" target="_blank"> Click here to read full paper </a></h4>
 
-<h4>Suggested citation: </h4>
-<p><b>Torres Munguía, Juan Armando<a href="https://orcid.org/0000-0003-3432-6941"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a></b> (2014). Comparison of Imputation Methods for Handling Missing Categorical Data with Univariate Pattern. <i>Revista de métodos cuantitativos para la economía y la empresa</i> (17). DOI: <a href="https://www.upo.es/revistas/index.php/RevMetCuant/article/view/2196" target="_blank">10.46661/revmetodoscuanteconempresa.2196</a>. Retrieved from: <a href="https://www.upo.es/revistas/index.php/RevMetCuant/article/view/2196" target="_blank">https://www.upo.es/revistas/index.php/RevMetCuant/article/view/2196</a></p>
+<h4>Cite this article: </h4>
+<p><b>Torres Munguía, Juan Armando<a href="https://orcid.org/0000-0003-3432-6941" target="_blank"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a></b> (2014). Comparison of Imputation Methods for Handling Missing Categorical Data with Univariate Pattern. <i>Revista de métodos cuantitativos para la economía y la empresa</i> (17). DOI: <a href="https://www.upo.es/revistas/index.php/RevMetCuant/article/view/2196" target="_blank">10.46661/revmetodoscuanteconempresa.2196</a>. Retrieved from: <a href="https://www.upo.es/revistas/index.php/RevMetCuant/article/view/2196" target="_blank">https://www.upo.es/revistas/index.php/RevMetCuant/article/view/2196</a></p>
 
 <a href="cite.bib" download="cite.bib" class="button"> Download .bib file (compatible with LaTeX) </a>

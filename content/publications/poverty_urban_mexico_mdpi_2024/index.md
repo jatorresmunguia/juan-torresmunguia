@@ -1,16 +1,16 @@
 ---
 title: "Identifying Gender-Specific Risk Factors for Income Poverty across Poverty Levels in Urban Mexico: A Model-Based Boosting Approach"
-subtitle: "Social Sciences" 
-journal: "Social Sciences" 
-keywords: "additive regression models;boosting algorithm;gender;income poverty" 
+subtitle: "Social Sciences"
+journal: "Social Sciences"
+keywords: "additive regression models;boosting algorithm;gender;income poverty"
 date: "2024-03-08"
 featured: true
 show_post_time: false
+show_comments: true
 author: "Juan Torres Munguía"
 location: ""
 draft: false
-# layout options: single, single-sidebar
-layout: single
+layout: single-publications
 categories:
 - journal-articles
 - poverty
@@ -33,7 +33,7 @@ links:
   name: Code
   url: https://doi.org/10.6084/m9.figshare.22132139.v1
 ---
- 
+
 
 
 <h4> Abstract </h4>
@@ -41,7 +41,7 @@ links:
 
 <h4> <a href="https://www.mdpi.com/2076-0760/13/3/159" target="_blank"> Click here to read full paper </a></h4>
 
-<h4>Suggested citation: </h4>
-<p><b>Torres Munguía, Juan<a href="https://orcid.org/0000-0003-3432-6941"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a></b> (2024). Identifying Gender-Specific Risk Factors for Income Poverty across Poverty Levels in Urban Mexico: A Model-Based Boosting Approach. <i>Social Sciences</i>, 13 (3). DOI: <a href="https://www.mdpi.com/2076-0760/13/3/159" target="_blank">10.3390/socsci13030159</a>. Retrieved from: <a href="https://www.mdpi.com/2076-0760/13/3/159" target="_blank">https://www.mdpi.com/2076-0760/13/3/159</a></p>
+<h4>Cite this article: </h4>
+<p><b>Torres Munguía, Juan<a href="https://orcid.org/0000-0003-3432-6941" target="_blank"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a></b> (2024). Identifying Gender-Specific Risk Factors for Income Poverty across Poverty Levels in Urban Mexico: A Model-Based Boosting Approach. <i>Social Sciences</i>, 13 (3). DOI: <a href="https://www.mdpi.com/2076-0760/13/3/159" target="_blank">10.3390/socsci13030159</a>. Retrieved from: <a href="https://www.mdpi.com/2076-0760/13/3/159" target="_blank">https://www.mdpi.com/2076-0760/13/3/159</a></p>
 
 <a href="cite.bib" download="cite.bib" class="button"> Download .bib file (compatible with LaTeX) </a>

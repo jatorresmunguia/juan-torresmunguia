@@ -3,7 +3,7 @@ title: "`r bibtex::read.bib('cite.bib')$title`"
 subtitle: "`r paste0(bibtex::read.bib('cite.bib')$journal)`" 
 journal: "`r paste0(bibtex::read.bib('cite.bib')$journal)`" 
 keywords: "`r paste0(bibtex::read.bib('cite.bib')$keywords)`" 
-date: "2022-11-10"
+date: "2024-05-28"
 featured: true
 show_post_time: false
 author: "`r paste(sapply(bibtex::read.bib('cite.bib')$author, function(author) {
@@ -19,36 +19,27 @@ draft: false
 layout: single
 categories:
 - journal-articles
-- datasets
-- outbreaks
-- 2022
+- violence
+- 2024
 links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: https://www.nature.com/articles/s41597-022-01797-2.pdf
+  url: "`r paste0(bibtex::read.bib('cite.bib')$url)`" 
 - icon: link
   icon_pack: fas
   name: DOI
-  url: https://doi.org/10.1038/s41597-022-01797-2
+  url: https://doi.org/10.1007/s42001-024-00292-5
 - icon: database
   icon_pack: fas
   name: Data
-  url: https://doi.org/10.6084/m9.figshare.17207183.v2
+  url: https://doi.org/10.6084/m9.figshare.22153463
 - icon: code
   icon_pack: fas
   name: Code
-  url: https://doi.org/10.6084/m9.figshare.17207183.v2
-- icon: github
-  icon_pack: fab
-  name: GitHub
-  url:  https://github.com/jatorresmunguia/DiseaseOutbreaksData
-- icon: r-project
-  icon_pack: fab
-  name: ShinyApp
-  url: https://jatorresmunguia.shinyapps.io/A_global_dataset_of_disease_outbreaks/
+  url: https://doi.org/10.6084/m9.figshare.22153463
 ---
-
+ 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 library(bibtex)

@@ -41,7 +41,7 @@ links:
 
 <h4> <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0259187" target="_blank"> Click here to read full paper </a></h4>
 
-<h4>Suggested citation: </h4>
-<p><b>Torres Munguía, Juan Armando<a href="https://orcid.org/0000-0003-3432-6941"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a>; Martínez-Zarzoso, Inmaculada</b> (2021). Examining gender inequalities in factors associated with income poverty in Mexican rural households. <i>PloS one</i>, 16 (11). DOI: <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0259187" target="_blank">10.1371/journal.pone.0259187</a>. Retrieved from: <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0259187" target="_blank">https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0259187</a></p>
+<h4>Cite this article: </h4>
+<p><b>Torres Munguía, Juan Armando<a href="https://orcid.org/0000-0003-3432-6941" target="_blank"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a>; Martínez-Zarzoso, Inmaculada</b> (2021). Examining gender inequalities in factors associated with income poverty in Mexican rural households. <i>PloS one</i>, 16 (11). DOI: <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0259187" target="_blank">10.1371/journal.pone.0259187</a>. Retrieved from: <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0259187" target="_blank">https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0259187</a></p>
 
 <a href="cite.bib" download="cite.bib" class="button"> Download .bib file (compatible with LaTeX) </a>

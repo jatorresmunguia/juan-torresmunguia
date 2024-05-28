@@ -28,6 +28,7 @@ links:
   url: https://www.econstor.eu/bitstream/10419/178674/1/1023106922.pdf
 ---
 
+ 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 library(bibtex)
@@ -47,8 +48,8 @@ format_author <- function(authors) {
     } else {
       full_name <- paste(paste(author$family, collapse = ", "), full_names, sep = ", ")
     }
-    if (grepl('Torres Mungu[ií]a', full_name, ignore.case = TRUE)) {
-      full_name <- paste0(full_name, '<a href="https://orcid.org/0000-0003-3432-6941"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a>')
+if (grepl('Torres Mungu[ií]a', full_name, ignore.case = TRUE)) {
+      full_name <- paste0(full_name, '<a href="https://orcid.org/0000-0003-3432-6941" target="_blank"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a>')
     }
     return(full_name)
   })
@@ -89,7 +90,7 @@ apa_citation <- paste0(apa_citation, "</p>")
 
 <h4> <a href="`r cite_readbib$url`" target="_blank"> Click here to read full paper </a></h4>
 
-<h4>Suggested citation: </h4>
+<h4>Cite this article: </h4>
 `r apa_citation`
 
 <a href="cite.bib" download="cite.bib" class="button"> Download .bib file (compatible with LaTeX) </a>

@@ -1,22 +1,16 @@
 ---
-title: "`r bibtex::read.bib('cite.bib')$title`"
-subtitle: "`r paste0(bibtex::read.bib('cite.bib')$journal)`" 
-journal: "`r paste0(bibtex::read.bib('cite.bib')$journal)`" 
-keywords: "`r paste0(bibtex::read.bib('cite.bib')$keywords)`" 
+title: "Identifying Gender-Specific Risk Factors for Income Poverty across Poverty Levels in Urban Mexico: A Model-Based Boosting Approach"
+subtitle: "Social Sciences"
+journal: "Social Sciences"
+keywords: "additive regression models;boosting algorithm;gender;income poverty"
 date: "2024-03-08"
 featured: true
 show_post_time: false
-author: "`r paste(sapply(bibtex::read.bib('cite.bib')$author, function(author) {
-  full_name <- paste(paste(author$given, collapse = ' '), paste(author$family, collapse = ' '), sep = ' ')
-  if (length(author$family) > 1) {
-    full_name <- paste(full_name, collapse = ', ')
-  }
-  return(full_name)
-}), collapse = '; ')`"
+show_comments: true
+author: "Juan Torres Munguía"
 location: ""
 draft: false
-# layout options: single, single-sidebar
-layout: single
+layout: single-publications
 categories:
 - journal-articles
 - poverty
@@ -39,7 +33,7 @@ links:
   name: Code
   url: https://doi.org/10.6084/m9.figshare.22132139.v1
 ---
- 
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 library(bibtex)
@@ -59,8 +53,8 @@ format_author <- function(authors) {
     } else {
       full_name <- paste(paste(author$family, collapse = ", "), full_names, sep = ", ")
     }
-    if (grepl('Torres Mungu[ií]a', full_name, ignore.case = TRUE)) {
-      full_name <- paste0(full_name, '<a href="https://orcid.org/0000-0003-3432-6941"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a>')
+if (grepl('Torres Mungu[ií]a', full_name, ignore.case = TRUE)) {
+      full_name <- paste0(full_name, '<a href="https://orcid.org/0000-0003-3432-6941" target="_blank"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a>')
     }
     return(full_name)
   })
@@ -101,7 +95,7 @@ apa_citation <- paste0(apa_citation, "</p>")
 
 <h4> <a href="`r cite_readbib$url`" target="_blank"> Click here to read full paper </a></h4>
 
-<h4>Suggested citation: </h4>
+<h4>Cite this article: </h4>
 `r apa_citation`
 
 <a href="cite.bib" download="cite.bib" class="button"> Download .bib file (compatible with LaTeX) </a>

@@ -30,7 +30,7 @@ Findings highlight a range of social, civic, and family-based factors related to
 
 <h4> <a href="https://unidir.org/publication/child-recruitment-in-the-lake-chad-basin-findings-report-22/" target="_blank"> Click here to read full paper </a></h4>
 
-<h4>Suggested citation: </h4>
-<p><b>Punton, Niamh; Torres Munguía, Juan Armando<a href="https://orcid.org/0000-0003-3432-6941"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a>; van Broeckhoven, Kato; O’Neil, Siobhan; Bukar, Mohammed; Yetcha Ajimi, Fatima; Madhuraj, Anamika; Ali, Saniya</b> (2022). Child Recruitment in the Lake Chad Basin. <i>Managing Exits from Armed Conflict (MEAC) - United Nations University Findings Report</i>, 22. Retrieved from: <a href="https://unidir.org/publication/child-recruitment-in-the-lake-chad-basin-findings-report-22/" target="_blank">https://unidir.org/publication/child-recruitment-in-the-lake-chad-basin-findings-report-22/</a></p>
+<h4>Cite this article: </h4>
+<p><b>Punton, Niamh; Torres Munguía, Juan Armando<a href="https://orcid.org/0000-0003-3432-6941" target="_blank"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a>; van Broeckhoven, Kato; O’Neil, Siobhan; Bukar, Mohammed; Yetcha Ajimi, Fatima; Madhuraj, Anamika; Ali, Saniya</b> (2022). Child Recruitment in the Lake Chad Basin. <i>Managing Exits from Armed Conflict (MEAC) - United Nations University Findings Report</i>, 22. Retrieved from: <a href="https://unidir.org/publication/child-recruitment-in-the-lake-chad-basin-findings-report-22/" target="_blank">https://unidir.org/publication/child-recruitment-in-the-lake-chad-basin-findings-report-22/</a></p>
 
 <a href="cite.bib" download="cite.bib" class="button"> Download .bib file (compatible with LaTeX) </a>

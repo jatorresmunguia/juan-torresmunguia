@@ -31,7 +31,7 @@ This data may be useful to UN and NGO partners working with Al Hol returnees, as
 
 <h4> <a href="https://unidir.org/publication/the-road-home-from-al-hol-camp-reflections-on-the-iraqi-experience-findings-report-24/" target="_blank"> Click here to read full paper </a></h4>
 
-<h4>Suggested citation: </h4>
-<p><b>Parry, Jacqueline; Khoshnaw, Yousif Khalid; O’Neil, Siobhan; Torres Munguía, Juan Armando<a href="https://orcid.org/0000-0003-3432-6941"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a>; Genat, Melisande</b> (2022). The Road from Al Hol Camp: Reflections on the Iraqi Experience. <i>Managing Exits from Armed Conflict (MEAC) - United Nations University Findings Report</i>, 24. Retrieved from: <a href="https://unidir.org/publication/the-road-home-from-al-hol-camp-reflections-on-the-iraqi-experience-findings-report-24/" target="_blank">https://unidir.org/publication/the-road-home-from-al-hol-camp-reflections-on-the-iraqi-experience-findings-report-24/</a></p>
+<h4>Cite this article: </h4>
+<p><b>Parry, Jacqueline; Khoshnaw, Yousif Khalid; O’Neil, Siobhan; Torres Munguía, Juan Armando<a href="https://orcid.org/0000-0003-3432-6941" target="_blank"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a>; Genat, Melisande</b> (2022). The Road from Al Hol Camp: Reflections on the Iraqi Experience. <i>Managing Exits from Armed Conflict (MEAC) - United Nations University Findings Report</i>, 24. Retrieved from: <a href="https://unidir.org/publication/the-road-home-from-al-hol-camp-reflections-on-the-iraqi-experience-findings-report-24/" target="_blank">https://unidir.org/publication/the-road-home-from-al-hol-camp-reflections-on-the-iraqi-experience-findings-report-24/</a></p>
 
 <a href="cite.bib" download="cite.bib" class="button"> Download .bib file (compatible with LaTeX) </a>

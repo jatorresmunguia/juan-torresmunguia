@@ -46,7 +46,7 @@
       <footer class="w-100">
         <div class="flex">
           <div class="w-50">
-            {{ if $root.Params.show_post_date }}<p class="f6 db mv1">{{ .PublishDate.Format "January, 2006" }}</p>{{ end }}
+            {{ if $root.Params.show_post_date }}<p class="f6 db mv1">{{ .PublishDate.Format "January 2006" }}</p>{{ end }}
           </div>
           <div class="w-50">
             <p class="f6 db mv1"><strong>Author(s):</strong> {{ if .Params.author }}{{ .Params.author }}{{ end }}</p>
@@ -99,7 +99,7 @@
     </div>
     <div class="w-30 pl3">
       <footer>
-        {{ if $root.Params.show_post_date }}<p class="f6 db mv2">{{ .PublishDate.Format "January, 2006" }}</p>{{ end }}
+        {{ if $root.Params.show_post_date }}<p class="f6 db mv2">{{ .PublishDate.Format "January 2006" }}</p>{{ end }}
         <p class="f6 db mv2"><strong>Author(s):</strong> {{ if .Params.author }}{{ .Params.author }}{{ end }}</p>
         {{ if isset .Params "keywords" }}
           <p class="f6 db mv2"><strong>Keywords:</strong>
