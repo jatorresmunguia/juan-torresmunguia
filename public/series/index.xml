@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Juan TORRES MUNGUÍA, PhD</title>
-    <link>http://localhost:4321/series/</link>
+    <link>https://juan-torresmunguia.netlify.app/series/</link>
     <description>Recent content in Series on Juan TORRES MUNGUÍA, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="http://localhost:4321/series/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://juan-torresmunguia.netlify.app/series/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
