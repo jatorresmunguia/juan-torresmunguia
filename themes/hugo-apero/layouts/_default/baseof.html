@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}" dir="ltr">
     {{- partial "head.html" . -}}
+    <head>
+        <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+    </head>
     <body>
-      <div class="grid-container{{ if .Params.layout }} {{ .Params.layout }}{{ end }}{{ if .IsHome }} home{{ end }}">
-        {{- block "header" . }}{{- partial "header.html" . -}}{{- end }}
-        {{- block "main" . }}{{- end }}
-        {{- block "footer" . }}{{- partial "footer.html" . -}}{{- end }}
+      <div id="zoom-wrapper">
+          <div class="grid-container{{ if .Params.layout }} {{ .Params.layout }}{{ end }}{{ if .IsHome }} home{{ end }}">
+            {{- block "header" . }}{{- partial "header.html" . -}}{{- end }}
+            {{- block "main" . }}{{- end }}
+            {{- block "footer" . }}{{- partial "footer.html" . -}}{{- end }}
+          </div>
       </div>
     </body>
 </html>

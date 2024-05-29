@@ -1,1 +1,7 @@
 // Override this file to add your own SCSS styling.
+#zoom-wrapper {
+    transform: scale(0.8); /* Scale the content to 80% */
+    transform-origin: top left; /* Keep the origin at the top left */
+    width: 125%; /* Compensate for the scaling effect on the width */
+    height: 125%; /* Compensate for the scaling effect on the height */
+}
