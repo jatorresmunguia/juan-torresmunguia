@@ -6,14 +6,14 @@
     <description>Recent content in Blog on Juan TORRES MUNGUÍA, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Set up your social</title>
-      <link>http://localhost:4321/blog/social/</link>
-      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/blog/social/</guid>
-      <description>There are five places where you can choose to show social icons. Here is the tl;dr:&#xA;site header (set in config.toml), site footer (set in config.toml), homepage (set in content/_index.md), about page in the sidebar (set in content/about/sidebar/index.md), and contact page (set in content/form/contact.md). Read on to learn how to set up your social icons, and how to show/hide them.&#xA;Configure social Wherever you end up wanting to show your social icons, you&amp;rsquo;ll need to start by setting up the links in your site config.</description>
+      <title>Boosting Structured Additive Regression Models</title>
+      <link>http://localhost:4321/blog/boosting-structured-additive-regression-models/</link>
+      <pubDate>Wed, 29 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/blog/boosting-structured-additive-regression-models/</guid>
+      <description>&#34;The art of statistics is to say boldly what cannot be said precisely.&#34;&#xA;— Anonymous&#xD;Boosting Structured Additive Regression Models&#xD;This Shiny app allows you to explore the boosting structured additive regression models interactively.&#xA;Feel free to adjust the parameters and explore the different features of the model. If you have any questions or comments, please feel free to reach out.</description>
     </item>
   </channel>
 </rss>

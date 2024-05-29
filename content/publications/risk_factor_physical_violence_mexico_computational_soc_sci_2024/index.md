@@ -19,7 +19,7 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: "https://link.springer.com/article/10.1007/s42001-024-00292-5" 
+  url: https://rdcu.be/dJh2z 
 - icon: link
   icon_pack: fas
   name: DOI

@@ -25,7 +25,7 @@ links:
 - icon: file-pdf
   icon_pack: fas
   name: PDF
-  url: "`r paste0(bibtex::read.bib('cite.bib')$url)`" 
+  url: https://rdcu.be/dJh2z 
 - icon: link
   icon_pack: fas
   name: DOI

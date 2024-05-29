@@ -6,7 +6,7 @@
     <description>Recent content on Juan TORRES MUNGUÍA, PhD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 May 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 May 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:4321/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Netlify</title>
@@ -49,6 +49,13 @@
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/collection/day02/03-blogdown/</guid>
       <description> Hi, I&#39;m the here-bot cat! Use me to find your way in your website.&#xA;Here I am: content/collection\day02\03-blogdown\index.md To remove me, delete this line inside that file: {{&amp;lt; here &amp;gt;}}&#xA;My content section is: collection My layout is: single-series part 2! does this work? now for some very cool things more get ready! </description>
+    </item>
+    <item>
+      <title>Boosting Structured Additive Regression Models</title>
+      <link>http://localhost:4321/blog/boosting-structured-additive-regression-models/</link>
+      <pubDate>Wed, 29 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/blog/boosting-structured-additive-regression-models/</guid>
+      <description>&#34;The art of statistics is to say boldly what cannot be said precisely.&#34;&#xA;— Anonymous&#xD;Boosting Structured Additive Regression Models&#xD;This Shiny app allows you to explore the boosting structured additive regression models interactively.&#xA;Feel free to adjust the parameters and explore the different features of the model. If you have any questions or comments, please feel free to reach out.</description>
     </item>
     <item>
       <title>A model-based boosting approach to risk factors for physical intimate partner violence against women and girls in Mexico</title>
@@ -142,13 +149,6 @@
       <description>Abstract According to 2016 official estimates, almost 60 percent of the rural population in Mexico (16.9 million people) had income levels below the poverty line, and approximately 29.2 percent (8.3 million) could not even afford the basic food basket. Whereas most poverty research disregards gender and exclusively analyzes average income or the expected probability of being poor, we depart from these approaches by examining the effect of potential risk factors on two of the lowest quantiles of income-to-poverty ratio distribution, namely the corresponding to poor and extremely poor families.</description>
     </item>
     <item>
-      <title>Set up your social</title>
-      <link>http://localhost:4321/blog/social/</link>
-      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/blog/social/</guid>
-      <description>There are five places where you can choose to show social icons. Here is the tl;dr:&#xA;site header (set in config.toml), site footer (set in config.toml), homepage (set in content/_index.md), about page in the sidebar (set in content/about/sidebar/index.md), and contact page (set in content/form/contact.md). Read on to learn how to set up your social icons, and how to show/hide them.&#xA;Configure social Wherever you end up wanting to show your social icons, you&amp;rsquo;ll need to start by setting up the links in your site config.</description>
-    </item>
-    <item>
       <title>What Determines Poverty in Mexico?: A Quantile Regression Approach</title>
       <link>http://localhost:4321/publications/poverty_mexico_2020/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
@@ -216,7 +216,7 @@
       <link>http://localhost:4321/about/main/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:4321/about/main/</guid>
-      <description></description>
+      <description> Click here to know more about the boosting structured additive regression models. </description>
     </item>
     <item>
       <title></title>
