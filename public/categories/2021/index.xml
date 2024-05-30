@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2021 on Juan TORRES MUNGUÍA, PhD</title>
+    <link>http://localhost:4321/categories/2021/</link>
+    <description>Recent content in 2021 on Juan TORRES MUNGUÍA, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/categories/2021/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Examining gender inequalities in factors associated with income poverty in Mexican rural households</title>
+      <link>http://localhost:4321/publications/poverty_rural_mexico_plosone_2021/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/poverty_rural_mexico_plosone_2021/</guid>
+      <description>Abstract According to 2016 official estimates, almost 60 percent of the rural population in Mexico (16.9 million people) had income levels below the poverty line, and approximately 29.2 percent (8.3 million) could not even afford the basic food basket. Whereas most poverty research disregards gender and exclusively analyzes average income or the expected probability of being poor, we depart from these approaches by examining the effect of potential risk factors on two of the lowest quantiles of income-to-poverty ratio distribution, namely the corresponding to poor and extremely poor families.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2023 on Juan TORRES MUNGUÍA, PhD</title>
+    <link>http://localhost:4321/categories/2023/</link>
+    <description>Recent content in 2023 on Juan TORRES MUNGUÍA, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 22 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/categories/2023/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Factors Driving Weapons Holding in the North East of Nigeria</title>
+      <link>http://localhost:4321/publications/weapon_holding_nigeria_2023/</link>
+      <pubDate>Fri, 22 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/weapon_holding_nigeria_2023/</guid>
+      <description>Abstract This MEAC findings report is based on data from three surveys conducted across the North East of Nigeria from February 2022 to November 2023. These surveys were conducted with unaffiliated community members, ex-associates from different armed groups, and current and ex-affiliates of community security organizations like the CJTF. The report examines the factors driving weapons holding in the North East of Nigeria and determines if former associates of Boko Haram and community security groups are retaining their weapons (or rearming later) in order to strengthen disarmament efforts and reduce armed violence in the region.</description>
+    </item>
+    <item>
+      <title>The Prospects for Remote Assessment: A Comparison of Phone vs In-Person Interviews in Nigeria</title>
+      <link>http://localhost:4321/publications/prospects_remote_assessment_nigeria_unidir_2023/</link>
+      <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/prospects_remote_assessment_nigeria_unidir_2023/</guid>
+      <description>Abstract This report is based on a research study about the effects of the interview method on non-response rates and honest reporting on sensitive question topics.&#xD;Specifically, the study set out to compare the answers to a set of five questions on drug use, victimization experiences, and social connectedness with the Boko Haram armed group between interviews conducted by phone and those administered face-to-face with an enumerator. The data comes from a survey carried out between May 2021 and early June 2022 (amid the COVID-29 health crisis) in the Maiduguri Metropolitan area and the communities of Jere and Kodunga, in Borno State, Nigeria, a region hard hit by the Boko Haram insurgency.</description>
+    </item>
+    <item>
+      <title>Coming Home: The Return and Reintegration of Families with Perceived ISIL Affiliation in Iraq</title>
+      <link>http://localhost:4321/publications/isil_affiliation_unidir_2023/</link>
+      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/isil_affiliation_unidir_2023/</guid>
+      <description>Abstract This report is based on data collected from June to July 2022 from a total of 1,882 respondents collected in four key locations, each of which was occupied by ISIL: Al Qaim (Anbar governorate), Habaniyya (Anbar governorate), Tooz (Salah al-Din governorate), and Muhalabiya (Nineveh governorate). The sample was divided into two roughly equal halves: those who had benefited from UNDP support (810 persons or 43 per cent) and a randomized household sample from the same areas (1,072 persons or 57 per cent).</description>
+    </item>
+    <item>
+      <title>Comparison of Imputation Methods for Handling Missing Categorical Data with Univariate Pattern</title>
+      <link>http://localhost:4321/publications/imputation_missing_poverty_mexico_2014/</link>
+      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/imputation_missing_poverty_mexico_2014/</guid>
+      <description>Abstract This paper examines the sample proportions estimates in the presence of univariate missing categorical data. A database about smoking habits (2011 National Addiction Survey of Mexico) was used to create simulated yet realistic datasets at rates 5% and 15% of missingness, each for MCAR, MAR and MNAR mechanisms. Then the performance of six methods for addressing missingness is evaluated: listwise, mode imputation, random imputation, hot-deck, imputation by polytomous regression and random forests.</description>
+    </item>
+  </channel>
+</rss>

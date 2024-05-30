@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Journal-Articles on Juan TORRES MUNGUÍA, PhD</title>
+    <link>http://localhost:4321/categories/journal-articles/</link>
+    <description>Recent content in Journal-Articles on Juan TORRES MUNGUÍA, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 28 May 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/categories/journal-articles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A model-based boosting approach to risk factors for physical intimate partner violence against women and girls in Mexico</title>
+      <link>http://localhost:4321/publications/risk_factor_physical_violence_mexico_computational_soc_sci_2024/</link>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/risk_factor_physical_violence_mexico_computational_soc_sci_2024/</guid>
+      <description>Abstract The goal of this study was to identify and describe the extent to which a comprehensive set of risk factors from the ecological model are associated with physical intimate partner violence (IPV) victimization in Mexico. To achieve this goal, a structured additive probit model is applied to a dataset of 35,000 observations and 42 theoretical correlates from 10 data sources. Due to the model&#39;s high dimensionality, the boosting algorithm is used for estimating and simultaneously performing variable selection and model choice.</description>
+    </item>
+    <item>
+      <title>An analysis of the risk factors for intimate partner sexual violence against women and girls in Mexico</title>
+      <link>http://localhost:4321/publications/risk_factor_sexual_violence_mexico_2024/</link>
+      <pubDate>Thu, 25 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/risk_factor_sexual_violence_mexico_2024/</guid>
+      <description>Abstract The goal of this study is to identify the extent to which a set of risk factors from the ecological model are associated with intimate partner sexual violence victimisation in Mexico.&#xD;To achieve this goal, a structured additive probit model is applied to a dataset of 35,004 observations and 42 correlates.&#xD;Findings indicate that age at sexual initiation, women’s sexual and professional autonomy, and social connectedness are associated with their victimisation risks.</description>
+    </item>
+    <item>
+      <title>Identifying Gender-Specific Risk Factors for Income Poverty across Poverty Levels in Urban Mexico: A Model-Based Boosting Approach</title>
+      <link>http://localhost:4321/publications/poverty_urban_mexico_mdpi_2024/</link>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/poverty_urban_mexico_mdpi_2024/</guid>
+      <description>Abstract This paper aims to identify income-poverty risk factors in urban Mexican households. Special emphasis is paid to examine differences between female- and male-headed families. To this, a dataset with 45 theoretical factors at the individual/household, community, and regional levels, integrating information from nine sources, is created. To these data, additive quantile models are estimated via the boosting algorithm. From a gender standpoint, the following main contributions come from this paper.</description>
+    </item>
+    <item>
+      <title>A global dataset of pandemic- and epidemic-prone disease outbreaks</title>
+      <link>http://localhost:4321/publications/outbreaks_scidata_2022/</link>
+      <pubDate>Thu, 10 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/outbreaks_scidata_2022/</guid>
+      <description>Abstract This paper presents a new dataset of infectious disease outbreaks collected from the Disease Outbreak News and the Coronavirus Dashboard produced by the World Health Organization. The dataset contains information on 70 infectious diseases and 2227 public health events that occurred over the period from January 1996 to March 2022 in 233 countries and territories around the world. We illustrate the potential use of this dataset to the research community by analysing the spatial distribution of disease outbreaks.</description>
+    </item>
+    <item>
+      <title>Determinants of Emotional Intimate Partner Violence against Women and Girls with Children in Mexican Households: An Ecological Framework</title>
+      <link>http://localhost:4321/publications/risk_factors_emotional_violence_mexico_2022/</link>
+      <pubDate>Tue, 08 Feb 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/risk_factors_emotional_violence_mexico_2022/</guid>
+      <description>Abstract The purpose of this paper is to identify the risk factors for emotional intimate partner violence (IPV) against women and girls with children in Mexico from an ecological perspective. To that end, we generate a dataset with 35,004 observations and 42 covariates, to which we apply an additive probit model estimated with a boosting algorithm to overcome high-dimensionality and simultaneously perform variable selection and model choice. The dataset integrates 10 information sources, allowing us to properly characterize the four levels of the ecological approach, which is the first contribution of this paper.</description>
+    </item>
+    <item>
+      <title>Examining gender inequalities in factors associated with income poverty in Mexican rural households</title>
+      <link>http://localhost:4321/publications/poverty_rural_mexico_plosone_2021/</link>
+      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/poverty_rural_mexico_plosone_2021/</guid>
+      <description>Abstract According to 2016 official estimates, almost 60 percent of the rural population in Mexico (16.9 million people) had income levels below the poverty line, and approximately 29.2 percent (8.3 million) could not even afford the basic food basket. Whereas most poverty research disregards gender and exclusively analyzes average income or the expected probability of being poor, we depart from these approaches by examining the effect of potential risk factors on two of the lowest quantiles of income-to-poverty ratio distribution, namely the corresponding to poor and extremely poor families.</description>
+    </item>
+  </channel>
+</rss>

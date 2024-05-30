@@ -1,7 +1,7 @@
 ---
 title: "Juan TORRES MUNGUÍA, PhD"
 subtitle: "Statistician "
-description: "Hello. I am glad you are here! <br> 
+description: "Hello. Welcome to my website. I am glad you are here! <br> 
 
 <br> I look at development economics through the lens of data science and -computational- statistics. <br>
 
