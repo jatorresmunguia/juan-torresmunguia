@@ -14,9 +14,9 @@ intro: |
 
   <h4 style="margin-top: 50px;">About my scientific research</h4>
   
-  <p style="font-size: 0.9em;">The main set of projects in my research seeks to understand how individuals, households, and communities experience, adapt to, and cope with armed conflict, violence, and poverty. I often consider diversity aspects such as gender, age, and ethnicity. Whenever possible, I strive to include interactive visualizations of my research findings.</p>
+  <p style="font-size: 0.9em;">The main set of projects in my research seeks to understand how individuals, households, and communities experience, adapt to, and cope with armed conflict, violence, and poverty. </p>
 
-  <p style="font-size: 0.9em;">The starting point of my research is the creation of multidisciplinary micro-datasets integrating information from different sources -household surveys, administrative records, censuses, remote sensing, etc.-. Subsequently, at the core of this line of work is the development and use of boosting structured additive regression models to identify and describe the extent to which a set of risk factors are associated with a variable of interest and/or to derive their causal effects.</p>
+  <p style="font-size: 0.9em;">The starting point of my research is the creation of multidisciplinary micro-datasets integrating information from different sources -household surveys, administrative records, censuses, remote sensing, etc.-. Subsequently, at the core of this line of work is the development and use of boosting structured additive regression models to identify and describe the extent to which a set of risk factors are associated with a variable of interest and/or to derive their causal effects. I often consider diversity aspects such as gender, age, and ethnicity. Whenever possible, I strive to include interactive visualizations of my research findings.</p>
 
   <p style="font-size: 0.9em;">You can view my full CV <a href="CVitaeR.pdf">here</a>.</p>
   
