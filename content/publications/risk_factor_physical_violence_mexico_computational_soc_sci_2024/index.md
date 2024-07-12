@@ -5,7 +5,6 @@ journal: "Journal of Computational Social Science"
 keywords: "additive regression models;boosting algorithm;intimate partner violence;physical violence;risk factors" 
 date: "2024-05-28"
 doi: "10.1007/s42001-024-00292-5"
-gs_scholar: "7972358376066904272"
 featured: true
 show_post_time: false
 author: "Juan Armando Torres Munguía"

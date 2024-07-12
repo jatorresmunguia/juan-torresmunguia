@@ -5,7 +5,6 @@ journal: "`r paste0(bibtex::read.bib('cite.bib')$journal)`"
 keywords: "`r paste0(bibtex::read.bib('cite.bib')$keywords)`" 
 date: "2024-05-28"
 doi: "`r bibtex::read.bib('cite.bib')$doi`"
-gs_scholar: "7972358376066904272"
 featured: true
 show_post_time: false
 author: "`r paste(sapply(bibtex::read.bib('cite.bib')$author, function(author) {
