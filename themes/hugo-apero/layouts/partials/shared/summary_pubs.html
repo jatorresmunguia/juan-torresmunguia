@@ -109,13 +109,22 @@
             {{ $keywords }}
           </p>
         {{ end }}
-        <div data-badge-popover="left" data-badge-type="1" data-doi="{{ .Params.doi }}" class="altmetric-embed"></div>
+<div style="text-align: center;">
+          {{ if .Params.doi }}
+            <div data-badge-popover="left" data-badge-type="1" data-doi="{{ .Params.doi }}" class="altmetric-embed";></div>
+          {{ end }}
+          {{ if .Params.gs_scholar }}
+            <a href="https://scholar.google.com/scholar?cluster={{ .Params.gs_scholar }}" target="_blank" style="display: inline-block; margin-left: 10px;">
+              <img src="https://scholar.google.com/intl/en/scholar/images/1x/scholar_32dp.png" alt="Google Scholar" style="width: 32px; height: 32px;">
+            </a>
+          {{ end }}
+        </div>
         {{ if and $root.Params.show_button_links .Params.links }}
-          <p class="db pt1">
+          <p class="db pt1"> 
             {{ partial "shared/btn-links.html" . }}
           </p>
         {{ end }}
-      </footer>
+      </footer>  
    
 
     </div>
