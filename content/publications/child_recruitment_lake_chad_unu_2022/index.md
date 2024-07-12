@@ -4,6 +4,7 @@ subtitle: "Managing Exits from Armed Conflict (MEAC) - United Nations University
 journal: "Managing Exits from Armed Conflict (MEAC) - United Nations University Findings Report" 
 keywords: "armed conflict;Boko Haram;child recruitment;Lake Chad basin" 
 date: "2022-12-12"
+doi: ""
 featured: true
 show_post_time: false
 author: "Niamh Punton; Juan Armando Torres Munguía; Kato van Broeckhoven; Siobhan O’Neil; Mohammed Bukar; Fatima Yetcha Ajimi Badu; Anamika Madhuraj; Saniya Ali"

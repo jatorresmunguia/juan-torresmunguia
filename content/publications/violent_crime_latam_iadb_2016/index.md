@@ -4,6 +4,7 @@ subtitle: "Inter-American Development Bank Discussion Paper"
 journal: "Inter-American Development Bank Discussion Paper" 
 keywords: "crime;Latin America;violence" 
 date: "2016-08-01"
+doi: ""
 featured: true
 show_post_time: false
 author: "Carlos J. Vilalta Perdomo; José G. Castillo; Juan Armando Torres Munguía"

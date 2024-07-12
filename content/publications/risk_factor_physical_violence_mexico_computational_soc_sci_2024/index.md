@@ -6,11 +6,12 @@ keywords: "additive regression models;boosting algorithm;intimate partner violen
 date: "2024-05-28"
 featured: true
 show_post_time: false
+doi: "10.1007/s42001-024-00292-5"
 author: "Juan Armando Torres Munguía"
 location: ""
 draft: false
 # layout options: single, single-sidebar
-layout: single
+layout: single-publications
 categories:
 - journal-articles
 - violence

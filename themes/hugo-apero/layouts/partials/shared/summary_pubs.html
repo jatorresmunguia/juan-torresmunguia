@@ -109,6 +109,7 @@
             {{ $keywords }}
           </p>
         {{ end }}
+        <div data-badge-popover="left" data-badge-type="1" data-doi="{{ .Params.doi }}" class="altmetric-embed"></div>
         {{ if and $root.Params.show_button_links .Params.links }}
           <p class="db pt1">
             {{ partial "shared/btn-links.html" . }}

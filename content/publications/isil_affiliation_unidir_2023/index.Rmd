@@ -4,6 +4,7 @@ subtitle: "`r paste0(bibtex::read.bib('cite.bib')$journal)`"
 journal: "`r paste0(bibtex::read.bib('cite.bib')$journal)`" 
 keywords: "`r paste0(bibtex::read.bib('cite.bib')$keywords)`" 
 date: "2023-04-20"
+doi: "`r bibtex::read.bib('cite.bib')$doi`"
 featured: true
 show_post_time: false
 author: "`r paste(sapply(bibtex::read.bib('cite.bib')$author, function(author) {
@@ -80,6 +81,7 @@ if (!is.null(cite_readbib$isbn)) {
 if (!is.null(cite_readbib$url)) {
   apa_citation <- paste0(apa_citation, ". Retrieved from: <a href=\"", cite_readbib$url, "\" target=\"_blank\">", cite_readbib$url, "</a>")
 }
+
 apa_citation <- paste0(apa_citation, "</p>")
 
 ```

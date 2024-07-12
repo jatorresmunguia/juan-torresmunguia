@@ -4,6 +4,7 @@ subtitle: "Social Sciences"
 journal: "Social Sciences"
 keywords: "additive regression models;boosting algorithm;gender;income poverty"
 date: "2024-03-08"
+doi: "10.3390/socsci13030159"
 featured: true
 show_post_time: false
 show_comments: true

@@ -4,6 +4,7 @@ subtitle: "Diskussionsbeiträge des Ibero-America Institute for Economic Researc
 journal: "Diskussionsbeiträge des Ibero-America Institute for Economic Research (IAI) - Georg-August-Universität Göttingen" 
 keywords: "boosting algorithm;Mexico;poverty;quantile models" 
 date: "2020-05-19"
+doi: ""
 featured: true
 show_post_time: false
 author: "Juan Armando Torres Munguía; Inmaculada Martínez-Zarzoso"

@@ -4,6 +4,7 @@ subtitle: "Scientific data"
 journal: "Scientific data" 
 keywords: "disease outbreaks;epidemics;global dataset;pandemics" 
 date: "2022-11-10"
+doi: "10.1038/s41597-022-01797-2"
 featured: true
 show_post_time: false
 author: "Juan Armando Torres Munguía; Florina Cristina Badarau; Luis Rodrigo Díaz Pavez; Inmaculada Martínez-Zarzoso; Konstantin M. Wacker"

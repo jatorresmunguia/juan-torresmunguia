@@ -4,6 +4,7 @@ subtitle: "Managing Exits from Armed Conflict (MEAC) - United Nations Institute 
 journal: "Managing Exits from Armed Conflict (MEAC) - United Nations Institute for Disarmament Research Findings Report" 
 keywords: "armed conflict;Iraq;ISIL;return and reintegration" 
 date: "2023-04-20"
+doi: "10.37559/MEAC/23/02"
 featured: true
 show_post_time: false
 author: "Jacqueline Parry; Yousif Khalid Khoshnaw; Siobhan O’Neil; Juan Armando Torres Munguía"

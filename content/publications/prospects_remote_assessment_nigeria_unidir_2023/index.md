@@ -4,6 +4,7 @@ subtitle: "Managing Exits from Armed Conflict (MEAC) - United Nations Institute 
 journal: "Managing Exits from Armed Conflict (MEAC) - United Nations Institute for Disarmament Research Findings Report" 
 keywords: "armed conflict;Boko Haram;Nigeria;remote assessment;survey methodology" 
 date: "2023-05-04"
+doi: "10.37559/MEAC/23/03"
 featured: true
 show_post_time: false
 author: "Juan Armando Torres Munguía; Mohammed Bukar; Fatima Yetcha Ajimi Badu; Siobhan O’Neil; Kato van Broeckhoven"

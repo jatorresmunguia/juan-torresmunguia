@@ -4,6 +4,7 @@ subtitle: "`r paste0(bibtex::read.bib('cite.bib')$journal)`"
 journal: "`r paste0(bibtex::read.bib('cite.bib')$journal)`" 
 keywords: "`r paste0(bibtex::read.bib('cite.bib')$keywords)`" 
 date: "2023-05-04"
+doi: "`r bibtex::read.bib('cite.bib')$doi`"
 featured: true
 show_post_time: false
 author: "`r paste(sapply(bibtex::read.bib('cite.bib')$author, function(author) {

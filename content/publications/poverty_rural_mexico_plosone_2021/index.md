@@ -4,6 +4,7 @@ subtitle: "PloS one"
 journal: "PloS one" 
 keywords: "additive regression models;boosting algorithm;gender;income poverty;Mexico;rural communities" 
 date: "2021-11-04"
+doi: "10.1371/journal.pone.0259187"
 featured: true
 show_post_time: false
 author: "Juan Armando Torres Munguía; Inmaculada Martínez-Zarzoso"

@@ -4,6 +4,7 @@ subtitle: "Journal of Gender-Based Violence"
 journal: "Journal of Gender-Based Violence" 
 keywords: "additive regression models;boosting algorithm;gender;intimate partner violence;Mexico;risk factors" 
 date: "2024-04-25"
+doi: "10.1332/23986808Y2024D000000031" 
 featured: true
 show_post_time: false
 author: "Juan Armando Torres Munguía"

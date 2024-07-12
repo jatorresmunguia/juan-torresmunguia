@@ -4,6 +4,7 @@ subtitle: "International Network for Economic Research"
 journal: "International Network for Economic Research" 
 keywords: "COVID-19;data;energy poverty" 
 date: "2024-04-01"
+doi: ""
 featured: true
 show_post_time: false
 author: "Juan Armando Torres Munguía; Marlies Hesselman; Inmaculada Martínez-Zarzoso; Ilse Ruyssen"

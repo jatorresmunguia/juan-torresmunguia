@@ -4,6 +4,7 @@ subtitle: "Managing Exits from Armed Conflict (MEAC) - United Nations Institute 
 journal: "Managing Exits from Armed Conflict (MEAC) - United Nations Institute for Disarmament Research Findings Report" 
 keywords: "armed conflict;Nigeria;weapon holding" 
 date: "2023-12-22"
+doi: "10.37559/MEAC/23/11"
 featured: true
 show_post_time: false
 author: "Johanna Kleffmann; Francesca Batault; Juan Armando Torres Munguía; Siobhan O’Neil; Jente Althuis; Mohammed Rabby Shakur; Anna Hallahan; Hana Salama; Mohamed Coulibaly"

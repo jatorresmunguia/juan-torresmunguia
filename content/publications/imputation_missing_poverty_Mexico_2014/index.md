@@ -4,6 +4,7 @@ subtitle: "Revista de métodos cuantitativos para la economía y la empresa"
 journal: "Revista de métodos cuantitativos para la economía y la empresa" 
 keywords: "imputation;income poverty;Mexico;missing data" 
 date: "2014-06-02"
+doi: "10.46661/revmetodoscuanteconempresa.2196"
 featured: true
 show_post_time: false
 author: "Juan Armando Torres Munguía"
