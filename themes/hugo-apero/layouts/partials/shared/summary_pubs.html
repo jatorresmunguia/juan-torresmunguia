@@ -3,14 +3,11 @@
 {{ $root := .Scratch.Get "$root" }}
 <article class="mv4 mv5-l bb">
 
-  <!--if show_post_thumbnail is TRUE in root-->
   {{ if $root.Params.show_post_thumbnail }}
-  <!--featured image for the leaf bundle-->
   {{- $images := $page.Resources.ByType "image" -}}
   {{ $leaf := $images.GetMatch "*feature*" }}
   {{- $hex := $images.GetMatch "*hex*" -}}
   {{- $thumbnail := cond (ne $hex nil) $hex $leaf -}}
-  <!--sidebar image for the branch bundle-->
   {{ $branch := ($section.Resources.ByType "image").GetMatch "*feature*" }}
   {{- $thumbnail := cond (ne $thumbnail nil) $thumbnail $branch -}}
   <div class="flex flex-column mb4 mb5-l {{ if (ne $hex nil) }}items-center{{ end }} {{ if $root.Params.thumbnail_left }}flex-row-ns{{ else }}flex-row-reverse-ns{{ end }}">
@@ -70,7 +67,6 @@
     </div>
   </div>
 
-  <!--if show_post_thumbnail is FALSE in root-->
   {{ else }}
   <div class="flex flex-row mb4 mb5-l mw8 center">
     <div class="w-70 pr3">
@@ -109,16 +105,24 @@
             {{ $keywords }}
           </p>
         {{ end }}
-<div style="text-align: center;">
-          {{ if .Params.doi }}
-            <div data-badge-popover="left" data-badge-type="1" data-doi="{{ .Params.doi }}" class="altmetric-embed";></div>
-          {{ end }}
+ <div style="text-align: center;">
+{{ if .Params.doi }}
+  <div 
+    onclick="event.preventDefault(); window.open('https://www.altmetric.com/details.php?doi={{ .Params.doi }}', '_blank');" 
+    data-badge-popover="left" 
+    data-badge-type="1" 
+    data-doi="{{ .Params.doi }}" 
+    data-hide-no-mentions="true"
+    class="altmetric-embed" 
+    style="cursor: pointer;">
+  </div>
+{{ end }}
         </div>
         {{ if and $root.Params.show_button_links .Params.links }}
           <p class="db pt1"> 
             {{ partial "shared/btn-links.html" . }}
           </p>
-        {{ end }}
+        {{ end }} 
       </footer>  
    
 
