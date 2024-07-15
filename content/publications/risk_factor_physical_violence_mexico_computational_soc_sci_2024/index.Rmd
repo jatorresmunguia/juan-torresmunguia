@@ -67,7 +67,7 @@ if (grepl('Torres Mungu[ií]a', full_name, ignore.case = TRUE)) {
   })
   return(formatted_authors)
 }
-
+ 
 author_string <- paste(format_author(cite_readbib$author), collapse = "; ")
 
 apa_citation <- "<p>"
