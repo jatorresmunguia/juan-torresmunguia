@@ -24,7 +24,7 @@ cascade:
   author: 
   show_author_byline: no
   show_post_date: no
-  show_comments: no
+  show_comments: yes
   sidebar:
     text_link_label: View recent posts
     text_link_url: /publications/

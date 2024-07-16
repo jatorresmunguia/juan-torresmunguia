@@ -411,35 +411,45 @@ body.dark-mode .custom-body-link-color, body.dark-mode .page-main a:not(.link), 
       <section class="post-body pt5 pb4">
         
         
-        <details closed class="f6 fw7 input-reset">
-  <dl class="f6 lh-copy">
-    <dt class="fw7">Posted on:</dt>
-    <dd class="fw5 ml0">January 1, 0001</dd>
-  </dl>
-  <dl class="f6 lh-copy">
-    <dt class="fw7">Length:</dt>
-    <dd class="fw5 ml0">0 minute read, 0 words</dd>
-  </dl>
-  
-  
-  
-  <dl class="f6 lh-copy">
-    <dt class="fw7">See Also:</dt>
-    
-  </dl>
-</details>
+        
 
       </section>
       <footer class="post-footer">
         <div class="post-pagination dt w-100 mt4 mb2">
-  
-  
-    <a class="prev dtc pr2 tl v-top fw6"
-    href="http://localhost:4321/about/main/">&larr; </a>
-  
-  
-  
+    <h3>See also: </h3>
+  <div class="pagination-card">
+    
+      <a class="prev-card dtc pr2 tl v-top fw6"
+      href="http://localhost:4321/about/main/">
+        <div class="card">
+          <div class="card-content">
+            <h4>&larr; Previous</h4>
+            <p></p>
+          </div>
+        </div>
+      </a>
+    
+    
+  </div>
 </div>
+<style>
+.pagination-card {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 10px;
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card-content {
+  text-align: center;
+}
+</style>
 
       </footer>
     </article>

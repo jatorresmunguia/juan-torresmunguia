@@ -46,6 +46,6 @@ The findings provide evidence of factors that were previously unknown in Mexico 
 <h4> <a href="" target="_blank"> Click here to read full paper </a></h4>
 
 <h4>Cite this article: </h4>
-<p><b>Torres Munguía, Juan Armando<a href="https://orcid.org/0000-0003-3432-6941" target="_blank"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a></b> (2024). An analysis of the risk factors for intimate partner sexual violence against women and girls in Mexico. <i>Journal of Gender-Based Violence</i>, (published online ahead of print 2024). DOI: <a href="" target="_blank">10.1332/23986808Y2024D000000031</a></p>
+<p><b>Torres Munguía, Juan Armando<a href="https://orcid.org/0000-0003-3432-6941" target="_blank"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" height="16" width="16" ></a></b> (2024). An analysis of the risk factors for intimate partner sexual violence against women and girls in Mexico. <i>Journal of Gender-Based Violence</i>, (published online ahead of print 2024). DOI: <a href="" target="_blank">10.1332/23986808Y2024D000000031</a></p>
 
 <a href="cite.bib" download="cite.bib" class="button"> Download .bib file (compatible with LaTeX) </a>

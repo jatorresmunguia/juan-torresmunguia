@@ -1,17 +1,16 @@
 ---
 title: "Identifying Gender-Specific Risk Factors for Income Poverty across Poverty Levels in Urban Mexico: A Model-Based Boosting Approach"
-subtitle: "Social Sciences"
-journal: "Social Sciences"
+subtitle: "Social Sciences" 
+journal: "Social Sciences" 
 keywords: "additive regression models;boosting algorithm;gender;income poverty"
 date: "2024-03-08"
 doi: "10.3390/socsci13030159"
 featured: true
 show_post_time: false
-show_comments: true
 author: "Juan Torres Munguía"
 location: ""
 draft: false
-layout: single-publications
+layout: single
 categories:
 - journal-articles
 - poverty
@@ -43,6 +42,6 @@ links:
 <h4> <a href="https://www.mdpi.com/2076-0760/13/3/159" target="_blank"> Click here to read full paper </a></h4>
 
 <h4>Cite this article: </h4>
-<p><b>Torres Munguía, Juan<a href="https://orcid.org/0000-0003-3432-6941" target="_blank"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a></b> (2024). Identifying Gender-Specific Risk Factors for Income Poverty across Poverty Levels in Urban Mexico: A Model-Based Boosting Approach. <i>Social Sciences</i>, 13 (3). DOI: <a href="https://www.mdpi.com/2076-0760/13/3/159" target="_blank">10.3390/socsci13030159</a>. Retrieved from: <a href="https://www.mdpi.com/2076-0760/13/3/159" target="_blank">https://www.mdpi.com/2076-0760/13/3/159</a></p>
+<p><b>Torres Munguía, Juan<a href="https://orcid.org/0000-0003-3432-6941" target="_blank"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" height="16" width="16" ></a></b> (2024). Identifying Gender-Specific Risk Factors for Income Poverty across Poverty Levels in Urban Mexico: A Model-Based Boosting Approach. <i>Social Sciences</i>, 13 (3). DOI: <a href="https://www.mdpi.com/2076-0760/13/3/159" target="_blank">10.3390/socsci13030159</a>. Retrieved from: <a href="https://www.mdpi.com/2076-0760/13/3/159" target="_blank">https://www.mdpi.com/2076-0760/13/3/159</a></p>
 
 <a href="cite.bib" download="cite.bib" class="button"> Download .bib file (compatible with LaTeX) </a>

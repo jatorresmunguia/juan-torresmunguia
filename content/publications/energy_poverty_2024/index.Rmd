@@ -24,14 +24,14 @@ categories:
 - datasets
 - 2024
 links:
-- icon: file-pdf
+- icon: file-pdf 
   icon_pack: fas
   name: PDF
   url: https://infer-research.eu/wp-content/uploads/2024/04/WP2024.04.pdf
 - icon: database
   icon_pack: fas
   name: Data
-  url:  https://doi.org/10.6084/m9.figshare.22652320
+  url:  https://doi.org/10.6084/m9.figshare.22652320  
 - icon: code
   icon_pack: fas
   name: Code
@@ -66,7 +66,7 @@ format_author <- function(authors) {
       full_name <- paste(paste(author$family, collapse = ", "), full_names, sep = ", ")
     }
 if (grepl('Torres Mungu[ií]a', full_name, ignore.case = TRUE)) {
-      full_name <- paste0(full_name, '<a href="https://orcid.org/0000-0003-3432-6941" target="_blank"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a>')
+      full_name <- paste0(full_name, '<a href="https://orcid.org/0000-0003-3432-6941" target="_blank"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" height="16" width="16" ></a>')
     }
     return(full_name)
   })

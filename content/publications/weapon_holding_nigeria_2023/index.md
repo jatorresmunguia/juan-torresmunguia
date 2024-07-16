@@ -10,7 +10,7 @@ show_post_time: false
 author: "Johanna Kleffmann; Francesca Batault; Juan Armando Torres Munguía; Siobhan O’Neil; Jente Althuis; Mohammed Rabby Shakur; Anna Hallahan; Hana Salama; Mohamed Coulibaly"
 location: ""
 draft: false
-# layout options: single, single-sidebar
+# layout options: single, single-sidebar 
 layout: single
 categories:
 - working-papers
@@ -37,6 +37,6 @@ This is a joint report containing original data and analysis from MEAC, as well 
 <h4> <a href="https://unidir.org/publication/factors-driving-weapons-holding-in-the-north-east-of-nigeria-findings-report-33/" target="_blank"> Click here to read full paper </a></h4>
 
 <h4>Cite this article: </h4>
-<p><b>Kleffmann, Johanna; Batault, Francesca; Torres Munguía, Juan Armando<a href="https://orcid.org/0000-0003-3432-6941" target="_blank"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a>; O’Neil, Siobhan; Althuis, Jente; Shakur, Mohammed Rabby; Hallahan, Anna; Salama, Hana; Coulibaly, Mohamed</b> (2023). Factors Driving Weapons Holding in the North East of Nigeria. <i>Managing Exits from Armed Conflict (MEAC) - United Nations Institute for Disarmament Research Findings Report</i>, 33. DOI: <a href="https://unidir.org/publication/factors-driving-weapons-holding-in-the-north-east-of-nigeria-findings-report-33/" target="_blank">10.37559/MEAC/23/11</a>. Retrieved from: <a href="https://unidir.org/publication/factors-driving-weapons-holding-in-the-north-east-of-nigeria-findings-report-33/" target="_blank">https://unidir.org/publication/factors-driving-weapons-holding-in-the-north-east-of-nigeria-findings-report-33/</a></p>
+<p><b>Kleffmann, Johanna; Batault, Francesca; Torres Munguía, Juan Armando<a href="https://orcid.org/0000-0003-3432-6941" target="_blank"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" height="16" width="16" ></a>; O’Neil, Siobhan; Althuis, Jente; Shakur, Mohammed Rabby; Hallahan, Anna; Salama, Hana; Coulibaly, Mohamed</b> (2023). Factors Driving Weapons Holding in the North East of Nigeria. <i>Managing Exits from Armed Conflict (MEAC) - United Nations Institute for Disarmament Research Findings Report</i>, 33. DOI: <a href="https://unidir.org/publication/factors-driving-weapons-holding-in-the-north-east-of-nigeria-findings-report-33/" target="_blank">10.37559/MEAC/23/11</a>. Retrieved from: <a href="https://unidir.org/publication/factors-driving-weapons-holding-in-the-north-east-of-nigeria-findings-report-33/" target="_blank">https://unidir.org/publication/factors-driving-weapons-holding-in-the-north-east-of-nigeria-findings-report-33/</a></p>
 
 <a href="cite.bib" download="cite.bib" class="button"> Download .bib file (compatible with LaTeX) </a>

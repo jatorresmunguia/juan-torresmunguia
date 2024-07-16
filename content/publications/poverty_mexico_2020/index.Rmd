@@ -20,11 +20,13 @@ draft: false
 layout: single
 categories:
 - working-papers
-- armed-conflict
-- 2022
+- poverty
+- Mexico
+- quantile-models
+- 2020
 links:
 - icon: file-pdf
-  icon_pack: fas
+  icon_pack: fas  
   name: PDF
   url: https://www.econstor.eu/bitstream/10419/217231/1/1698314159.pdf
 ---
@@ -49,7 +51,7 @@ format_author <- function(authors) {
       full_name <- paste(paste(author$family, collapse = ", "), full_names, sep = ", ")
     }
 if (grepl('Torres Mungu[ií]a', full_name, ignore.case = TRUE)) {
-      full_name <- paste0(full_name, '<a href="https://orcid.org/0000-0003-3432-6941" target="_blank"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a>')
+      full_name <- paste0(full_name, '<a href="https://orcid.org/0000-0003-3432-6941" target="_blank"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" height="16" width="16" ></a>')
     }
     return(full_name)
   })

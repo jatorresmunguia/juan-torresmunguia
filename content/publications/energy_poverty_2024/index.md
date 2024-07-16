@@ -18,14 +18,14 @@ categories:
 - datasets
 - 2024
 links:
-- icon: file-pdf
+- icon: file-pdf 
   icon_pack: fas
   name: PDF
   url: https://infer-research.eu/wp-content/uploads/2024/04/WP2024.04.pdf
 - icon: database
   icon_pack: fas
   name: Data
-  url:  https://doi.org/10.6084/m9.figshare.22652320
+  url:  https://doi.org/10.6084/m9.figshare.22652320  
 - icon: code
   icon_pack: fas
   name: Code
@@ -48,6 +48,6 @@ links:
 <h4> <a href="https://infer-research.eu/publication/mapping-energy-poverty-measures-during-the-covid-19-pandemic-a-new-global-panel-dataset/" target="_blank"> Click here to read full paper </a></h4>
 
 <h4>Cite this article: </h4>
-<p><b>Torres Munguía, Juan Armando<a href="https://orcid.org/0000-0003-3432-6941" target="_blank"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a>; Hesselman, Marlies; Martínez-Zarzoso, Inmaculada; Ruyssen, Ilse</b> (2024). Mapping Energy Poverty Measures During the COVID-19 Pandemic: A New Global Panel Dataset. <i>International Network for Economic Research</i>, 2024.04. Retrieved from: <a href="https://infer-research.eu/publication/mapping-energy-poverty-measures-during-the-covid-19-pandemic-a-new-global-panel-dataset/" target="_blank">https://infer-research.eu/publication/mapping-energy-poverty-measures-during-the-covid-19-pandemic-a-new-global-panel-dataset/</a></p>
+<p><b>Torres Munguía, Juan Armando<a href="https://orcid.org/0000-0003-3432-6941" target="_blank"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" height="16" width="16" ></a>; Hesselman, Marlies; Martínez-Zarzoso, Inmaculada; Ruyssen, Ilse</b> (2024). Mapping Energy Poverty Measures During the COVID-19 Pandemic: A New Global Panel Dataset. <i>International Network for Economic Research</i>, 2024.04. Retrieved from: <a href="https://infer-research.eu/publication/mapping-energy-poverty-measures-during-the-covid-19-pandemic-a-new-global-panel-dataset/" target="_blank">https://infer-research.eu/publication/mapping-energy-poverty-measures-during-the-covid-19-pandemic-a-new-global-panel-dataset/</a></p>
 
 <a href="cite.bib" download="cite.bib" class="button"> Download .bib file (compatible with LaTeX) </a>

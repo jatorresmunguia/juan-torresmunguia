@@ -1,12 +1,45 @@
 <div class="post-pagination dt w-100 mt4 mb2">
-  {{/* To show older, use next */}}
-  {{ with .NextInSection }}
-    <a class="prev dtc pr2 tl v-top fw6"
-    href="{{.Permalink}}">&larr; {{.Title}}</a>
-  {{ end }}
-  {{/* To show newer, use previous */}}
-  {{ with .PrevInSection }}
-    <a class="next dtc pl2 tr v-top fw6"
-    href="{{.Permalink}}">{{.Title}} &rarr;</a>
-  {{ end }}
+    <h3>See also: </h3>
+  <div class="pagination-card">
+    {{ with .NextInSection }}
+      <a class="prev-card dtc pr2 tl v-top fw6"
+      href="{{.Permalink}}">
+        <div class="card">
+          <div class="card-content">
+            <h4>&larr; Previous</h4>
+            <p>{{.Title}}</p>
+          </div>
+        </div>
+      </a>
+    {{ end }}
+    {{ with .PrevInSection }}
+      <a class="next-card dtc pl2 tr v-top fw6"
+      href="{{.Permalink}}">
+        <div class="card">
+          <div class="card-content">
+            <h4>Next &rarr;</h4>
+            <p>{{.Title}}</p>
+          </div>
+        </div>
+      </a>
+    {{ end }}
+  </div>
 </div>
+<style>
+.pagination-card {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 10px;
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card-content {
+  text-align: center;
+}
+</style>

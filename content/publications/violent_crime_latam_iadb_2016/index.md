@@ -31,6 +31,6 @@ links:
 <h4> <a href="https://publications.iadb.org/en/violent-crime-latin-american-cities" target="_blank"> Click here to read full paper </a></h4>
 
 <h4>Cite this article: </h4>
-<p><b>Vilalta Perdomo, Carlos J.; Castillo, José G.; Torres Munguía, Juan Armando<a href="https://orcid.org/0000-0003-3432-6941" target="_blank"><img src="https://fontawesome.com/icons/orcid?f=brands&s=solid" height="16" width="16" ></a></b> (2016). Violent Crime in Latin American Cities. <i>Inter-American Development Bank Discussion Paper</i>, 474. Retrieved from: <a href="https://publications.iadb.org/en/violent-crime-latin-american-cities" target="_blank">https://publications.iadb.org/en/violent-crime-latin-american-cities</a></p>
+<p><b>Vilalta Perdomo, Carlos J.; Castillo, José G.; Torres Munguía, Juan Armando<a href="https://orcid.org/0000-0003-3432-6941" target="_blank"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" height="16" width="16" ></a></b> (2016). Violent Crime in Latin American Cities. <i>Inter-American Development Bank Discussion Paper</i>, 474. Retrieved from: <a href="https://publications.iadb.org/en/violent-crime-latin-american-cities" target="_blank">https://publications.iadb.org/en/violent-crime-latin-american-cities</a></p>
 
 <a href="cite.bib" download="cite.bib" class="button"> Download .bib file (compatible with LaTeX) </a>
