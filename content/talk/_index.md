@@ -1,12 +1,12 @@
 ---
 title: Talks
 description: ""
-author: ""
+author: "Juan Armando Torres Munguía"
 show_post_thumbnail: false
 show_author_byline: false
 show_post_date: true
 show_post_time: true
-show_button_links: true
+show_button_links: false
 layout: single-talks # list, list-sidebar
 
 sidebar: 

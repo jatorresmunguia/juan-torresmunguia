@@ -30,11 +30,18 @@
       <description>Abstract According to 2016 official estimates, almost 60 percent of the rural population in Mexico (16.9 million people) had income levels below the poverty line, and approximately 29.2 percent (8.3 million) could not even afford the basic food basket. Whereas most poverty research disregards gender and exclusively analyzes average income or the expected probability of being poor, we depart from these approaches by examining the effect of potential risk factors on two of the lowest quantiles of income-to-poverty ratio distribution, namely the corresponding to poor and extremely poor families.</description>
     </item>
     <item>
-      <title>What is behind homicide gender gaps in Mexico? A spatial semiparametric approach</title>
-      <link>http://localhost:4321/publications/behind_homicides_gender_gaps_mexico_2018/</link>
-      <pubDate>Fri, 25 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/publications/behind_homicides_gender_gaps_mexico_2018/</guid>
-      <description>Abstract From 1990 to 2016, more than 425,000 homicides have occurred in Mexico. In 2016, the country recorded the world’s second largest number of conflict fatalities with more than 24,000 killings. Despite the growing attention for inquiring into specific causes of homicide victimization, research on the matter suffer from three important shortcomings: disregard for introducing a gender perspective, lack of a multilevel approach -use of information both at the victim and community levels- and the exclusive use of traditional linear models -failing to capture nonlinear relationships, as can be expected, in the linkage between age of a person and their likelihood of being victim of crime-.</description>
+      <title>What Determines Poverty in Mexico?: A Quantile Regression Approach</title>
+      <link>http://localhost:4321/publications/poverty_mexico_2020/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/poverty_mexico_2020/</guid>
+      <description>Abstract According to official poverty estimates in Mexico, more than 50 percent of the population was poor in 2016, half of which could not even afford the basic food basket. Whereas most of the existing research analyses poverty focusing exclusively on average income or on the expected probability of being poor, this paper departs from this approach by analyzing income differences between households in rural and urban settlements using boosting additive quantile models.</description>
+    </item>
+    <item>
+      <title>Comparison of Imputation Methods for Handling Missing Categorical Data with Univariate Pattern</title>
+      <link>http://localhost:4321/publications/imputation_missing_poverty_mexico_2014/</link>
+      <pubDate>Mon, 02 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/imputation_missing_poverty_mexico_2014/</guid>
+      <description>Abstract This paper examines the sample proportions estimates in the presence of univariate missing categorical data. A database about smoking habits (2011 National Addiction Survey of Mexico) was used to create simulated yet realistic datasets at rates 5% and 15% of missingness, each for MCAR, MAR and MNAR mechanisms. Then the performance of six methods for addressing missingness is evaluated: listwise, mode imputation, random imputation, hot-deck, imputation by polytomous regression and random forests.</description>
     </item>
   </channel>
 </rss>

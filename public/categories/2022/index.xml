@@ -36,12 +36,5 @@
       <guid>http://localhost:4321/publications/risk_factors_emotional_violence_mexico_2022/</guid>
       <description>Abstract The purpose of this paper is to identify the risk factors for emotional intimate partner violence (IPV) against women and girls with children in Mexico from an ecological perspective. To that end, we generate a dataset with 35,004 observations and 42 covariates, to which we apply an additive probit model estimated with a boosting algorithm to overcome high-dimensionality and simultaneously perform variable selection and model choice. The dataset integrates 10 information sources, allowing us to properly characterize the four levels of the ecological approach, which is the first contribution of this paper.</description>
     </item>
-    <item>
-      <title>What Determines Poverty in Mexico?: A Quantile Regression Approach</title>
-      <link>http://localhost:4321/publications/poverty_mexico_2020/</link>
-      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/publications/poverty_mexico_2020/</guid>
-      <description>Abstract According to official poverty estimates in Mexico, more than 50 percent of the population was poor in 2016, half of which could not even afford the basic food basket. Whereas most of the existing research analyses poverty focusing exclusively on average income or on the expected probability of being poor, this paper departs from this approach by analyzing income differences between households in rural and urban settlements using boosting additive quantile models.</description>
-    </item>
   </channel>
 </rss>

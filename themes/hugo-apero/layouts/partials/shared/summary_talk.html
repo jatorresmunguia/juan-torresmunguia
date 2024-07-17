@@ -2,47 +2,93 @@
 {{ $section := $page.CurrentSection }}
 {{ $root := .Scratch.Get "$root" }}
 <article class="mv4 mv5-l bb">
-
-  <div class="flex flex-column flex-row-ns mb4 mb5-l mw8 center">
-    <!-- First column -->
-    <div class="w-100 w-25-ns pr3-ns">
-      <!-- Add content for the first column here -->
-      {{ $images := $page.Resources.ByType "image" }}
-      {{ $featured := $images.GetMatch "featured.*" }}
-      {{ if $featured }}
-        <img src="{{ $featured.RelPermalink }}" alt="Featured Image" class="db mw-100">
-      {{ end }}
-    </div>
-    <!-- Second column -->
-    <div class="w-100 w-50-ns pr3-ns">
-      <!-- Title information -->
-      <div>
-        <header>
-          <h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="{{ .RelPermalink }}" class="db">{{ .Title | markdownify }}</a></h1>
-          {{ range first 1 (.GetTerms "series") }}
-          <h2 class="f5"><i class="fas fa-stream fa-fw pr1"></i><small class="f5 ttu tracked">Series: </small><a class="link i dim" href="{{ $section.RelPermalink }}">{{ .LinkTitle }}</a></h2>
+  {{ if $root.Params.show_post_thumbnail }}
+  {{- $images := $page.Resources.ByType "image" -}}
+  {{ $leaf := $images.GetMatch "*feature*" }}
+  {{- $hex := $images.GetMatch "*hex*" -}}
+  {{- $thumbnail := cond (ne $hex nil) $hex $leaf -}}
+  {{ $branch := ($section.Resources.ByType "image").GetMatch "*feature*" }}
+  {{- $thumbnail := cond (ne $thumbnail nil) $thumbnail $branch -}}
+  <div class="flex flex-column mb4 mb5-l {{ if (ne $hex nil) }}items-center{{ end }} {{ if $root.Params.thumbnail_left }}flex-row-ns{{ else }}flex-row-reverse-ns{{ end }}">
+    <figure class="{{ if $root.Params.thumbnail_left }}mr4-ns{{ else }}ml4-ns{{ end }} ma0 mb2 mb0-l w-100 w-40-ns">
+      <a href="{{ .RelPermalink }}" class="db">
+        {{ with $thumbnail }}
+          <img src="{{ .RelPermalink | absURL }}" class="db ma0 dim" alt="">
+        {{ end }}
+      </a>
+    </figure>
+    <div class="flex flex-column w-100 w-60-ns {{ if $root.Params.thumbnail_left }}pr3-ns{{ else }}pl3-ns{{ end }}">
+      <header class="w-100">
+        <h1 class="f3 mv2 lh-title underline"><a href="{{ .RelPermalink }}" class="db">{{ .Title | markdownify }}</a></h1>
+        {{ range first 1 (.GetTerms "series") }}
+        <h2 class="f5"><i class="fas fa-stream fa-fw pr1"></i><small class="f5 ttu tracked">Series: </small><a class="link i dim" href="{{ $section.RelPermalink }}">{{ .LinkTitle }}</a></h2>
+        {{ end }}
+      </header>
+      {{ $summary := cond (ne .Params.excerpt nil) .Params.excerpt .Summary }}
+      {{ with $summary }}
+        {{ $shortSummary := "" }}
+        {{ $words := split . " " }}
+        {{ range $index, $word := $words }}
+          {{ if lt $index 50 }}
+            {{ $shortSummary = print $shortSummary $word " " }}
           {{ end }}
-        </header>
-      </div>
-      <!-- Event information -->
-      <div>
-        {{ if .Params.event }}
-          <p class="f6 db mv2"><strong>Event:</strong> {{ .Params.event }}</p>
+        {{- end }}
+        {{ if gt (len $words) 50 }}
+          {{ $shortSummary = print $shortSummary "..." }}
         {{ end }}
-      </div>
-    </div>
-    <!-- Third column -->
-    <div class="w-100 w-25-ns pr3-ns">
-      <!-- Date and Location information -->
-      <div>
-        {{ if .Params.date }}
-          <p class="f6 db mv2"><strong>&#128197; </strong> {{ dateFormat "January 2, 2006" .Params.date }}</p>
+        {{ $shortSummary := replace $shortSummary "Abstract" "" }}
+        <p class="lh-copy mb4">{{ $shortSummary | markdownify | emojify }}</p>
+      {{ end }}
+      <footer class="w-100">
+        <div class="flex">
+          <div class="w-50">
+            {{ if $root.Params.show_post_date }}<p class="f6 db mv1">{{ .PublishDate.Format "January 2006" }}</p>{{ end }}
+          </div>
+          <div class="w-50">
+            <p class="f6 db mv1"><strong>Author(s):</strong> {{ if .Params.author }}{{ .Params.author }}{{ end }}</p>
+            <p class="f6 db mv2"><strong>Journal:</strong> {{ if .Params.journal }}{{ .Params.journal }}{{ end }}</p>
+            {{ if isset .Params "keywords" }}
+              <p class="f6 db mv2"><strong>Keywords:</strong>
+                {{ $keywords := delimit .Params.keywords " " }}
+                {{ $keywords := replace $keywords "[]" "" }}
+                {{ $keywords := replace $keywords ";" "; " }}
+                {{ $keywords }}
+              </p>
+            {{ end }}
+          </div>
+        </div>
+        {{ if and $root.Params.show_button_links .Params.links }}
+          <p class="db pt1">
+            {{ partial "shared/btn-links.html" . }}
+          </p>
         {{ end }}
-        {{ if .Params.location }}
-          <p class="f6 db mv2"><strong>&#x1F4CD; </strong> {{ .Params.location }}</p>
-        {{ end }}
-      </div>
+      </footer>
     </div>
   </div>
-  
+
+  {{ else }}
+  <div class="flex flex-row mb4 mb5-l mw8 center">
+    <div class="w-70 pr3">
+      <header>
+        <h1 class="f3 mt0 mb2 lh-title underline fw4"><a href="{{ .RelPermalink }}" class="db">{{ .Title | markdownify }}</a></h1>
+        {{ range first 1 (.GetTerms "series") }}
+        <h2 class="f5"><i class="fas fa-stream fa-fw pr1"></i><small class="f5 ttu tracked">Series: </small><a class="link i dim" href="{{ $section.RelPermalink }}">{{ .LinkTitle }}</a></h2>
+        {{ end }}
+      </header>
+{{ if .Params.event }}
+          <p class="f6 db mv2"><strong>Event:</strong> {{ .Params.event }}</p>
+      {{ end }}
+    </div>
+    <div class="w-30 pl3">
+      <footer>
+  {{ if .Params.date }}
+  <p class="f6 db mv2"><strong>&#128197; </strong> {{ dateFormat "January 2, 2006" .Params.date }}</p>
+  {{ end }}
+  {{ if .Params.location }}
+  <p class="f6 db mv2"><strong>&#x1F4CD; </strong> {{ .Params.location }}</p>
+  {{ end }}
+      </footer>
+    </div>
+  </div>
+  {{ end }}
 </article>

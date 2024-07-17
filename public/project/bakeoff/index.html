@@ -95,6 +95,11 @@
         
         
         
+      <a class="link f6 f5-l dib pv1 ph2 " href="/collection/" title="A collection of data visualizations">DataViz</a>
+      
+        
+        
+        
       <a class="link f6 f5-l dib pv1 ph2 " href="/contact/" title="Contact">Contact</a>
       
       
@@ -496,49 +501,45 @@ can also choose to show your social icon links if you have those configured in
 the <code>config.toml</code> file.</p>
 
         
-        <details closed class="f6 fw7 input-reset">
-  <dl class="f6 lh-copy">
-    <dt class="fw7">Posted on:</dt>
-    <dd class="fw5 ml0">July 1, 2019</dd>
-  </dl>
-  <dl class="f6 lh-copy">
-    <dt class="fw7">Length:</dt>
-    <dd class="fw5 ml0">2 minute read, 237 words</dd>
-  </dl>
-  
-  <dl class="f6 lh-copy">
-    <dt class="fw7">Categories:</dt>
-    <dd class="fw5 ml0"> <a href="http://localhost:4321/categories/theme-features">Theme Features</a>  <a href="http://localhost:4321/categories/r">R</a>  <a href="http://localhost:4321/categories/package">package</a> </dd>
-  </dl>
-  
-  
-  
-  <dl class="f6 lh-copy">
-    <dt class="fw7">Tags:</dt>
-    <dd class="fw5 ml0"> <a href="http://localhost:4321/tags/hugo-site">hugo-site</a> </dd>
-  </dl>
-  
-  <dl class="f6 lh-copy">
-    <dt class="fw7">See Also:</dt>
-    
-    <dd class="fw5 ml0"><a href="/project/giraffes/">Tachyons for Style</a></dd>
-    
-    <dd class="fw5 ml0"><a href="/project/penguins/">Palmer Penguins</a></dd>
-    
-  </dl>
-</details>
+        
 
       </section>
       <footer class="post-footer">
         <div class="post-pagination dt w-100 mt4 mb2">
-  
-  
-    <a class="prev dtc pr2 tl v-top fw6"
-    href="http://localhost:4321/project/penguins/">&larr; Palmer Penguins</a>
-  
-  
-  
+    <h3>See also: </h3>
+  <div class="pagination-card">
+    
+      <a class="prev-card dtc pr2 tl v-top fw6"
+      href="http://localhost:4321/project/penguins/">
+        <div class="card">
+          <div class="card-content">
+            <h4>&larr; Previous</h4>
+            <p>Palmer Penguins</p>
+          </div>
+        </div>
+      </a>
+    
+    
+  </div>
 </div>
+<style>
+.pagination-card {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 10px;
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card-content {
+  text-align: center;
+}
+</style>
 
       </footer>
     </article>

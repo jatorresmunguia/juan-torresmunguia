@@ -71,7 +71,7 @@ Clone GitHub repo usethis::create_from_github(&quot;https://github.com/apreshill
     </head>
     <body>
       <div id="zoom-wrapper">
-          <div class="grid-container single-series">
+          <div class="grid-container single">
 <header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
   <nav class="site-nav db dt-l w-100" role="navigation">
     <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="http://localhost:4321/" title="Home">
@@ -93,6 +93,11 @@ Clone GitHub repo usethis::create_from_github(&quot;https://github.com/apreshill
         
         
       <a class="link f6 f5-l dib pv1 ph2 " href="/talk/" title="Talks">Talks</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/collection/" title="A collection of data visualizations">DataViz</a>
       
         
         
@@ -399,15 +404,17 @@ body.dark-mode .custom-body-link-color, body.dark-mode .page-main a:not(.link), 
 
 </header>
 
-                       
 <main class="page-main pa4" role="main">
   <section class="page-content mw7 center">
-    <article class="post-content pa0 pl3-l">
+    <article class="post-content pa0 ph4-l">
       <header class="post-header">
         <h1 class="f1 lh-solid measure-narrow mb3 fw4">A distill site</h1>
         <h4 class="f4 mt0 mb4 lh-title measure">Using the distill &amp; postcards packages to build a personal website with R Markdown.</h4>
         
         
+
+      
+
       </header>
       <section class="post-body pt5 pb4">
         
@@ -582,106 +589,52 @@ output: distill::distill_article
 ● Branch: &#39;main&#39;
 ● Path: &#39;/docs&#39;
 </code></pre>
+        
+        
+
       </section>
       <footer class="post-footer">
         <div class="post-pagination dt w-100 mt4 mb2">
-  
-  
-    <a class="prev dtc pr2 tl v-top fw6"
-    href="http://localhost:4321/collection/day01/02-postcards/">&larr; A postcard</a>
-  
-  
-  
+    <h3>See also: </h3>
+  <div class="pagination-card">
+    
+      <a class="prev-card dtc pr2 tl v-top fw6"
+      href="http://localhost:4321/collection/day01/02-postcards/">
+        <div class="card">
+          <div class="card-content">
+            <h4>&larr; Previous</h4>
+            <p>A postcard</p>
+          </div>
+        </div>
+      </a>
+    
+    
+  </div>
 </div>
+<style>
+.pagination-card {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 10px;
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card-content {
+  text-align: center;
+}
+</style>
 
       </footer>
     </article>
     
   </section>
 </main>
-
-<aside class="page-sidebar" role="complementary">
-                         
- 
-
-
-                       
- 
-
-
-
-
-
-
-
-
-
-
-
-  <img src="/collection/featured-sidebar.jpg" class="db ma0">
-
-
-<div class="blog-info ph4 pt4 pb4 pb0-l">
-  
-
-  <h1 class="f3">Hi again!</h1>
-  <p class="f6 lh-copy measure">Sometimes you want a souped-up series- a bundle of related pages
-meant to be read in sequence. This section is like a blog series,
-minus the blog.</p>
-  
-
-
-  
-
-</div>
-
-
-                         
- 
-
-
-
-<div class="flex items-start sticky ph4 pb4">
-  <div class="w-two-thirds w-50-l ph0">
-    
-    <h2 class="mt3 mb3 f5 fw7 ttu tracked"><a class="no-underline dim" href="/collection/day01/">Outline</a></h2>
-    <nav id="SeriesTableOfContents">
-        <ul>
-        
-          
-          <li class="" hugo-nav="/collection/day01/01-github/"><a href="http://localhost:4321/collection/day01/01-github/">A GitHub profile</a></li>
-        
-          
-          <li class="" hugo-nav="/collection/day01/02-postcards/"><a href="http://localhost:4321/collection/day01/02-postcards/">A postcard</a></li>
-        
-          
-          <li class="active" hugo-nav="/collection/day01/03-distill/"><a href="http://localhost:4321/collection/day01/03-distill/">A distill site</a></li>
-        
-        </ul>
-      </nav>
-  </div>
-  <details open id="PageTableOfContents">
-    <summary><h2 class="mv0 f5 fw7 ttu tracked dib">On this page</h2></summary>
-    <div class="pl2 pr0 mh0">
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#pre-requisites">Pre-requisites</a></li>
-    <li><a href="#create-github-repo">Create GitHub repo</a></li>
-    <li><a href="#clone-github-repo">Clone GitHub repo</a></li>
-    <li><a href="#create-a-new-distill-site">Create a new distill site</a></li>
-    <li><a href="#build-site">Build site</a></li>
-    <li><a href="#add-a-postcard">Add a postcard</a></li>
-    <li><a href="#site-navigation">Site navigation</a></li>
-    <li><a href="#theme">Theme</a></li>
-    <li><a href="#publish-a-distill-site">Publish a distill site</a></li>
-  </ul>
-</nav>
-    </div>
-  </details>
-  
-</div>
-</aside>
-
 <footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
   <nav class="db dt-l w-100">
     <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">

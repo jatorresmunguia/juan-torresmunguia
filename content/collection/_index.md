@@ -1,33 +1,17 @@
 ---
-title: "Create a Collection"
-subtitle: "A collection, minus the blog."
-description: |
-  Sometimes you want a souped-up series- a bundle of related pages 
-  meant to be read in sequence. This section is like a blog series, 
-  minus the blog.
-author: ""
-show_post_thumbnail: true
-thumbnail_left: false # for list-sidebar only
+title: "Data visualizations"
+# list or single layouts are possible
+layout: list_dataviz # 
+show_post_thumbnail: false
+weight: 2
+publishDate: 2021-01-22
+date: 2021-01-25
+subtitle: ""
+description: 
+excerpt: 
+author: 
+show_post_thumbnail: false
 show_author_byline: false
 show_post_date: false
-# for listing page layout
-layout: list-sidebar # list, list-sidebar
-
-# set up common front matter for all individual pages in series
-cascade:
-  layout: single-series 
-  sidebar:
-    title: "Hi again!"
-    author: ""
-    description: |
-      Sometimes you want a souped-up series- a bundle of related pages 
-      meant to be read in sequence. This section is like a blog series, 
-      minus the blog.
-    show_author_byline: true
-    show_post_date: true
-    text_link_label: ""
-    text_link_url: ""
-    show_sidebar_adunit: false # show ad container, first page only
-    text_series_label: "Outline" 
-    text_contents_label: "On this page" 
 ---
+

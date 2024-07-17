@@ -96,6 +96,11 @@ My content section is: collection My layout is: single-series part 2! does this 
         
         
         
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/collection/" title="A collection of data visualizations">DataViz</a>
+      
+        
+        
+        
       <a class="link f6 f5-l dib pv1 ph2 " href="/contact/" title="Contact">Contact</a>
       
       
@@ -497,14 +502,40 @@ body.dark-mode .custom-body-link-color, body.dark-mode .page-main a:not(.link), 
       </section>
       <footer class="post-footer">
         <div class="post-pagination dt w-100 mt4 mb2">
-  
-  
-    <a class="prev dtc pr2 tl v-top fw6"
-    href="http://localhost:4321/collection/day02/02-blogdown/">&larr; Using blogdown</a>
-  
-  
-  
+    <h3>See also: </h3>
+  <div class="pagination-card">
+    
+      <a class="prev-card dtc pr2 tl v-top fw6"
+      href="http://localhost:4321/collection/day02/02-blogdown/">
+        <div class="card">
+          <div class="card-content">
+            <h4>&larr; Previous</h4>
+            <p>Using blogdown</p>
+          </div>
+        </div>
+      </a>
+    
+    
+  </div>
 </div>
+<style>
+.pagination-card {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 10px;
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card-content {
+  text-align: center;
+}
+</style>
 
       </footer>
     </article>

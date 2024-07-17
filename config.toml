@@ -100,11 +100,11 @@ enableEmoji = true
 #    title = "Blog"
 #    url = "/blog/"
 #    weight = 4
-#  [[menu.header]]
-#    name = "DataViz"
-#    title = "A collection of data visualizations"
-#    url = "/collection/"
-#    weight = 5
+  [[menu.header]]
+    name = "DataViz"
+    title = "A collection of data visualizations"
+    url = "/collection/"
+    weight = 5
   [[menu.header]]
     name = "Contact"
     title = "Contact"
