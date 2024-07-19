@@ -4,17 +4,19 @@ subtitle: "Journal of interpersonal violence"
 journal: "Journal of interpersonal violence" 
 keywords: "additive regression models;boosting algorithm;intimate partner violence;Mexico;risk factors" 
 date: "2022-02-08"
-doi: "10.1177/08862605211072179"
+doi: "10.1177/08862605211072179}
+ url = {https://journals.sagepub.com/doi/10.1177/08862605211072179"
 featured: true
 show_post_time: false
 author: "Juan Armando Torres Munguía; Inmaculada Martínez-Zarzoso"
 location: ""
 draft: false
 # layout options: single, single-sidebar
-layout: single
+layout: single-publications
 categories:
 - journal-articles
 - violence
+- Mexico
 - 2022
 links:
 - icon: file-pdf
@@ -43,6 +45,7 @@ links:
 <h4> <a href="" target="_blank"> Click here to read full paper </a></h4>
 
 <h4>Cite this article: </h4>
-<p><b>Torres Munguía, Juan Armando<a href="https://orcid.org/0000-0003-3432-6941" target="_blank"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" height="16" width="16" ></a>; Martínez-Zarzoso, Inmaculada</b> (2022). Determinants of Emotional Intimate Partner Violence against Women and Girls with Children in Mexican Households: An Ecological Framework. <i>Journal of interpersonal violence</i>, 37 (23-24). DOI: <a href="" target="_blank">10.1177/08862605211072179</a></p>
+<p><b>Torres Munguía, Juan Armando<a href="https://orcid.org/0000-0003-3432-6941" target="_blank"><img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" height="16" width="16" ></a>; Martínez-Zarzoso, Inmaculada</b> (2022). Determinants of Emotional Intimate Partner Violence against Women and Girls with Children in Mexican Households: An Ecological Framework. <i>Journal of interpersonal violence</i>, 37 (23-24). DOI: <a href="" target="_blank">10.1177/08862605211072179}
+ url = {https://journals.sagepub.com/doi/10.1177/08862605211072179</a></p>
 
 <a href="cite.bib" download="cite.bib" class="button"> Download .bib file (compatible with LaTeX) </a>

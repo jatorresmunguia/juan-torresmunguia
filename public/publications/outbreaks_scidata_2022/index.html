@@ -69,7 +69,7 @@
     </head>
     <body>
       <div id="zoom-wrapper">
-          <div class="grid-container single">
+          <div class="grid-container single-publications">
 <header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
   <nav class="site-nav db dt-l w-100" role="navigation">
     <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="http://localhost:4321/" title="Home">
@@ -403,17 +403,41 @@ body.dark-mode .custom-body-link-color, body.dark-mode .page-main a:not(.link), 
 </header>
 
 <main class="page-main pa4" role="main">
-  <section class="page-content mw7 center">
+  <section class="page-content mw8 center">
     <article class="post-content pa0 ph4-l">
-      <header class="post-header">
-        <h1 class="f1 lh-solid measure-narrow mb3 fw4">A global dataset of pandemic- and epidemic-prone disease outbreaks</h1>
-        <h4 class="f4 mt0 mb4 lh-title measure">Scientific data</h4>
+      <header class="post-header" style="position: relative; padding: 20px;">        
+        
+        <div style="
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-image: url('featured.jpg'); /* Replace with your image path */
+          background-size: cover;
+          background-position: center;
+          filter: grayscale(100%);
+          z-index: -2;
+        "></div>
         
         
-
-      
-      <div class="ph0 pt3">
+        <div style="
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(254, 240, 236, 0.93); /* #fef0ec with adjustable opacity */
+          z-index: -1;
+        "></div>
         
+        
+        <h1 class="f1 lh-solid measure-narrow mb3" style="font-weight: bold; position: relative; z-index: 1;">A global dataset of pandemic- and epidemic-prone disease outbreaks</h1>
+        <h4 class="f4 mt0 mb4 lh-title measure" style="font-style: italic; position: relative; z-index: 1;">Scientific data</h4>
+        
+        
+        <div class="ph0 pt3" style="position: relative; z-index: 1;">
+          
     
     
     
@@ -493,11 +517,10 @@ body.dark-mode .custom-body-link-color, body.dark-mode .page-main a:not(.link), 
   <a class="btn-links mr2 ba dib" href="https://jatorresmunguia.shinyapps.io/A_global_dataset_of_disease_outbreaks/" target="_blank" rel="noopener"><i class="fab fa-r-project fa-lg fa-fw mr2"></i>ShinyApp</a>
 
 
-      </div>
-      
-
+        </div>
+        
       </header>
-      <section class="post-body pt5 pb4">
+      <section class="post-body pt3 pb1" style="text-align: justify;">
         <h4> Abstract </h4>
 <p> This paper presents a new dataset of infectious disease outbreaks collected from the Disease Outbreak News and the Coronavirus Dashboard produced by the World Health Organization. The dataset contains information on 70 infectious diseases and 2227 public health events that occurred over the period from January 1996 to March 2022 in 233 countries and territories around the world. We illustrate the potential use of this dataset to the research community by analysing the spatial distribution of disease outbreaks. We find evidence of spatial clusters of high incidences ({\textquotedbl}hot spots{\textquotedbl}) in Africa, America, and Asia. This spatial analysis enables policymakers to identify the regions with the greatest likelihood of suffering from disease outbreaks and, taking into account their degree of preparedness and vulnerability, to develop policies that may help contain the spreading of future outbreaks. Further applications could focus on combining our data with other information sources to study, for instance, the link between environmental, globalization, and/or socioeconomic factors with disease outbreaks. </p>
 <h4> <a href="https://www.nature.com/articles/s41597-022-01797-2" target="_blank"> Click here to read full paper </a></h4>
@@ -506,11 +529,9 @@ body.dark-mode .custom-body-link-color, body.dark-mode .page-main a:not(.link), 
 <p><a href="cite.bib" download="cite.bib" class="button"> Download .bib file (compatible with LaTeX) </a></p>
 
         
-        
-
       </section>
       <footer class="post-footer">
-        <div class="post-pagination dt w-100 mt4 mb2">
+        <div class="post-pagination dt w-100 mt2 mb2">
     <h3>See also: </h3>
   <div class="pagination-card">
     
@@ -541,16 +562,22 @@ body.dark-mode .custom-body-link-color, body.dark-mode .page-main a:not(.link), 
 .pagination-card {
   display: flex;
   justify-content: space-between;
+  max-width: 80%;  
+  margin: 0 auto;  
 }
+
 .card {
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  padding: 10px;
+  border-radius: 0px;
+  box-shadow: 0 0px 0px rgba(254, 240, 236, 0.1);
+  background: rgba(254, 240, 236, 0.93);
+  padding: 15px;
   transition: transform 0.2s;
 }
+
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
+
 .card-content {
   text-align: center;
 }
@@ -558,22 +585,6 @@ body.dark-mode .custom-body-link-color, body.dark-mode .page-main a:not(.link), 
 
       </footer>
     </article>
-    
-      
-<div class="post-comments pa0 pa4-l mt4">
-  
-  <script src="https://utteranc.es/client.js"
-          repo="jatorresmunguia/juan-torresmunguia"
-          issue-term="pathname"
-          theme="github-light"
-          label="comments :crystal_ball:"
-          crossorigin="anonymous"
-          async
-          type="text/javascript">
-  </script>
-  
-</div>
-
     
   </section>
 </main>

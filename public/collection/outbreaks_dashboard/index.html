@@ -69,7 +69,7 @@
     </head>
     <body>
       <div id="zoom-wrapper">
-          <div class="grid-container">
+          <div class="grid-container single-dataviz">
 <header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
   <nav class="site-nav db dt-l w-100" role="navigation">
     <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="http://localhost:4321/" title="Home">
@@ -403,27 +403,48 @@ body.dark-mode .custom-body-link-color, body.dark-mode .page-main a:not(.link), 
 </header>
 
 <main class="page-main pa4" role="main">
-  <section class="page-content mw7 center">
+  <section class="page-content mw8 center">
     <article class="post-content pa0 ph4-l">
-      <header class="post-header">
-        <h1 class="f1 lh-solid measure-narrow mb3 fw4">A global dataset of pandemic- and epidemic-prone disease outbreaks</h1>
+      <header class="post-header" style="position: relative; padding: 20px;">        
+        
+        <div style="
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-image: url('featured.jpg'); /* Replace with your image path */
+          background-size: cover;
+          background-position: center;
+          filter: grayscale(100%);
+          z-index: -2;
+        "></div>
+        
+        
+        <div style="
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(254, 240, 236, 0.93); /* #fef0ec with adjustable opacity */
+          z-index: -1;
+        "></div>
+        
+        
+        <h1 class="f1 lh-solid measure-narrow mb3" style="font-weight: bold; position: relative; z-index: 1;">A global dataset of pandemic- and epidemic-prone disease outbreaks</h1>
         
         
         
-
-      
-
       </header>
-      <section class="post-body pt5 pb4">
+      <section class="post-body pt3 pb1" style="text-align: justify;">
         <div class="iframe-container" style="position: relative; width: 100%; height: 100%; padding-bottom: 100%;">
   <iframe src="https://jatorresmunguia.shinyapps.io/A_global_dataset_of_disease_outbreaks/" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" allowfullscreen></iframe>
 </div>
         
-        
-
       </section>
       <footer class="post-footer">
-        <div class="post-pagination dt w-100 mt4 mb2">
+        <div class="post-pagination dt w-100 mt2 mb2">
     <h3>See also: </h3>
   <div class="pagination-card">
     
@@ -434,16 +455,22 @@ body.dark-mode .custom-body-link-color, body.dark-mode .page-main a:not(.link), 
 .pagination-card {
   display: flex;
   justify-content: space-between;
+  max-width: 80%;  
+  margin: 0 auto;  
 }
+
 .card {
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  padding: 10px;
+  border-radius: 0px;
+  box-shadow: 0 0px 0px rgba(254, 240, 236, 0.1);
+  background: rgba(254, 240, 236, 0.93);
+  padding: 15px;
   transition: transform 0.2s;
 }
+
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
+
 .card-content {
   text-align: center;
 }

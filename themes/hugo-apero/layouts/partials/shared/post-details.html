@@ -1,1 +1,3 @@
-
+{{ if .Params.abstract }}
+  {{ .Scratch.Set "abstract" .Params.abstract }}
+{{ end }}

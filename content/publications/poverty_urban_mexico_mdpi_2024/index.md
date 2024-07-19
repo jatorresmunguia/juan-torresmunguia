@@ -10,10 +10,11 @@ show_post_time: false
 author: "Juan Torres Munguía"
 location: ""
 draft: false
-layout: single
+layout: single-publications
 categories:
 - journal-articles
 - poverty
+- Mexico
 - 2024
 links:
 - icon: file-pdf

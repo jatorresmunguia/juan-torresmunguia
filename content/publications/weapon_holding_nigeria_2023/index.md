@@ -11,7 +11,7 @@ author: "Johanna Kleffmann; Francesca Batault; Juan Armando Torres Munguía; Sio
 location: ""
 draft: false
 # layout options: single, single-sidebar 
-layout: single
+layout: single-publications
 categories:
 - working-papers
 - armed-conflict

@@ -11,7 +11,7 @@ author: "Juan Armando Torres Munguía; Mohammed Bukar; Fatima Yetcha Ajimi Badu;
 location: ""
 draft: false
 # layout options: single, single-sidebar
-layout: single
+layout: single-publications
 categories:
 - working-papers
 - armed-conflict

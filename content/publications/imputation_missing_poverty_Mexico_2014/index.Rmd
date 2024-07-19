@@ -17,7 +17,7 @@ author: "`r paste(sapply(bibtex::read.bib('cite.bib')$author, function(author) {
 location: ""
 draft: false
 # layout options: single, single-sidebar
-layout: single
+layout: single-publications
 categories:
 - journal-articles
 - missing-data

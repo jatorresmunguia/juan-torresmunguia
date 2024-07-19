@@ -21,6 +21,7 @@ layout: single-publications
 categories:
 - journal-articles
 - violence
+- Mexico
 - 2024
 links:
 - icon: file-pdf
@@ -97,12 +98,12 @@ apa_citation <- paste0(apa_citation, "</p>")
 
 ```
 
-<h4> Abstract </h4>
-`r abstract_paper`
+<h3 style="text-align: justify;"> Abstract </h3>
+<p style="text-align: justify;">`r abstract_paper`</p>
 
-<h4> <a href="`r cite_readbib$url`" target="_blank"> Click here to read full paper </a></h4>
+<h4 style="text-align: justify;"><a href="`r cite_readbib$url`" target="_blank"> Click here to read full paper </a></h4>
 
-<h4>Cite this article: </h4>
-`r apa_citation`
+<h4 style="text-align: justify;">Cite this article: </h4>
+<p style="text-align: justify;">`r apa_citation`</p>
 
 <a href="cite.bib" download="cite.bib" class="button"> Download .bib file (compatible with LaTeX) </a>

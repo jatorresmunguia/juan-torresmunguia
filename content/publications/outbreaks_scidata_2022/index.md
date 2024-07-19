@@ -11,7 +11,7 @@ author: "Juan Armando Torres Mungu√≠a; Florina Cristina Badarau; Luis Rodrigo D√
 location: ""
 draft: false
 # layout options: single, single-sidebar
-layout: single
+layout: single-publications
 categories:
 - journal-articles
 - datasets

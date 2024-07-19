@@ -11,10 +11,11 @@ author: "Jacqueline Parry; Yousif Khalid Khoshnaw; Siobhan O’Neil; Juan Armand
 location: ""
 draft: false
 # layout options: single, single-sidebar
-layout: single
+layout: single-publications
 categories:
 - working-papers
 - armed-conflict
+- Iraq
 - 2022
 links:
 - icon: file-pdf

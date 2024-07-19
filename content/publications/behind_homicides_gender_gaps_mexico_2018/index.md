@@ -11,7 +11,7 @@ author: "Juan Armando Torres Munguía; Inmaculada Martínez-Zarzoso"
 location: ""
 draft: false
 # layout options: single, single-sidebar
-layout: single
+layout: single-publications
 categories:
 - working-papers
 - violence

@@ -4,7 +4,7 @@ subtitle: "`r paste0(bibtex::read.bib('cite.bib')$journal)`"
 journal: "`r paste0(bibtex::read.bib('cite.bib')$journal)`" 
 keywords: "`r paste0(bibtex::read.bib('cite.bib')$keywords)`" 
 date: "2016-08-01"
-doi: "`r bibtex::read.bib('cite.bib')$doi`"
+doi: "`r bibtex::read.bib('cite.bib')$doi`" 
 featured: true
 show_post_time: false
 author: "`r paste(sapply(bibtex::read.bib('cite.bib')$author, function(author) {
@@ -13,11 +13,11 @@ author: "`r paste(sapply(bibtex::read.bib('cite.bib')$author, function(author) {
     full_name <- paste(full_name, collapse = ', ')
   }
   return(full_name)
-}), collapse = '; ')`"
+}), collapse = '; ')`" 
 location: ""
 draft: false
 # layout options: single, single-sidebar
-layout: single
+layout: single-publications 
 categories:
 - working-papers
 - violence
@@ -27,6 +27,10 @@ links:
   icon_pack: fas
   name: PDF
   url: https://publications.iadb.org/es/publications/english/viewer/Violent-Crime-in-Latin-American-Cities.pdf
+- icon: link
+  icon_pack: fas
+  name: DOI
+  url: http://dx.doi.org/10.18235/0007973
 ---
 
 ```{r setup, include=FALSE}

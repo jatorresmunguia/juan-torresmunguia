@@ -2,7 +2,7 @@
 <main class="page-main pa4" role="main">
   <section class="page-content mw8 center">
     <article class="post-content pa0 ph4-l">
-      <header class="post-header" style="position: relative; padding: 20px;">        
+      <header class="post-header" style="position: relative; padding: 20px;">
         <!-- Image at the bottom -->
         <div style="
           position: absolute;
@@ -27,11 +27,21 @@
           background: rgba(254, 240, 236, 0.93); /* #fef0ec with adjustable opacity */
           z-index: -1;
         "></div>
-        
+
         <!-- Text above all -->
         <h1 class="f1 lh-solid measure-narrow mb3" style="font-weight: bold; position: relative; z-index: 1;">{{ .Title }}</h1>
-        {{ if .Params.journal }}<h4 class="f4 mt0 mb4 lh-title measure" style="font-style: italic; position: relative; z-index: 1;">{{ .Params.journal }}</h4>{{ end }}
-        {{ if .Params.show_post_date }}<p class="f7 db mv0 ttu" style="position: relative; z-index: 1;">{{ .PublishDate.Format "January 2, 2006" }}</p>{{ end }}
+        
+        <!-- Date and Location in the same line -->
+        {{ if or .Params.date .Params.location }}
+          <h4 class="f4 mt0 mb4 lh-title measure" style="font-style: italic; position: relative; z-index: 1;">
+            {{ if .Params.date }}
+              <span><strong>&#128197; </strong> {{ dateFormat "January 2, 2006" .Params.date }}</span>
+            {{ end }}
+            {{ if .Params.location }}
+              <span><strong>&#x1F4CD; </strong> {{ .Params.location }}</span>
+            {{ end }}
+          </h4>
+        {{ end }}
         {{ if .Params.links }}
         <div class="ph0 pt3" style="position: relative; z-index: 1;">
           {{ partial "shared/btn-links.html" . }}

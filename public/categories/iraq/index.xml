@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Iraq on Juan TORRES MUNGUÍA, PhD</title>
+    <link>http://localhost:4321/categories/iraq/</link>
+    <description>Recent content in Iraq on Juan TORRES MUNGUÍA, PhD</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 20 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:4321/categories/iraq/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Road from Al Hol Camp: Reflections on the Iraqi Experience</title>
+      <link>http://localhost:4321/publications/road_from_alhol_camp_iraq_unu_2022/</link>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:4321/publications/road_from_alhol_camp_iraq_unu_2022/</guid>
+      <description>Abstract This report is based on a survey of 223 residents in Jeddah-1 camp conducted between June 2022 and September 2022; a survey of 60 former Jeddah-1 residents; and key informants in Jeddah-1 and areas of return.&#xD;The report presents data about the experience of return and reintegration for those coming from Al Hol, including an examination of how communities and returnees understand the concepts of rehabilitation and reintegration and how these concepts compare to international approaches.</description>
+    </item>
+  </channel>
+</rss>

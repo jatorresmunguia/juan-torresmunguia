@@ -69,7 +69,7 @@
     </head>
     <body>
       <div id="zoom-wrapper">
-          <div class="grid-container single">
+          <div class="grid-container single-publications">
 <header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
   <nav class="site-nav db dt-l w-100" role="navigation">
     <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="http://localhost:4321/" title="Home">
@@ -403,17 +403,41 @@ body.dark-mode .custom-body-link-color, body.dark-mode .page-main a:not(.link), 
 </header>
 
 <main class="page-main pa4" role="main">
-  <section class="page-content mw7 center">
+  <section class="page-content mw8 center">
     <article class="post-content pa0 ph4-l">
-      <header class="post-header">
-        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Coming Home: The Return and Reintegration of Families with Perceived ISIL Affiliation in Iraq</h1>
-        <h4 class="f4 mt0 mb4 lh-title measure">Managing Exits from Armed Conflict (MEAC) - United Nations Institute for Disarmament Research Findings Report</h4>
+      <header class="post-header" style="position: relative; padding: 20px;">        
+        
+        <div style="
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background-image: url('featured.jpg'); /* Replace with your image path */
+          background-size: cover;
+          background-position: center;
+          filter: grayscale(100%);
+          z-index: -2;
+        "></div>
         
         
-
-      
-      <div class="ph0 pt3">
+        <div style="
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          background: rgba(254, 240, 236, 0.93); /* #fef0ec with adjustable opacity */
+          z-index: -1;
+        "></div>
         
+        
+        <h1 class="f1 lh-solid measure-narrow mb3" style="font-weight: bold; position: relative; z-index: 1;">Coming Home: The Return and Reintegration of Families with Perceived ISIL Affiliation in Iraq</h1>
+        <h4 class="f4 mt0 mb4 lh-title measure" style="font-style: italic; position: relative; z-index: 1;">Managing Exits from Armed Conflict (MEAC) - United Nations Institute for Disarmament Research Findings Report</h4>
+        
+        
+        <div class="ph0 pt3" style="position: relative; z-index: 1;">
+          
     
     
     
@@ -428,11 +452,10 @@ body.dark-mode .custom-body-link-color, body.dark-mode .page-main a:not(.link), 
   <a class="btn-links mr2 ba dib" href="https://unidir.org/wp-content/uploads/2023/05/UNIDIR_MEAC_Coming_Home_Return_Reintegration_Families_Perceived_ISIL_Affiliation_Iraq.pdf" target="_blank" rel="noopener"><i class="fas fa-file-pdf fa-lg fa-fw mr2"></i>PDF</a>
 
 
-      </div>
-      
-
+        </div>
+        
       </header>
-      <section class="post-body pt5 pb4">
+      <section class="post-body pt3 pb1" style="text-align: justify;">
         <h4> Abstract </h4>
 <p> This report is based on data collected from June to July 2022 from a total of 1,882 respondents collected in four key locations, each of which was occupied by ISIL: Al Qaim (Anbar governorate), Habaniyya (Anbar governorate), Tooz (Salah al-Din governorate), and Muhalabiya (Nineveh governorate). The sample was divided into two roughly equal halves: those who had benefited from UNDP support (810 persons or 43 per cent) and a randomized household sample from the same areas (1,072 persons or 57 per cent). In addition, qualitative interviews were carried out in the same four locations between July and November 2022 with key stakeholders (local authorities, tribal leaders, mukhtars) as well as 60 survey respondents to explore the survey findings in greater depth.
 The four locations were chosen because they are the sites of community-based reconciliation and reintegration programming delivered by UNDP Iraq. Amongst other objectives, the programmes seek to support the return and reintegration of families perceived as having ISIL affiliation and to support the communities that receive them. The report ends with an examination of key policy and programmatic implications of these findings. The report presents data about community experiences pre-, during, and post-war, and examines what community experiences, perceptions, and preferences mean for reintegration prospects for those families perceived as having ISIL affiliation. This data may be useful to UN and NGO partners working in the region to bolster their early recovery programming, as well as efforts to support reintegration, community reconciliation, and broader peacebuilding efforts. The report ends with an examination of key policy and programmatic implications of these findings. </p>
@@ -442,11 +465,9 @@ The four locations were chosen because they are the sites of community-based rec
 <p><a href="cite.bib" download="cite.bib" class="button"> Download .bib file (compatible with LaTeX) </a></p>
 
         
-        
-
       </section>
       <footer class="post-footer">
-        <div class="post-pagination dt w-100 mt4 mb2">
+        <div class="post-pagination dt w-100 mt2 mb2">
     <h3>See also: </h3>
   <div class="pagination-card">
     
@@ -477,16 +498,22 @@ The four locations were chosen because they are the sites of community-based rec
 .pagination-card {
   display: flex;
   justify-content: space-between;
+  max-width: 80%;  
+  margin: 0 auto;  
 }
+
 .card {
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  padding: 10px;
+  border-radius: 0px;
+  box-shadow: 0 0px 0px rgba(254, 240, 236, 0.1);
+  background: rgba(254, 240, 236, 0.93);
+  padding: 15px;
   transition: transform 0.2s;
 }
+
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
+
 .card-content {
   text-align: center;
 }
@@ -494,22 +521,6 @@ The four locations were chosen because they are the sites of community-based rec
 
       </footer>
     </article>
-    
-      
-<div class="post-comments pa0 pa4-l mt4">
-  
-  <script src="https://utteranc.es/client.js"
-          repo="jatorresmunguia/juan-torresmunguia"
-          issue-term="pathname"
-          theme="github-light"
-          label="comments :crystal_ball:"
-          crossorigin="anonymous"
-          async
-          type="text/javascript">
-  </script>
-  
-</div>
-
     
   </section>
 </main>

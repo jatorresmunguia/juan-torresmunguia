@@ -16,10 +16,11 @@ author: "`r paste(sapply(bibtex::read.bib('cite.bib')$author, function(author) {
 }), collapse = '; ')`"
 location: ""
 draft: false
-layout: single
+layout: single-publications
 categories:
 - journal-articles
 - poverty
+- Mexico
 - 2024
 links:
 - icon: file-pdf

@@ -11,7 +11,7 @@ author: "Niamh Punton; Juan Armando Torres Munguía; Kato van Broeckhoven; Siobh
 location: ""
 draft: false
 # layout options: single, single-sidebar
-layout: single
+layout: single-publications
 categories:
 - working-papers
 - armed-conflict 

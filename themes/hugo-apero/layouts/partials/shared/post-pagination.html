@@ -1,4 +1,4 @@
-<div class="post-pagination dt w-100 mt4 mb2">
+<div class="post-pagination dt w-100 mt2 mb2">
     <h3>See also: </h3>
   <div class="pagination-card">
     {{ with .NextInSection }}
@@ -29,16 +29,22 @@
 .pagination-card {
   display: flex;
   justify-content: space-between;
+  max-width: 80%; /* This should be adjusted to match your mw9 equivalent */
+  margin: 0 auto; /* Center the content */
 }
+
 .card {
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  padding: 10px;
+  border-radius: 0px;
+  box-shadow: 0 0px 0px rgba(254, 240, 236, 0.1);
+  background: rgba(254, 240, 236, 0.93);
+  padding: 15px;
   transition: transform 0.2s;
 }
+
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
+
 .card-content {
   text-align: center;
 }
