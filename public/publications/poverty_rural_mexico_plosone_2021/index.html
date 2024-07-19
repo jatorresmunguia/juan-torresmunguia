@@ -319,7 +319,8 @@ body.dark-mode {
 }
 
 body.dark-mode main {
-    background-color: #333333;
+    background-color: transparent;
+    
 }
 
 body.dark-mode main *,
@@ -370,10 +371,6 @@ body.dark-mode .site-header .social-icon-links a,
 body.dark-mode .site-footer .site-copyright a,
 body.dark-mode .site-footer .social-icon-links a,
 body.dark-mode .page-main a.link,
-body.dark-mode .page-main .post-header a.btn-links,
-body.dark-mode .post-header .page-main a.btn-links,
-body.dark-mode .page-main article footer a.btn-links,
-body.dark-mode article footer .page-main a.btn-links,
 body.dark-mode .page-main .home a.action.text,
 body.dark-mode .home .page-main a.action.text,
 body.dark-mode .page-main .home a.action.button,
@@ -383,16 +380,19 @@ body.dark-mode form .page-main a[type=button],
 body.dark-mode .page-main form a[type=reset],
 body.dark-mode form .page-main a[type=reset],
 body.dark-mode .page-main form a[type=submit],
-body.dark-mode form .page-main a[type=submit],
-body.dark-mode .hover-custom-button-hover-text-color:hover,
-body.dark-mode .post-header a.btn-links:hover,
-body.dark-mode article footer a.btn-links:hover,
-body.dark-mode form [type=button]:hover,
-body.dark-mode form [type=reset]:hover,
-body.dark-mode form [type=submit]:hover {
+body.dark-mode form .page-main a[type=submit] {
     color: #F4F4F4;
     background-color: #333333;
-  
+}
+
+ 
+body.dark-mode .page-main .post-header a.btn-links:hover {
+    color: #333333;
+    background-color: #F4F4F4;
+}
+
+body.dark-mode .page-main .post-header a.btn-links:hover i {
+    color: #333333;
 }
 
  
@@ -469,31 +469,29 @@ body.dark-mode .custom-body-link-color, body.dark-mode .page-main a:not(.link), 
   <section class="page-content mw8 center">
     <article class="post-content pa0 ph4-l">
       <header class="post-header" style="position: relative; padding: 20px;">        
-        
+
         <div style="
           position: absolute;
           bottom: 0;
           left: 0;
           width: 100%;
           height: 100%;
-          background-image: url('featured.jpg'); /* Replace with your image path */
+          background-image: url('featured.jpg'); 
           background-size: cover;
           background-position: center;
           filter: grayscale(100%);
           z-index: -2;
         "></div>
         
-        
         <div style="
           position: absolute;
           bottom: 0;
           left: 0;
           width: 100%;
           height: 100%;
-          background: rgba(254, 240, 236, 0.93); /* #fef0ec with adjustable opacity */
+          background: rgba(0, 51, 102, 0.95); 
           z-index: -1;
         "></div>
-        
         
         <h1 class="f1 lh-solid measure-narrow mb3" style="font-weight: bold; position: relative; z-index: 1;">Examining gender inequalities in factors associated with income poverty in Mexican rural households</h1>
         <h4 class="f4 mt0 mb4 lh-title measure" style="font-style: italic; position: relative; z-index: 1;">PloS one</h4>
@@ -605,8 +603,8 @@ body.dark-mode .custom-body-link-color, body.dark-mode .page-main a:not(.link), 
 
 .card {
   border-radius: 0px;
-  box-shadow: 0 0px 0px rgba(254, 240, 236, 0.1);
-  background: rgba(254, 240, 236, 0.93);
+  box-shadow: 0 0px 0px rgba(0, 51, 102, 0.1);
+  background: rgba(0, 51, 102, 0.95);
   padding: 15px;
   transition: transform 0.2s;
 }

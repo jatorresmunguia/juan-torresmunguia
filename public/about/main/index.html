@@ -318,7 +318,8 @@ body.dark-mode {
 }
 
 body.dark-mode main {
-    background-color: #333333;
+    background-color: transparent;
+    
 }
 
 body.dark-mode main *,
@@ -369,10 +370,6 @@ body.dark-mode .site-header .social-icon-links a,
 body.dark-mode .site-footer .site-copyright a,
 body.dark-mode .site-footer .social-icon-links a,
 body.dark-mode .page-main a.link,
-body.dark-mode .page-main .post-header a.btn-links,
-body.dark-mode .post-header .page-main a.btn-links,
-body.dark-mode .page-main article footer a.btn-links,
-body.dark-mode article footer .page-main a.btn-links,
 body.dark-mode .page-main .home a.action.text,
 body.dark-mode .home .page-main a.action.text,
 body.dark-mode .page-main .home a.action.button,
@@ -382,16 +379,19 @@ body.dark-mode form .page-main a[type=button],
 body.dark-mode .page-main form a[type=reset],
 body.dark-mode form .page-main a[type=reset],
 body.dark-mode .page-main form a[type=submit],
-body.dark-mode form .page-main a[type=submit],
-body.dark-mode .hover-custom-button-hover-text-color:hover,
-body.dark-mode .post-header a.btn-links:hover,
-body.dark-mode article footer a.btn-links:hover,
-body.dark-mode form [type=button]:hover,
-body.dark-mode form [type=reset]:hover,
-body.dark-mode form [type=submit]:hover {
+body.dark-mode form .page-main a[type=submit] {
     color: #F4F4F4;
     background-color: #333333;
-  
+}
+
+ 
+body.dark-mode .page-main .post-header a.btn-links:hover {
+    color: #333333;
+    background-color: #F4F4F4;
+}
+
+body.dark-mode .page-main .post-header a.btn-links:hover i {
+    color: #333333;
 }
 
  
@@ -527,8 +527,8 @@ body.dark-mode .custom-body-link-color, body.dark-mode .page-main a:not(.link), 
 
 .card {
   border-radius: 0px;
-  box-shadow: 0 0px 0px rgba(254, 240, 236, 0.1);
-  background: rgba(254, 240, 236, 0.93);
+  box-shadow: 0 0px 0px rgba(0, 51, 102, 0.1);
+  background: rgba(0, 51, 102, 0.95);
   padding: 15px;
   transition: transform 0.2s;
 }
